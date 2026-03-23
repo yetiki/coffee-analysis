@@ -3,7 +3,7 @@
 ## Description
 
 ## Pre-requisites
-There are no software depeXXXndencises to this system. To use this software z user oneli needs acces to the main python code and folow user instruktions. 
+There are no software dependencies to this system. To use this software a user only needs access to the main python code and follow user instructions. 
 
 ## Installation
 
