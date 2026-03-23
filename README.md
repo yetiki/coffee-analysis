@@ -7,6 +7,7 @@ The code generates a visual plot of United States coffee suppliers in terms of f
 There are no software dependencies to this system. To use this software a user only needs access to the main python code and follow user instructions. 
 
 ## Installation
+Clone the git repository using the SSH key or HTTPS url. AAAAA!
 
 ## Usage
 
