@@ -4,6 +4,7 @@
 The code generates a visual plot of United States coffee suppliers in terms of flavor and cupper points. The plot is generated using data from the [Coffee Quality Institute](https://database.coffeeinstitute.org/), assembled by Data Scientist James LeDoux into the [Coffee Quality Database GitHub Repository](https://github.com/jldbc/coffee-quality-database).
 
 ## Pre-requisites
+There are no software dependencies to this system. To use this software a user only needs access to the main python code and follow user instructions. 
 
 ## Installation
 
