@@ -16,7 +16,7 @@ List of available additional variables:
 location=
 minimum_kg=
 
-Here is my intentional ishu!
+Here is my intentional issue!
 ## Running Tests
 
 ## Maintainers
