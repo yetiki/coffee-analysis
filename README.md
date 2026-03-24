@@ -21,6 +21,11 @@ minimum_kg=
 
 Here is my intentional issue!
 ## Running Tests
+To run the tests use:
+`python tests.py`
+
+A good output will look like:
+"all good!"
 
 ## Maintainers
 
