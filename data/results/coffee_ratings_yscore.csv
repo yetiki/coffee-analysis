@@ -1,0 +1,1154 @@
+species,country_of_origin,number_of_bags,bag_weight,processing_method,aroma,flavor,body,uniformity,yum-score
+Arabica,Ethiopia,300,60 kg,Washed,8.67,8.83,8.5,10.0,0.99
+Arabica,Ethiopia,300,60 kg,Washed,8.75,8.67,8.42,10.0,0.98
+Arabica,Ethiopia,320,60 kg,Natural,8.17,8.58,8.5,10.0,0.94
+Arabica,Ethiopia,300,60 kg,Washed,8.25,8.5,8.42,10.0,0.93
+Arabica,Brazil,100,30 kg,Natural,8.58,8.42,8.25,10.0,0.92
+Arabica,Peru,100,69 kg,Washed,8.42,8.5,8.25,10.0,0.92
+Arabica,Ethiopia,50,60 kg,Natural,8.08,8.58,7.67,10.0,0.84
+Arabica,Ethiopia,300,60 kg,Natural,8.17,8.67,7.75,10.0,0.86
+Arabica,United States,10,1 kg,Washed,8.25,8.42,8.08,10.0,0.88
+Arabica,United States,10,1 kg,Washed,8.08,8.67,8.0,10.0,0.88
+Arabica,United States,10,1 kg,Washed,8.0,8.5,8.17,10.0,0.88
+Arabica,China,3,60 kg,Washed,8.42,8.25,7.92,10.0,0.86
+Arabica,Ethiopia,250,60 kg,Natural,8.17,8.17,8.08,10.0,0.85
+Arabica,United States,10,1 kg,Washed,8.0,8.25,8.25,10.0,0.87
+Arabica,Costa Rica,250,3 lbs,Washed,8.08,8.25,8.0,10.0,0.84
+Arabica,Mexico,14,1 kg,Washed,8.17,8.25,7.83,10.0,0.83
+Arabica,United States,10,1 kg,Washed,8.25,8.33,7.83,10.0,0.84
+Arabica,Ethiopia,100,60 kg,Natural,8.42,8.17,8.33,10.0,0.9
+Arabica,Brazil,3,60 kg,Natural,8.5,8.5,8.0,10.0,0.9
+Arabica,Uganda,100,60 kg,Washed,8.42,8.17,7.83,10.0,0.84
+Arabica,Taiwan,20,50 kg,Pulped-Natural,8.0,8.0,8.0,10.0,0.82
+Arabica,"Tanzania, United Republic Of",100,60 kg,Natural,8.42,8.17,7.58,10.0,0.81
+Arabica,Brazil,29,60 kg,Natural,8.5,8.17,8.0,10.0,0.87
+Arabica,Costa Rica,250,2 lbs,Washed,8.17,7.83,7.83,10.0,0.79
+Arabica,Ethiopia,320,60 kg,Natural,8.0,8.08,8.08,10.0,0.83
+Arabica,Kenya,320,1 kg,Washed,8.08,8.0,7.92,10.0,0.81
+Arabica,United States (Hawaii),10,100 lbs,Natural,8.08,8.17,7.92,10.0,0.83
+Arabica,United States,10,1 kg,Washed,7.67,8.17,8.17,10.0,0.83
+Arabica,Thailand,53,1 kg,Washed,7.83,8.33,7.58,10.0,0.79
+Arabica,Taiwan,10,15 kg,Semi-Washed,8.08,8.17,7.75,10.0,0.81
+Arabica,Kenya,12,60 kg,Natural,8.08,8.08,7.83,10.0,0.81
+Arabica,Brazil,7,60 kg,Semi-Washed,8.33,8.0,7.75,10.0,0.81
+Arabica,Uganda,1,60 kg,Semi-Washed,8.08,8.08,8.08,10.0,0.84
+Arabica,Colombia,1,2 kg,Washed,7.75,7.92,8.08,10.0,0.8
+Arabica,Kenya,1,1 kg,Washed,7.92,8.17,7.5,10.0,0.77
+Arabica,Uganda,1,60 kg,Washed,8.25,8.0,8.0,10.0,0.83
+Arabica,Guatemala,80,69 kg,Washed,7.92,8.08,8.08,10.0,0.83
+Arabica,Uganda,1,60 kg,Natural,8.17,8.17,7.83,10.0,0.82
+Arabica,Colombia,275,70 kg,Washed,8.0,8.0,7.83,10.0,0.8
+Arabica,Panama,37,60 kg,Washed,8.0,8.0,7.83,10.0,0.8
+Arabica,Ethiopia,320,60 kg,Washed,7.83,8.08,8.0,10.0,0.81
+Arabica,Guatemala,150,1 kg,Washed,7.83,8.0,7.83,10.0,0.78
+Arabica,Guatemala,275,1 kg,Washed,8.0,8.0,7.83,10.0,0.8
+Arabica,Ethiopia,320,19200 kg,Natural,7.83,8.0,7.92,10.0,0.8
+Arabica,Peru,280,5 lbs,Washed,8.0,8.0,7.92,10.0,0.81
+Arabica,Papua New Guinea,7,60 kg,Washed,8.33,8.42,8.0,9.33,0.83
+Arabica,El Salvador,275,2 kg,Washed,7.92,8.17,7.75,10.0,0.8
+Arabica,El Salvador,19,1 kg,Semi-Washed,7.83,8.0,7.92,10.0,0.8
+Arabica,United States (Hawaii),8,100 lbs,Natural,7.83,8.0,8.08,10.0,0.81
+Arabica,Panama,100,60 kg,Natural,8.0,7.75,7.67,10.0,0.76
+Arabica,Kenya,16,60 kg,Natural,7.92,7.92,7.83,10.0,0.78
+Arabica,Ethiopia,320,60 kg,Natural,7.83,8.0,7.83,10.0,0.78
+Arabica,Uganda,320,60 kg,Washed,8.33,7.92,7.67,10.0,0.79
+Arabica,Guatemala,250,69 kg,Washed,8.0,7.83,7.83,10.0,0.78
+Arabica,Ethiopia,320,60 kg,Washed,7.75,7.83,7.92,10.0,0.77
+Arabica,Uganda,150,60 kg,Washed,8.08,8.0,8.0,10.0,0.82
+Arabica,United States (Hawaii),8,100 lbs,Natural,7.92,7.92,7.75,10.0,0.77
+Arabica,Brazil,5,60 kg,Semi-Washed,8.0,8.0,7.75,10.0,0.79
+Arabica,China,3,60 kg,Natural,8.0,8.0,7.83,10.0,0.8
+Arabica,Guatemala,36,30 kg,Natural,7.83,7.75,7.83,10.0,0.76
+Arabica,Costa Rica,250,3 lbs,Washed,7.92,8.08,8.0,10.0,0.82
+Arabica,Costa Rica,250,3 lbs,Washed,8.0,7.58,8.08,10.0,0.79
+Arabica,Kenya,20,60 kg,Washed,7.83,8.08,7.92,10.0,0.8
+Arabica,Kenya,300,60 kg,Washed,8.0,7.92,7.83,10.0,0.79
+Arabica,Colombia,275,70 kg,Washed,8.17,7.92,7.58,10.0,0.77
+Arabica,Colombia,250,70 kg,Natural,7.58,8.08,8.0,10.0,0.79
+Arabica,Indonesia,54,60 kg,Semi-Washed,7.75,7.83,8.08,10.0,0.79
+Arabica,Guatemala,250,1 kg,Washed,8.25,8.0,7.75,10.0,0.8
+Arabica,Ethiopia,320,19200 kg,Natural,7.75,8.0,8.0,10.0,0.8
+Arabica,Colombia,250,70 kg,Natural,8.17,7.83,8.0,10.0,0.81
+Arabica,Ethiopia,100,60 kg,Natural,8.42,8.0,7.92,9.33,0.79
+Arabica,United States (Hawaii),12,100 lbs,Natural,7.58,7.83,7.83,10.0,0.75
+Arabica,Colombia,250,70 kg,Natural,7.83,8.0,7.83,10.0,0.78
+Arabica,Uganda,200,60 kg,Washed,8.17,7.92,7.67,10.0,0.78
+Arabica,Colombia,135,70 kg,Washed,8.0,7.92,7.75,10.0,0.78
+Arabica,Costa Rica,36,46 kg,Washed,7.83,8.0,7.92,10.0,0.8
+Arabica,Mexico,1,30 kg,Washed,7.83,8.0,7.67,10.0,0.77
+Arabica,Kenya,170,60 kg,Washed,8.17,7.83,7.67,10.0,0.77
+Arabica,Kenya,38,60 kg,Washed,7.75,7.83,8.0,10.0,0.78
+Arabica,Brazil,31,60 kg,Natural,8.0,8.0,7.67,10.0,0.78
+Arabica,Colombia,243,70 kg,Washed,7.92,7.92,7.92,10.0,0.79
+Arabica,Colombia,252,70 kg,Washed,7.92,7.83,7.75,10.0,0.77
+Arabica,Taiwan,20,40 kg,Semi-Washed,7.67,7.83,8.0,10.0,0.78
+Arabica,"Tanzania, United Republic Of",134,60 kg,Washed,8.0,7.83,7.75,10.0,0.77
+Arabica,Colombia,50,70 kg,Washed,7.75,7.92,7.75,10.0,0.76
+Arabica,Mexico,25,1 kg,Semi-Washed,7.75,8.0,7.5,10.0,0.74
+Arabica,Brazil,4,60 kg,Natural,8.0,7.92,8.0,10.0,0.81
+Arabica,Brazil,10,60 kg,Natural,8.0,8.0,7.5,10.0,0.76
+Arabica,Taiwan,10,20 kg,Natural,7.92,7.58,7.83,10.0,0.75
+Arabica,Uganda,1,60 kg,Natural,7.75,7.92,8.25,10.0,0.82
+Arabica,United States (Hawaii),14,100 lbs,Natural,7.67,7.75,7.83,10.0,0.75
+Arabica,Thailand,50,50 kg,Pulped-Natural,7.75,7.75,8.0,10.0,0.78
+Arabica,Kenya,150,60 kg,Washed,7.92,7.83,7.75,10.0,0.77
+Arabica,Honduras,275,1 kg,Washed,7.83,7.75,7.67,10.0,0.74
+Arabica,El Salvador,150,69 kg,Washed,7.83,7.83,7.83,10.0,0.77
+Arabica,Indonesia,2,1 kg,Washed,7.92,7.83,7.75,10.0,0.77
+Arabica,Japan,20,1 kg,Pulped-Natural,7.75,7.75,8.08,10.0,0.79
+Arabica,Costa Rica,15,69 kg,Washed,8.08,7.75,7.5,10.0,0.74
+Arabica,Guatemala,120,34 kg,Washed,7.75,7.83,7.92,10.0,0.77
+Arabica,Costa Rica,50,1 lbs,Washed,8.17,8.0,7.83,10.0,0.81
+Arabica,Ethiopia,250,30 kg,Washed,8.08,7.83,7.58,10.0,0.76
+Arabica,Costa Rica,20,69 kg,,7.67,7.58,7.67,10.0,0.72
+Arabica,Costa Rica,275,1 kg,Washed,8.0,7.58,7.75,10.0,0.75
+Arabica,Costa Rica,1,2 kg,Washed,8.08,7.83,7.92,10.0,0.8
+Arabica,Taiwan,10,30 kg,Washed,8.0,7.92,7.75,10.0,0.78
+Arabica,Colombia,250,70 kg,Washed,7.75,7.83,7.75,10.0,0.75
+Arabica,Kenya,235,60 kg,Washed,7.75,7.92,7.58,10.0,0.74
+Arabica,Guatemala,250,1 kg,Washed,8.0,7.83,7.67,10.0,0.76
+Arabica,Guatemala,125,1 kg,Washed,7.67,7.83,7.67,10.0,0.74
+Arabica,Mexico,80,1 kg,Washed,7.83,7.58,7.92,10.0,0.76
+Arabica,Uganda,320,60 kg,Washed,7.92,7.83,7.67,10.0,0.76
+Arabica,Kenya,66,60 kg,Washed,7.92,7.75,7.58,10.0,0.74
+Arabica,Colombia,250,70 kg,Washed,7.83,7.67,7.67,10.0,0.74
+Arabica,Colombia,125,70 kg,Washed,7.92,7.83,7.83,10.0,0.78
+Arabica,Kenya,100,60 kg,Washed,7.83,7.83,7.58,10.0,0.74
+Arabica,Guatemala,250,69 kg,Washed,7.75,7.83,7.75,10.0,0.75
+Arabica,Guatemala,250,69 kg,Washed,8.0,7.92,7.58,10.0,0.76
+Arabica,Colombia,250,70 kg,Washed,7.67,7.67,7.58,10.0,0.71
+Arabica,Colombia,75,70 kg,Washed,7.75,7.75,7.58,10.0,0.73
+Arabica,Kenya,11,660 kg,Washed,7.75,7.75,7.75,10.0,0.75
+Arabica,Colombia,250,70 kg,Washed,7.67,7.83,7.58,10.0,0.73
+Arabica,Costa Rica,1,1 kg,Semi-Washed,7.75,7.83,7.83,10.0,0.76
+Arabica,Colombia,250,70 kg,Washed,7.42,7.67,8.08,10.0,0.76
+Arabica,Brazil,37,60 kg,Semi-Washed,8.0,8.0,7.58,10.0,0.77
+Arabica,Brazil,35,60 kg,Semi-Washed,8.5,8.0,7.5,10.0,0.79
+Arabica,Costa Rica,275,18975 kg,Washed,7.92,7.67,7.67,10.0,0.74
+Arabica,Uganda,200,12000 kg,Washed,7.92,7.75,7.83,10.0,0.77
+Arabica,China,3,60 kg,Washed,7.75,7.92,7.75,10.0,0.76
+Arabica,Costa Rica,250,1 lbs,Washed,7.92,7.83,7.58,10.0,0.75
+Arabica,Colombia,275,2 kg,Washed,8.08,7.67,7.67,10.0,0.75
+Arabica,China,1,2 kg,Washed,7.67,8.0,7.75,10.0,0.76
+Arabica,Guatemala,250,69 kg,Washed,8.17,7.83,7.67,10.0,0.77
+Arabica,Kenya,235,60 kg,Washed,7.92,7.83,7.67,10.0,0.76
+Arabica,Mexico,56,1 kg,Washed,8.0,7.92,7.5,10.0,0.75
+Arabica,Mexico,250,1 kg,Washed,7.92,7.83,7.75,10.0,0.77
+Arabica,Guatemala,250,69 kg,Washed,7.67,8.0,7.5,10.0,0.74
+Arabica,Costa Rica,275,69 kg,Washed,7.58,7.83,7.67,10.0,0.73
+Arabica,Indonesia,200,30 kg,,7.67,7.67,7.83,10.0,0.74
+Arabica,Colombia,304,35 kg,Natural,7.92,7.83,7.92,10.0,0.79
+Arabica,Colombia,275,70 kg,Washed,7.92,7.75,7.67,10.0,0.75
+Arabica,Taiwan,2,2 kg,Washed,7.83,7.83,7.5,10.0,0.73
+Arabica,United States (Hawaii),5,100 lbs,Natural,7.92,7.92,7.5,10.0,0.75
+Arabica,Mexico,69,1 kg,Washed,7.75,7.92,7.83,10.0,0.77
+Arabica,Kenya,150,60 kg,Washed,7.33,7.58,7.75,10.0,0.7
+Arabica,Colombia,275,70 kg,Washed,7.58,7.75,7.67,10.0,0.73
+Arabica,Honduras,275,69 kg,Washed,7.58,7.92,7.92,10.0,0.77
+Arabica,Colombia,250,70 kg,Natural,7.75,7.67,8.08,10.0,0.78
+Arabica,Colombia,275,70 kg,Washed,7.75,7.58,7.58,10.0,0.71
+Arabica,Mexico,100,80 kg,Washed,8.0,7.75,7.5,10.0,0.74
+Arabica,Taiwan,10,5 kg,Washed,7.92,7.75,7.67,10.0,0.75
+Arabica,Thailand,20,25 kg,Natural,7.83,7.75,7.83,10.0,0.76
+Arabica,Colombia,275,70 kg,Natural,7.83,7.58,7.67,10.0,0.73
+Arabica,Guatemala,230,69 kg,Washed,7.75,7.75,7.75,10.0,0.75
+Arabica,Guatemala,275,69 kg,Washed,7.75,7.92,7.58,10.0,0.74
+Arabica,China,3,60 kg,Natural,7.83,7.83,7.75,10.0,0.76
+Arabica,Colombia,275,70 kg,Washed,7.67,7.67,7.67,10.0,0.73
+Arabica,Colombia,248,70 kg,Washed,7.83,7.67,7.92,10.0,0.77
+Arabica,Colombia,275,2 kg,Washed,7.83,7.75,7.67,10.0,0.74
+Arabica,Colombia,250,70 kg,Natural,7.42,7.67,7.92,10.0,0.74
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.83,7.67,7.67,10.0,0.74
+Arabica,"Tanzania, United Republic Of",65,60 kg,Washed,7.83,7.75,7.67,10.0,0.74
+Arabica,Guatemala,250,69 kg,,7.83,7.83,7.58,10.0,0.74
+Arabica,Colombia,250,70 kg,Washed,7.58,7.5,7.92,10.0,0.73
+Arabica,United States (Hawaii),7,100 lbs,Natural,7.33,7.92,7.92,10.0,0.75
+Arabica,Mexico,10,1 kg,Semi-Washed,7.83,7.92,7.5,10.0,0.74
+Arabica,Mexico,20,1 kg,Washed,7.83,7.83,7.83,10.0,0.77
+Arabica,Mexico,250,1 kg,Washed,7.83,7.92,7.5,10.0,0.74
+Arabica,Uganda,1,60 kg,Natural,8.17,7.75,7.83,10.0,0.79
+Arabica,Guatemala,50,69 kg,Washed,7.75,7.83,7.67,10.0,0.75
+Arabica,Colombia,250,70 kg,Washed,7.83,7.75,7.75,10.0,0.75
+Arabica,Costa Rica,150,69 kg,Washed,7.92,7.75,7.5,10.0,0.73
+Arabica,Guatemala,275,69 kg,Washed,7.75,7.75,7.67,10.0,0.74
+Arabica,Guatemala,377,69 kg,Washed,7.75,7.92,7.67,10.0,0.75
+Arabica,Guatemala,130,69 kg,Washed,7.58,7.83,7.83,10.0,0.75
+Arabica,Colombia,275,70 kg,Washed,8.0,7.5,8.0,10.0,0.77
+Arabica,Nicaragua,275,2 kg,Natural,7.67,7.83,7.67,10.0,0.74
+Arabica,Brazil,305,59 kg,Natural,7.67,7.75,7.83,10.0,0.75
+Arabica,Costa Rica,320,69 kg,Washed,7.67,7.75,7.5,10.0,0.71
+Arabica,Ethiopia,320,60 kg,Natural,7.5,7.92,7.75,10.0,0.75
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.92,7.75,7.75,10.0,0.76
+Arabica,Colombia,250,1 kg,Washed,7.67,7.5,7.83,10.0,0.73
+Arabica,Guatemala,275,5 lbs,Washed,7.67,7.75,7.75,10.0,0.74
+Arabica,Kenya,300,18000 kg,Washed,7.58,7.75,7.75,10.0,0.74
+Arabica,Brazil,1,2 kg,Natural,7.58,7.83,7.67,10.0,0.73
+Arabica,Guatemala,250,69 kg,Washed,7.92,7.75,7.83,10.0,0.77
+Arabica,El Salvador,275,2 kg,Natural,8.42,8.08,7.58,9.33,0.76
+Arabica,Colombia,250,70 kg,Washed,7.75,7.75,7.83,10.0,0.76
+Arabica,Guatemala,275,1 kg,Natural,7.83,7.5,7.83,10.0,0.74
+Arabica,Uganda,320,60 kg,Washed,7.83,7.75,7.83,10.0,0.76
+Arabica,Indonesia,2,2 kg,Natural,7.81,7.88,7.63,10.0,0.75
+Arabica,Colombia,275,70 kg,Washed,7.83,7.5,7.83,10.0,0.74
+Arabica,Taiwan,10,20 kg,Washed,7.58,7.67,7.75,10.0,0.73
+Arabica,Guatemala,50,69 kg,Washed,8.0,7.75,7.92,10.0,0.78
+Arabica,Colombia,200,70 kg,Washed,7.92,7.75,7.67,10.0,0.75
+Arabica,Guatemala,1,2 kg,Washed,7.58,7.75,7.75,10.0,0.74
+Arabica,United States (Hawaii),14,100 lbs,Natural,7.83,7.75,7.42,9.33,0.67
+Arabica,Mexico,300,1 kg,Washed,7.67,7.75,7.67,10.0,0.73
+Arabica,Ethiopia,100,60 kg,Natural,7.92,7.92,7.92,10.0,0.79
+Arabica,Costa Rica,275,150 lbs,Washed,7.58,7.75,7.83,10.0,0.74
+Arabica,Ethiopia,320,60 kg,Natural,7.83,7.75,7.33,10.0,0.7
+Arabica,Honduras,275,66 kg,Washed,7.42,7.83,7.75,10.0,0.73
+Arabica,Guatemala,275,69 kg,Washed,7.67,7.83,7.75,10.0,0.75
+Arabica,Colombia,250,1 kg,Washed,7.67,7.67,7.58,10.0,0.71
+Arabica,Guatemala,250,69 kg,Natural,7.92,7.67,7.75,10.0,0.75
+Arabica,Guatemala,250,69 kg,,7.75,7.83,7.58,10.0,0.73
+Arabica,Colombia,250,1 kg,Washed,7.67,7.75,7.67,10.0,0.73
+Arabica,Colombia,250,70 kg,Natural,7.58,7.42,7.75,10.0,0.71
+Arabica,Colombia,138,70 kg,Washed,7.67,7.67,7.67,10.0,0.73
+Arabica,Ethiopia,50,60 kg,Natural,7.75,7.75,7.67,10.0,0.74
+Arabica,Brazil,320,60 kg,Natural,7.58,7.83,8.0,10.0,0.77
+Arabica,Colombia,270,70 kg,Washed,7.67,7.83,7.67,10.0,0.74
+Arabica,Kenya,300,60 kg,Washed,7.67,7.83,7.92,10.0,0.77
+Arabica,Thailand,2,1 kg,Washed,7.92,8.17,8.08,8.67,0.75
+Arabica,Kenya,150,9000 kg,Washed,7.67,7.75,7.83,10.0,0.75
+Arabica,Uganda,320,60 kg,Washed,7.92,7.75,7.67,10.0,0.75
+Arabica,Brazil,320,60 kg,Natural,7.5,7.75,7.58,10.0,0.71
+Arabica,Mexico,200,69 kg,Washed,7.83,7.83,7.42,10.0,0.72
+Arabica,Thailand,45,40 kg,Natural,7.67,7.75,7.67,10.0,0.73
+Arabica,Brazil,320,60 kg,Natural,7.58,7.67,7.58,10.0,0.71
+Arabica,Taiwan,20,50 kg,Washed,7.83,7.75,7.83,9.33,0.72
+Arabica,Taiwan,1,2 kg,Natural,7.75,7.75,7.75,10.0,0.75
+Arabica,Colombia,275,2 kg,Washed,7.92,7.67,7.58,10.0,0.73
+Arabica,Colombia,275,2 kg,Washed,7.83,7.75,7.75,10.0,0.75
+Arabica,Colombia,275,70 kg,Washed,7.75,7.58,7.83,10.0,0.74
+Arabica,Taiwan,10,60 kg,Washed,8.0,7.92,7.67,10.0,0.77
+Arabica,Colombia,250,70 kg,Natural,7.67,7.83,7.67,10.0,0.74
+Arabica,Mexico,48,1 kg,Washed,7.67,7.75,7.75,10.0,0.74
+Arabica,Mexico,250,1 kg,Washed,7.5,7.67,7.75,10.0,0.72
+Arabica,Mexico,20,1 kg,Washed,7.75,7.92,7.75,9.33,0.72
+Arabica,Colombia,275,70 kg,Washed,7.92,7.58,7.58,10.0,0.72
+Arabica,Costa Rica,275,69 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,Guatemala,100,69 kg,Washed,7.75,7.75,7.83,10.0,0.76
+Arabica,Brazil,320,2 kg,Natural,7.25,7.58,7.75,10.0,0.7
+Arabica,Taiwan,8,18 kg,Washed,7.67,7.75,7.42,10.0,0.7
+Arabica,Ethiopia,320,60 kg,Natural,7.75,7.75,7.58,10.0,0.73
+Arabica,Brazil,300,2 kg,Semi-Washed,7.67,7.67,7.83,10.0,0.74
+Arabica,Costa Rica,250,1 kg,Washed,7.83,7.42,7.75,10.0,0.72
+Arabica,Guatemala,250,69 kg,Washed,7.58,7.83,7.58,10.0,0.72
+Arabica,Brazil,320,60 kg,Natural,7.92,7.5,8.17,10.0,0.78
+Arabica,Ecuador,1,5 lbs,Natural,7.5,7.67,7.83,10.0,0.73
+Arabica,Colombia,250,70 kg,Washed,7.67,7.58,7.58,10.0,0.71
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.83,7.83,10.0,0.75
+Arabica,Mexico,20,1 kg,Natural,7.67,8.0,7.67,10.0,0.76
+Arabica,Mexico,250,1 kg,Natural,7.67,7.58,7.75,10.0,0.73
+Arabica,Brazil,300,1 kg,Semi-Washed,7.83,7.83,7.5,10.0,0.73
+Arabica,Kenya,200,60 kg,Washed,7.75,7.58,7.75,10.0,0.73
+Arabica,Brazil,320,60 kg,Natural,7.67,7.67,7.67,10.0,0.73
+Arabica,Colombia,275,70 kg,Washed,7.83,7.83,7.58,10.0,0.74
+Arabica,Taiwan,10,10 kg,Natural,7.67,7.67,7.67,10.0,0.73
+Arabica,Colombia,275,70 kg,Washed,7.92,7.75,7.75,10.0,0.76
+Arabica,China,3,60 kg,Washed,7.83,7.75,7.58,10.0,0.73
+Arabica,Colombia,250,70 kg,Natural,7.75,7.67,7.58,10.0,0.72
+Arabica,Uganda,320,60 kg,Natural,8.0,7.92,7.33,10.0,0.73
+Arabica,United States (Puerto Rico),18,5 lbs,Washed,7.83,7.83,8.0,9.33,0.75
+Arabica,Colombia,100,70 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,Colombia,250,70 kg,Washed,7.67,7.42,8.0,10.0,0.74
+Arabica,Colombia,250,70 kg,Washed,7.58,7.67,7.67,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.75,7.67,7.42,10.0,0.7
+Arabica,United States (Hawaii),12,100 lbs,Natural,7.25,7.42,7.83,10.0,0.69
+Arabica,Mexico,10,1 kg,Natural,7.83,7.58,7.75,10.0,0.74
+Arabica,Guatemala,250,3 lbs,Washed,7.67,7.58,7.75,10.0,0.73
+Arabica,Brazil,320,60 kg,Natural,7.67,7.83,7.67,10.0,0.74
+Arabica,Kenya,200,60 kg,Washed,8.08,7.67,7.25,10.0,0.7
+Arabica,Honduras,285,69 kg,Washed,7.5,7.5,8.0,10.0,0.74
+Arabica,Nicaragua,275,69 kg,Washed,7.67,7.75,7.83,10.0,0.75
+Arabica,Brazil,320,60 kg,Natural,7.58,7.75,7.58,10.0,0.72
+Arabica,Taiwan,20,50 kg,Natural,7.5,7.67,7.83,10.0,0.73
+Arabica,Thailand,1,1 kg,Washed,7.5,7.75,7.67,10.0,0.72
+Arabica,Colombia,100,2 lbs,Washed,7.5,7.75,7.67,10.0,0.72
+Arabica,Guatemala,275,69 kg,Washed,8.0,7.5,8.0,9.33,0.73
+Arabica,Colombia,250,70 kg,Washed,7.83,7.75,7.58,10.0,0.73
+Arabica,Colombia,250,70 kg,Washed,7.67,7.67,7.33,10.0,0.69
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.67,8.0,10.0,0.76
+Arabica,Guatemala,250,69 kg,Washed,7.83,7.67,7.67,10.0,0.74
+Arabica,Colombia,250,70 kg,Washed,7.75,7.75,7.17,10.0,0.68
+Arabica,Guatemala,250,1 kg,Natural,8.17,8.17,8.08,9.33,0.81
+Arabica,Guatemala,250,1 kg,Washed,7.67,8.17,7.58,10.0,0.76
+Arabica,Mexico,48,1 kg,Washed,7.67,7.5,7.83,10.0,0.73
+Arabica,Indonesia,10,60 kg,Washed,8.17,7.67,7.42,10.0,0.73
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.5,7.67,10.0,0.71
+Arabica,Brazil,320,60 kg,Natural,7.58,7.67,7.67,10.0,0.72
+Arabica,Guatemala,275,69 kg,Washed,7.75,7.75,7.58,10.0,0.73
+Arabica,Colombia,275,70 kg,Washed,7.75,7.75,7.67,10.0,0.74
+Arabica,China,3,60 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.67,7.75,7.75,10.0,0.74
+Arabica,Mexico,275,2 kg,Washed,7.75,7.75,7.5,10.0,0.72
+Arabica,Ethiopia,250,60 kg,Washed,7.75,7.67,7.5,10.0,0.71
+Arabica,Uganda,100,60 kg,Washed,7.67,7.67,7.75,10.0,0.73
+Arabica,Colombia,250,70 kg,Natural,7.67,7.58,7.67,10.0,0.72
+Arabica,Colombia,250,70 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Colombia,250,70 kg,Washed,7.75,7.58,7.75,10.0,0.73
+Arabica,Taiwan,10,30 kg,,7.75,7.75,7.5,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.67,7.67,7.75,10.0,0.73
+Arabica,Mexico,250,1 kg,Washed,7.83,7.67,7.67,10.0,0.74
+Arabica,Brazil,33,60 kg,Semi-Washed,7.83,7.75,7.5,10.0,0.72
+Arabica,Colombia,50,70 kg,Washed,7.75,7.58,7.75,10.0,0.73
+Arabica,Costa Rica,245,69 kg,Washed,7.92,7.42,7.5,10.0,0.7
+Arabica,Colombia,250,70 kg,Natural,7.75,7.58,7.75,10.0,0.73
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.75,7.58,10.0,0.72
+Arabica,Colombia,180,70 kg,Washed,7.58,7.58,7.75,10.0,0.72
+Arabica,"Tanzania, United Republic Of",5,60 kg,Washed,7.75,7.67,7.67,10.0,0.73
+Arabica,Indonesia,200,30 kg,Semi-Washed,7.25,7.67,7.83,10.0,0.72
+Arabica,Ethiopia,320,60 kg,Natural,7.67,7.75,7.75,10.0,0.74
+Arabica,Colombia,275,2 kg,Washed,7.67,7.42,7.58,10.0,0.69
+Arabica,Colombia,275,70 kg,Washed,8.0,7.58,7.92,10.0,0.77
+Arabica,Guatemala,250,1 kg,Washed,7.58,7.75,7.42,10.0,0.7
+Arabica,Colombia,250,70 kg,Washed,7.75,7.58,7.83,10.0,0.74
+Arabica,Honduras,275,1 kg,Natural,7.67,7.5,7.67,10.0,0.71
+Arabica,Colombia,250,70 kg,Washed,7.58,7.75,7.75,10.0,0.74
+Arabica,Colombia,250,70 kg,Washed,7.58,7.67,7.58,10.0,0.71
+Arabica,Mexico,10,1 kg,Natural,7.83,7.58,7.5,10.0,0.71
+Arabica,Mexico,10,1 kg,Semi-Washed,7.67,7.75,7.58,10.0,0.72
+Arabica,Mexico,15,1 kg,Washed,7.75,7.67,7.33,10.0,0.69
+Arabica,Guatemala,275,69 kg,Washed,7.83,7.5,7.67,10.0,0.72
+Arabica,Colombia,175,70 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Guatemala,250,2 kg,Washed,7.5,7.5,8.0,10.0,0.74
+Arabica,Colombia,300,29 kg,Washed,7.5,7.58,7.75,10.0,0.71
+Arabica,Guatemala,50,69 kg,Washed,7.67,7.75,7.58,10.0,0.72
+Arabica,Colombia,600,29 kg,Washed,7.67,7.67,7.67,10.0,0.73
+Arabica,Costa Rica,275,69 kg,Washed,7.58,7.5,7.5,10.0,0.68
+Arabica,Uganda,20,1218 kg,Washed,7.58,7.75,7.67,10.0,0.73
+Arabica,Thailand,500,25 kg,Washed,7.5,7.58,7.75,10.0,0.71
+Arabica,El Salvador,275,69 kg,Washed,7.58,7.5,7.75,10.0,0.71
+Arabica,Colombia,275,70 kg,Natural,7.58,7.67,7.58,10.0,0.71
+Arabica,Brazil,300,60 kg,Semi-Washed,7.33,7.83,7.42,10.0,0.69
+Arabica,"Tanzania, United Republic Of",39,60 kg,Washed,7.75,7.67,7.58,10.0,0.72
+Arabica,Colombia,250,70 kg,Washed,7.58,7.58,7.75,9.33,0.68
+Arabica,Guatemala,250,69 kg,Natural,7.75,7.83,7.5,10.0,0.73
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.5,7.75,10.0,0.72
+Arabica,United States (Hawaii),13,100 lbs,Natural,7.42,7.75,7.67,10.0,0.72
+Arabica,Colombia,250,70 kg,Washed,7.5,7.75,7.67,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.75,7.5,7.58,10.0,0.7
+Arabica,Colombia,130,70 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.83,7.58,7.5,10.0,0.71
+Arabica,Brazil,10,2 kg,Semi-Washed,7.5,7.83,7.58,10.0,0.72
+Arabica,Mexico,275,1 kg,Washed,7.75,7.75,7.5,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.67,7.75,7.83,10.0,0.75
+Arabica,"Tanzania, United Republic Of",10,60 kg,Semi-Washed,7.75,7.58,7.58,10.0,0.71
+Arabica,Mexico,200,1 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,Costa Rica,250,3 lbs,Washed,7.67,7.67,7.67,10.0,0.73
+Arabica,United States (Hawaii),12,100 lbs,Natural,7.83,7.58,7.92,9.33,0.71
+Arabica,Costa Rica,250,1 kg,Washed,7.5,7.67,7.83,10.0,0.73
+Arabica,Peru,280,5 lbs,Washed,7.83,7.75,7.92,9.33,0.73
+Arabica,Haiti,2,4 lbs,Washed,7.58,7.5,7.83,10.0,0.72
+Arabica,Colombia,250,70 kg,Natural,7.67,7.67,7.92,10.0,0.75
+Arabica,United States (Hawaii),7,100 lbs,Natural,7.92,7.5,7.67,9.33,0.69
+Arabica,Burundi,220,60 kg,Washed,7.75,7.67,7.5,10.0,0.71
+Arabica,Colombia,250,70 kg,Washed,7.5,7.67,7.67,10.0,0.71
+Arabica,Mexico,50,50 kg,Washed,7.67,7.83,7.33,10.0,0.7
+Arabica,Costa Rica,29,46 kg,Pulped-Natural,7.5,7.5,7.67,10.0,0.7
+Arabica,Costa Rica,275,69 kg,Washed,7.83,7.5,7.5,10.0,0.7
+Arabica,Guatemala,275,0 kg,Washed,7.5,7.58,7.67,10.0,0.71
+Arabica,Uganda,150,9000 kg,Washed,7.5,7.67,7.67,10.0,0.71
+Arabica,Colombia,304,35 kg,Natural,7.58,7.67,7.75,10.0,0.73
+Arabica,Mexico,11,2 kg,Natural,7.83,7.75,7.58,10.0,0.73
+Arabica,Taiwan,10,15 kg,Washed,7.67,7.5,7.67,10.0,0.71
+Arabica,Taiwan,10,60 kg,Washed,7.92,7.83,7.5,10.0,0.74
+Arabica,Colombia,250,70 kg,Natural,7.58,7.58,7.58,10.0,0.7
+Arabica,Guatemala,26,69 kg,Washed,7.5,7.67,7.67,10.0,0.71
+Arabica,Colombia,275,70 kg,Washed,7.83,7.5,7.67,10.0,0.72
+Arabica,Mexico,200,1 kg,Washed,7.58,7.75,7.58,10.0,0.72
+Arabica,United States (Hawaii),11,100 lbs,Natural,7.58,7.75,8.08,9.33,0.73
+Arabica,Mexico,10,1 kg,Washed,7.75,7.58,7.5,10.0,0.7
+Arabica,Mexico,54,1 kg,Washed,7.75,7.75,7.33,10.0,0.7
+Arabica,Guatemala,250,1 kg,Washed,7.83,7.58,7.42,10.0,0.7
+Arabica,Brazil,30,60 kg,Semi-Washed,7.75,7.67,7.58,10.0,0.72
+Arabica,Colombia,250,70 kg,Washed,7.67,7.58,7.83,10.0,0.74
+Arabica,Colombia,175,70 kg,Washed,7.67,7.67,7.58,10.0,0.71
+Arabica,Brazil,320,60 kg,Natural,7.67,7.42,7.67,10.0,0.7
+Arabica,Guatemala,275,69 kg,Washed,7.58,7.58,7.75,10.0,0.72
+Arabica,"Tanzania, United Republic Of",320,60 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Vietnam,1,2 kg,Natural,7.58,7.42,7.58,10.0,0.69
+Arabica,Guatemala,250,1500 kg,Washed,7.67,7.75,7.58,10.0,0.72
+Arabica,Honduras,275,69 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,China,3,60 kg,Washed,7.5,7.67,7.67,10.0,0.71
+Arabica,China,3,60 kg,Washed,7.67,7.67,7.42,10.0,0.7
+Arabica,El Salvador,275,69 kg,Washed,7.5,7.5,8.0,10.0,0.74
+Arabica,Guatemala,150,69 kg,Washed,7.5,7.75,7.58,10.0,0.71
+Arabica,Guatemala,100,69 kg,Washed,7.92,7.67,7.5,10.0,0.72
+Arabica,Kenya,300,2 kg,Washed,7.83,7.75,7.83,9.33,0.72
+Arabica,Thailand,1,1 kg,Washed,7.67,7.58,7.42,10.0,0.69
+Arabica,"Tanzania, United Republic Of",180,60 kg,Washed,7.58,7.67,7.42,10.0,0.69
+Arabica,Colombia,232,70 kg,Washed,7.58,7.5,7.5,10.0,0.68
+Arabica,Uganda,84,60 kg,Washed,8.0,7.67,7.33,10.0,0.71
+Arabica,Colombia,1,4 lbs,Washed,7.58,7.75,7.58,10.0,0.72
+Arabica,Honduras,275,1 kg,Natural,7.5,7.5,7.67,10.0,0.7
+Arabica,Honduras,275,1 kg,Natural,7.67,7.67,7.5,10.0,0.71
+Arabica,Guatemala,200,69 kg,Washed,7.33,7.83,7.33,10.0,0.68
+Arabica,United States (Hawaii),6,100 lbs,Natural,7.5,7.5,7.92,10.0,0.73
+Arabica,"Tanzania, United Republic Of",300,1 kg,Washed,7.58,7.5,7.58,10.0,0.69
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.83,7.5,10.0,0.72
+Arabica,Mexico,45,1 kg,Washed,7.75,7.58,7.5,10.0,0.7
+Arabica,Mexico,10,1 kg,Washed,7.75,7.67,7.42,10.0,0.7
+Arabica,Mexico,10,1 kg,Washed,7.58,7.75,7.5,10.0,0.71
+Arabica,Colombia,275,70 kg,Washed,7.67,7.5,7.58,10.0,0.7
+Arabica,Mexico,15,1 kg,Washed,7.75,7.5,7.58,10.0,0.7
+Arabica,Mexico,250,1 kg,Washed,7.5,7.75,7.67,10.0,0.72
+Arabica,Brazil,50,60 kg,Natural,7.75,7.67,7.58,10.0,0.72
+Arabica,Brazil,100,60 kg,Natural,7.92,7.58,7.42,10.0,0.71
+Arabica,Guatemala,250,2 kg,Washed,7.75,7.5,7.92,10.0,0.74
+Arabica,Brazil,25,60 kg,Semi-Washed,7.75,7.5,7.75,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.58,7.67,7.75,10.0,0.73
+Arabica,Colombia,275,70 kg,Washed,7.75,7.5,8.0,10.0,0.75
+Arabica,Brazil,320,60 kg,Pulped-Natural,7.58,7.58,7.67,10.0,0.71
+Arabica,Brazil,320,2 kg,Natural,7.33,7.67,7.75,10.0,0.71
+Arabica,Taiwan,20,60 kg,Natural,7.83,7.92,7.67,9.33,0.72
+Arabica,Brazil,300,60 kg,Natural,7.42,7.67,7.75,10.0,0.72
+Arabica,Brazil,300,2 kg,Washed,7.58,7.83,7.42,10.0,0.7
+Arabica,Costa Rica,250,1 kg,Washed,7.83,7.33,7.58,10.0,0.69
+Arabica,United States (Hawaii),16,100 lbs,Natural,7.33,7.75,7.83,10.0,0.73
+Arabica,Taiwan,50,30 kg,,7.75,7.75,7.5,10.0,0.72
+Arabica,United States (Hawaii),6,100 lbs,Natural,7.83,7.83,7.75,10.0,0.76
+Arabica,Mexico,10,1 kg,Washed,7.75,7.67,7.5,10.0,0.71
+Arabica,United States (Hawaii),7,100 lbs,Natural,7.67,7.58,7.92,9.33,0.7
+Arabica,United States (Hawaii),6,100 lbs,Washed,7.33,7.58,7.67,10.0,0.69
+Arabica,Brazil,320,60 kg,Natural,7.58,7.5,7.67,10.0,0.7
+Arabica,Brazil,320,60 kg,Natural,7.5,7.58,7.58,10.0,0.7
+Arabica,Brazil,320,60 kg,Natural,7.5,7.67,7.58,10.0,0.7
+Arabica,Uganda,310,60 kg,Washed,7.67,7.58,7.83,10.0,0.74
+Arabica,Uganda,325,60 kg,Natural,7.67,7.67,7.42,10.0,0.7
+Arabica,Vietnam,2,2 kg,,7.75,7.67,7.42,9.33,0.66
+Arabica,Guatemala,275,69 kg,Washed,7.67,7.75,7.42,10.0,0.7
+Arabica,Guatemala,200,69 kg,Washed,7.75,7.67,7.5,10.0,0.71
+Arabica,Guatemala,250,69 kg,Washed,7.83,7.67,7.75,10.0,0.75
+Arabica,Brazil,305,2 kg,Natural,7.67,7.67,7.42,10.0,0.7
+Arabica,Taiwan,10,60 kg,Washed,7.92,7.92,7.33,10.0,0.73
+Arabica,Uganda,300,60 kg,Washed,7.83,7.58,7.58,10.0,0.72
+Arabica,United States (Puerto Rico),17,5 lbs,Washed,7.67,7.5,7.75,10.0,0.72
+Arabica,Guatemala,26,69 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,Costa Rica,250,1 kg,Washed,7.67,7.58,7.5,10.0,0.7
+Arabica,Brazil,250,2 kg,Semi-Washed,7.75,7.58,7.42,10.0,0.69
+Arabica,Colombia,120,70 kg,Washed,7.75,7.42,7.58,10.0,0.7
+Arabica,Colombia,250,70 kg,Washed,7.83,7.5,7.5,10.0,0.7
+Arabica,Colombia,250,70 kg,Natural,7.33,7.67,7.75,10.0,0.71
+Arabica,Colombia,250,70 kg,Natural,7.58,7.75,7.58,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.5,7.5,7.75,10.0,0.71
+Arabica,Mexico,15,1 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Mexico,20,1 kg,Semi-Washed,7.67,7.83,7.58,9.33,0.69
+Arabica,Mexico,250,1 kg,Washed,7.5,7.67,7.58,10.0,0.7
+Arabica,Colombia,250,70 kg,Natural,7.67,7.58,7.75,10.0,0.73
+Arabica,Colombia,250,70 kg,Washed,7.75,7.58,7.83,9.33,0.7
+Arabica,Guatemala,275,1 kg,Washed,7.5,7.67,7.5,10.0,0.69
+Arabica,Colombia,121,1 kg,Washed,7.67,7.67,7.67,10.0,0.73
+Arabica,Brazil,320,60 kg,Natural,7.67,7.58,7.58,10.0,0.71
+Arabica,El Salvador,100,69 kg,Washed,7.5,7.5,7.92,10.0,0.73
+Arabica,Colombia,129,70 kg,Washed,7.58,7.67,7.67,10.0,0.72
+Arabica,Taiwan,10,20 kg,Natural,7.17,7.83,7.67,10.0,0.71
+Arabica,Ethiopia,250,60 kg,Washed,7.58,7.58,7.58,10.0,0.7
+Arabica,Taiwan,11,2 kg,Natural,7.5,7.58,7.5,10.0,0.69
+Arabica,Philippines,250,2 kg,Washed,7.58,7.58,7.5,10.0,0.69
+Arabica,Philippines,4,2 kg,Washed,8.08,7.5,7.33,10.0,0.7
+Arabica,Mexico,11,2 kg,Natural,7.83,7.67,7.5,10.0,0.72
+Arabica,Mexico,275,2 kg,Washed,7.75,7.67,7.75,10.0,0.74
+Arabica,Brazil,300,2 kg,Semi-Washed,7.08,7.5,7.75,10.0,0.68
+Arabica,Uganda,1,60 kg,Washed,8.0,7.5,7.33,10.0,0.69
+Arabica,Uganda,1,60 kg,Washed,7.75,7.58,7.5,10.0,0.7
+Arabica,Guatemala,250,69 kg,Washed,7.75,7.5,7.67,10.0,0.72
+Arabica,Guatemala,26,69 kg,Natural,7.67,7.83,7.33,10.0,0.7
+Arabica,Guatemala,1,2 kg,Washed,7.58,7.58,7.58,10.0,0.7
+Arabica,Colombia,250,70 kg,Washed,7.58,7.5,7.58,10.0,0.69
+Arabica,Colombia,250,70 kg,Natural,7.75,7.5,7.75,10.0,0.72
+Arabica,Guatemala,250,69 kg,Washed,7.83,7.75,7.5,10.0,0.72
+Arabica,Colombia,250,70 kg,Washed,7.83,7.67,7.5,10.0,0.72
+Arabica,Mexico,15,1 kg,Natural,7.58,7.58,7.58,10.0,0.7
+Arabica,Vietnam,1,2 kg,Natural,7.67,7.33,8.08,10.0,0.74
+Arabica,Mexico,100,1 kg,Washed,8.0,7.92,7.67,9.33,0.73
+Arabica,United States (Hawaii),8,100 lbs,Washed,7.5,7.5,7.67,10.0,0.7
+Arabica,Kenya,27,50 kg,Washed,7.75,7.58,7.5,10.0,0.7
+Arabica,Guatemala,50,69 kg,Washed,7.5,7.58,7.58,10.0,0.7
+Arabica,Brazil,320,60 kg,Pulped-Natural,7.67,7.58,7.5,10.0,0.7
+Arabica,El Salvador,275,69 kg,Washed,7.33,7.67,7.33,10.0,0.66
+Arabica,Rwanda,150,60 kg,Washed,7.83,7.92,7.75,9.33,0.73
+Arabica,Vietnam,3,2 kg,,7.25,7.58,7.75,10.0,0.7
+Arabica,Guatemala,80,69 kg,Washed,7.58,7.58,7.67,10.0,0.71
+Arabica,Brazil,300,60 kg,Natural,7.58,7.83,7.42,10.0,0.7
+Arabica,Colombia,100,24 kg,Washed,7.83,7.67,7.5,10.0,0.72
+Arabica,United States,300,60 kg,,7.42,7.58,7.75,10.0,0.71
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.67,7.42,10.0,0.7
+Arabica,Colombia,40,1 kg,Natural,7.5,7.42,7.58,10.0,0.68
+Arabica,Colombia,125,70 kg,Washed,7.83,7.5,7.5,10.0,0.7
+Arabica,"Tanzania, United Republic Of",300,2 kg,Washed,7.67,7.5,7.58,10.0,0.7
+Arabica,Mexico,250,1 kg,Washed,7.58,7.67,7.5,10.0,0.7
+Arabica,Mexico,250,1 kg,Washed,7.67,7.58,7.42,10.0,0.69
+Arabica,Guatemala,250,1 kg,Washed,7.67,7.67,7.33,10.0,0.69
+Arabica,Mexico,250,1 kg,Washed,7.58,7.58,7.67,10.0,0.71
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.58,7.58,10.0,0.7
+Arabica,Guatemala,275,69 kg,Washed,7.58,7.67,7.5,10.0,0.7
+Arabica,Guatemala,50,69 kg,Washed,7.5,7.67,7.67,10.0,0.71
+Arabica,Guatemala,50,69 kg,Washed,7.5,7.5,7.67,10.0,0.7
+Arabica,Guatemala,25,69 kg,Washed,7.42,7.58,7.5,10.0,0.68
+Arabica,Indonesia,2,1 kg,,7.5,7.58,7.58,10.0,0.7
+Arabica,Guatemala,25,69 kg,Washed,7.58,7.58,7.33,10.0,0.67
+Arabica,Taiwan,8,10 kg,Natural,7.83,7.67,7.58,9.33,0.68
+Arabica,El Salvador,275,69 kg,Washed,7.67,7.67,7.58,10.0,0.71
+Arabica,Costa Rica,250,69 kg,Washed,7.58,7.5,7.42,10.0,0.67
+Arabica,Honduras,275,69 kg,Natural,7.58,7.5,7.5,10.0,0.68
+Arabica,Brazil,320,60 kg,Pulped-Natural,7.5,7.5,7.58,10.0,0.69
+Arabica,China,3,60 kg,Natural,7.67,7.5,7.67,10.0,0.71
+Arabica,China,3,60 kg,Washed,7.5,7.67,7.5,10.0,0.69
+Arabica,Colombia,250,70 kg,Washed,7.5,7.58,7.33,10.0,0.67
+Arabica,Malawi,29,60 kg,Washed,7.75,7.58,7.33,10.0,0.68
+Arabica,Guatemala,250,69 kg,Washed,7.75,7.42,7.5,10.0,0.69
+Arabica,Colombia,275,1 kg,Washed,7.67,7.42,7.33,10.0,0.66
+Arabica,United States (Hawaii),10,80 lbs,Natural,7.67,7.58,7.33,10.0,0.68
+Arabica,United States (Hawaii),6,100 lbs,Natural,7.58,7.83,7.42,9.33,0.66
+Arabica,Colombia,250,1 kg,Washed,7.58,7.33,7.25,10.0,0.64
+Arabica,Mexico,32,1 kg,Washed,7.58,7.58,7.5,10.0,0.69
+Arabica,Mexico,250,1 kg,Washed,7.58,7.58,7.25,10.0,0.66
+Arabica,Mexico,21,1 kg,Natural,8.08,8.17,7.83,6.67,0.61
+Arabica,Colombia,250,70 kg,Washed,7.5,7.58,7.5,10.0,0.69
+Arabica,Colombia,100,70 kg,Washed,7.67,7.58,7.5,10.0,0.7
+Arabica,United States (Hawaii),6,100 lbs,Washed,7.25,7.75,7.67,9.33,0.66
+Arabica,Panama,300,2 kg,Washed,7.42,7.42,7.5,10.0,0.67
+Arabica,Brazil,320,60 kg,Natural,7.5,7.58,7.5,10.0,0.69
+Arabica,Laos,60,50 kg,Washed,7.67,7.67,7.42,10.0,0.7
+Arabica,El Salvador,275,69 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,Colombia,1,2 kg,Washed,7.75,7.5,7.33,10.0,0.68
+Arabica,Brazil,320,2 kg,Natural,7.58,7.5,7.5,10.0,0.68
+Arabica,Brazil,300,60 kg,Natural,7.33,7.5,7.67,10.0,0.69
+Arabica,"Tanzania, United Republic Of",93,60 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,"Tanzania, United Republic Of",77,60 kg,Washed,7.58,7.5,7.33,10.0,0.66
+Arabica,Taiwan,10,60 kg,Washed,8.0,7.83,7.25,10.0,0.71
+Arabica,Mexico,11,1 kg,Natural,7.67,7.58,7.42,10.0,0.69
+Arabica,Uganda,1,60 kg,Washed,7.67,7.5,7.5,10.0,0.69
+Arabica,Taiwan,10,30 kg,Washed,7.67,7.5,7.5,10.0,0.69
+Arabica,Thailand,300,60 kg,Washed,7.42,7.5,7.58,10.0,0.68
+Arabica,Colombia,250,70 kg,Washed,7.75,7.58,7.58,10.0,0.71
+Arabica,El Salvador,288,1 kg,Washed,7.92,8.0,7.92,10.0,0.8
+Arabica,Guatemala,275,69 kg,Washed,7.67,7.67,7.5,10.0,0.71
+Arabica,Thailand,2,1 kg,Washed,7.83,7.33,7.58,10.0,0.69
+Arabica,Mexico,36,1 kg,Washed,7.58,7.58,7.42,10.0,0.68
+Arabica,Mexico,23,1 kg,Washed,7.5,7.58,7.42,10.0,0.68
+Arabica,Guatemala,25,69 kg,Washed,7.5,7.42,7.5,10.0,0.67
+Arabica,Taiwan,6,5 kg,Pulped-Natural,7.67,7.42,7.58,10.0,0.69
+Arabica,Brazil,198,59 kg,Pulped-Natural,7.5,7.58,7.75,10.0,0.71
+Arabica,Indonesia,150,2 kg,Semi-Washed,7.83,7.58,7.42,10.0,0.7
+Arabica,Thailand,1,1 kg,Washed,7.75,7.33,7.42,10.0,0.67
+Arabica,Thailand,50,20 kg,Washed,7.42,7.58,7.58,10.0,0.69
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.75,7.42,7.58,10.0,0.7
+Arabica,Uganda,1,60 kg,Natural,7.83,7.5,7.42,10.0,0.69
+Arabica,Costa Rica,250,1 kg,Washed,7.67,7.42,7.0,10.0,0.63
+Arabica,Mexico,320,5 lbs,Washed,7.58,7.58,7.67,9.33,0.67
+Arabica,Guatemala,1,2 kg,Natural,7.5,7.58,7.42,10.0,0.68
+Arabica,Colombia,250,70 kg,Washed,7.75,7.25,7.5,10.0,0.67
+Arabica,Colombia,250,70 kg,Washed,7.75,7.5,7.33,10.0,0.68
+Arabica,Colombia,250,70 kg,Washed,7.58,7.5,7.67,10.0,0.7
+Arabica,Mexico,50,1 kg,Washed,7.5,7.58,7.42,10.0,0.68
+Arabica,Mexico,70,1 kg,Washed,7.67,7.58,7.67,10.0,0.72
+Arabica,Colombia,275,70 kg,Washed,7.33,7.42,7.67,10.0,0.68
+Arabica,Brazil,320,60 kg,Natural,7.5,7.5,7.58,10.0,0.69
+Arabica,Indonesia,2,1 kg,Washed,7.83,7.75,7.42,10.0,0.71
+Arabica,Honduras,275,69 kg,Washed,7.58,7.58,7.5,10.0,0.69
+Arabica,Thailand,1,1 kg,Washed,7.5,7.83,7.33,9.33,0.65
+Arabica,Thailand,50,20 kg,Washed,7.33,7.5,7.67,10.0,0.69
+Arabica,"Tanzania, United Republic Of",37,60 kg,Washed,7.67,7.42,7.5,10.0,0.68
+Arabica,"Tanzania, United Republic Of",5,60 kg,Washed,7.75,7.0,7.58,10.0,0.66
+Arabica,Mexico,2,2 kg,Washed,7.42,7.58,7.25,10.0,0.65
+Arabica,Brazil,69,60 kg,Semi-Washed,7.42,7.5,7.42,10.0,0.66
+Arabica,Guatemala,250,69 kg,Washed,7.83,7.42,7.42,10.0,0.68
+Arabica,Colombia,250,70 kg,Washed,7.5,7.5,7.58,10.0,0.69
+Arabica,Guatemala,250,69 kg,Washed,7.83,7.67,7.5,10.0,0.72
+Arabica,Mexico,10,1 kg,Washed,7.5,7.58,7.42,10.0,0.68
+Arabica,Mexico,10,1 kg,Washed,7.67,7.5,7.5,10.0,0.69
+Arabica,Mexico,28,1 kg,Semi-Washed,7.92,7.5,7.25,10.0,0.68
+Arabica,Guatemala,275,1 kg,Natural,7.67,7.33,7.5,10.0,0.67
+Arabica,Brazil,300,60 kg,Semi-Washed,7.67,7.42,7.5,10.0,0.68
+Arabica,Colombia,275,70 kg,Washed,7.67,7.5,7.25,10.0,0.66
+Arabica,United States (Hawaii),7,100 lbs,Washed,7.33,7.42,7.42,10.0,0.65
+Arabica,Honduras,1,2 kg,Washed,7.42,7.67,7.58,10.0,0.7
+Arabica,Guatemala,50,69 kg,Washed,7.58,7.5,7.33,10.0,0.66
+Arabica,Guatemala,50,69 kg,Washed,7.67,7.58,7.42,10.0,0.69
+Arabica,Guatemala,20,69 kg,Washed,7.58,7.5,7.5,10.0,0.68
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.42,7.67,10.0,0.69
+Arabica,Colombia,43,70 kg,Washed,5.08,7.75,7.83,10.0,0.57
+Arabica,China,3,60 kg,Washed,7.67,7.42,7.42,10.0,0.67
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.67,7.25,7.67,10.0,0.69
+Arabica,Brazil,320,2 kg,Natural,7.17,7.83,7.75,10.0,0.72
+Arabica,Guatemala,250,1 kg,Washed,7.5,7.5,7.42,10.0,0.67
+Arabica,Mexico,10,1 kg,Washed,7.42,7.5,7.42,10.0,0.66
+Arabica,Brazil,39,60 kg,Semi-Washed,7.58,7.67,7.5,10.0,0.7
+Arabica,Peru,320,5 lbs,Washed,7.58,7.58,7.5,9.33,0.65
+Arabica,Brazil,220,60 kg,Natural,7.25,7.33,7.42,10.0,0.64
+Arabica,Mexico,10,1 kg,Washed,7.5,7.58,7.42,9.33,0.63
+Arabica,Honduras,1,2 kg,Washed,7.25,7.67,7.75,10.0,0.71
+Arabica,Colombia,250,70 kg,Washed,7.67,7.42,7.58,10.0,0.69
+Arabica,Mexico,49,1 kg,Washed,7.5,7.42,7.42,10.0,0.66
+Arabica,Mexico,20,1 kg,Semi-Washed,7.42,7.58,7.58,10.0,0.69
+Arabica,Mexico,35,1 kg,Washed,7.42,7.58,7.5,10.0,0.68
+Arabica,Mexico,10,1 kg,Washed,7.75,7.33,7.58,10.0,0.69
+Arabica,Mexico,74,1 kg,Washed,7.5,7.58,7.5,10.0,0.69
+Arabica,Mexico,26,1 kg,Washed,7.58,7.58,7.5,10.0,0.69
+Arabica,Mexico,10,1 kg,Washed,7.58,7.33,7.5,10.0,0.67
+Arabica,Mexico,1,1 kg,Washed,7.67,7.58,7.58,10.0,0.71
+Arabica,Mexico,10,1 kg,Washed,7.83,7.5,7.17,10.0,0.66
+Arabica,Colombia,250,70 kg,Natural,7.67,7.33,7.5,10.0,0.67
+Arabica,Brazil,51,60 kg,Natural,7.75,7.5,7.5,10.0,0.7
+Arabica,Colombia,250,70 kg,Washed,7.33,7.58,7.42,10.0,0.67
+Arabica,Honduras,275,69 kg,Washed,7.5,7.58,7.42,10.0,0.68
+Arabica,Brazil,320,2 kg,Natural,7.33,7.5,7.5,10.0,0.67
+Arabica,Brazil,305,59 kg,Natural,7.42,7.42,7.5,10.0,0.67
+Arabica,Brazil,320,60 kg,Natural,7.5,7.5,7.42,10.0,0.67
+Arabica,Costa Rica,100,69 kg,Washed,7.75,7.5,7.42,10.0,0.69
+Arabica,Costa Rica,130,69 kg,Washed,7.75,7.33,7.33,10.0,0.66
+Arabica,China,3,60 kg,Pulped-Natural,7.5,7.58,7.42,10.0,0.68
+Arabica,Brazil,12,2 kg,Natural,8.25,7.83,8.17,10.0,0.84
+Arabica,Brazil,300,60 kg,Natural,7.42,7.5,7.5,10.0,0.67
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.42,7.5,10.0,0.67
+Arabica,Malawi,10,60 kg,Washed,7.33,7.58,7.33,10.0,0.65
+Arabica,Brazil,10,2 kg,Natural,7.75,8.08,8.08,10.0,0.82
+Arabica,Guatemala,250,69 kg,Washed,7.58,7.67,7.75,9.33,0.69
+Arabica,Mexico,320,5 lbs,Washed,7.33,7.58,7.5,10.0,0.67
+Arabica,Colombia,250,3 kg,Washed,7.42,7.33,7.08,10.0,0.61
+Arabica,Taiwan,10,20 kg,Semi-Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Taiwan,10,30 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.42,7.5,10.0,0.67
+Arabica,Colombia,250,70 kg,Washed,7.5,7.42,7.5,10.0,0.67
+Arabica,Mexico,250,1 kg,Washed,7.67,7.5,7.42,10.0,0.68
+Arabica,Costa Rica,275,1 kg,Washed,7.92,7.58,7.92,9.33,0.72
+Arabica,Guatemala,275,69 kg,Washed,7.67,7.5,7.5,10.0,0.69
+Arabica,Mexico,10,1 kg,Natural,7.58,7.67,7.0,10.0,0.64
+Arabica,Mexico,10,1 kg,Washed,7.67,7.58,7.5,10.0,0.7
+Arabica,Guatemala,250,1 kg,Washed,7.5,7.67,7.33,10.0,0.67
+Arabica,Brazil,16,60 kg,Natural,7.58,7.5,7.5,10.0,0.68
+Arabica,Mexico,10,1 kg,Washed,8.0,7.75,7.08,9.33,0.65
+Arabica,Brazil,44,60 kg,Washed,7.58,7.58,7.42,10.0,0.68
+Arabica,Colombia,250,70 kg,Natural,7.83,7.58,7.58,10.0,0.72
+Arabica,Brazil,1062,5 kg,Washed,7.58,7.5,7.67,10.0,0.7
+Arabica,Guatemala,275,69 kg,Washed,7.67,7.5,7.42,10.0,0.68
+Arabica,Brazil,180,2 kg,Natural,7.42,7.67,7.5,10.0,0.69
+Arabica,El Salvador,275,1 kg,Washed,7.58,7.67,7.83,9.33,0.7
+Arabica,Honduras,275,1 kg,Washed,7.58,7.5,7.42,10.0,0.67
+Arabica,Malawi,10,60 kg,Washed,7.58,7.42,7.58,10.0,0.69
+Arabica,Brazil,320,2 kg,Natural,7.75,7.58,7.33,10.0,0.68
+Arabica,Taiwan,35,60 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Mexico,150,1 kg,Washed,7.58,7.58,7.42,10.0,0.68
+Arabica,United States (Hawaii),6,100 lbs,Natural,7.33,7.42,7.5,10.0,0.66
+Arabica,Mexico,10,1 kg,Washed,7.58,7.58,7.42,10.0,0.68
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.5,7.67,10.0,0.7
+Arabica,Mexico,10,1 kg,Washed,7.5,7.58,7.33,10.0,0.67
+Arabica,Mexico,40,1 kg,Washed,7.67,7.58,7.42,10.0,0.69
+Arabica,El Salvador,288,1 kg,Washed,7.75,7.33,7.5,10.0,0.68
+Arabica,Mexico,250,1 kg,Washed,7.33,7.58,7.33,10.0,0.65
+Arabica,Mexico,250,1 kg,Washed,7.42,7.5,7.42,10.0,0.66
+Arabica,Colombia,250,70 kg,Washed,7.5,7.42,7.58,10.0,0.68
+Arabica,Colombia,100,70 kg,Washed,7.67,7.33,7.5,10.0,0.67
+Arabica,Brazil,84,60 kg,Natural,7.67,7.58,7.5,10.0,0.7
+Arabica,Brazil,320,60 kg,Natural,7.42,7.42,7.42,10.0,0.66
+Arabica,Honduras,200,69 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,"Tanzania, United Republic Of",30,80 kg,Washed,7.58,7.42,7.5,10.0,0.68
+Arabica,"Tanzania, United Republic Of",300,60 kg,Washed,7.42,7.42,7.5,10.0,0.67
+Arabica,Brazil,320,2 kg,Natural,6.92,7.58,7.83,10.0,0.68
+Arabica,Thailand,1,1 kg,Washed,7.42,7.42,7.25,10.0,0.64
+Arabica,Honduras,275,1 kg,Washed,7.67,7.5,7.58,10.0,0.7
+Arabica,Guatemala,250,69 kg,Washed,7.42,7.42,7.42,10.0,0.66
+Arabica,Brazil,300,60 kg,Natural,7.58,7.5,7.5,10.0,0.68
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.75,7.42,7.33,10.0,0.67
+Arabica,Mexico,200,1 kg,Washed,7.42,7.33,7.33,10.0,0.64
+Arabica,Mexico,2,2 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Taiwan,60,60 kg,,7.5,7.5,7.5,10.0,0.68
+Arabica,Taiwan,80,10 kg,Washed,7.67,7.5,7.17,10.0,0.65
+Arabica,Colombia,250,70 kg,Washed,7.33,7.25,7.75,10.0,0.67
+Arabica,Mexico,10,1 kg,Washed,7.5,7.67,7.33,10.0,0.67
+Arabica,Guatemala,250,1 kg,Washed,7.25,7.75,8.17,10.0,0.76
+Arabica,Mexico,200,1 kg,Washed,7.5,7.58,7.5,10.0,0.69
+Arabica,Mexico,60,1 kg,Washed,7.0,7.67,7.42,10.0,0.65
+Arabica,Indonesia,2,1 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Colombia,275,70 kg,Washed,7.75,7.58,7.83,9.33,0.7
+Arabica,Brazil,320,60 kg,Natural,7.42,7.58,7.42,10.0,0.67
+Arabica,Brazil,320,2 kg,Natural,7.25,7.25,7.25,10.0,0.61
+Arabica,Costa Rica,275,350 kg,Washed,7.75,7.42,7.17,10.0,0.65
+Arabica,"Tanzania, United Republic Of",300,2 kg,Washed,7.42,7.33,7.5,10.0,0.66
+Arabica,"Tanzania, United Republic Of",1,60 kg,Washed,7.42,7.5,7.33,10.0,0.65
+Arabica,Colombia,1,5 lbs,Washed,7.5,7.42,7.67,10.0,0.69
+Arabica,Costa Rica,150,69 kg,Washed,7.58,7.33,7.5,10.0,0.67
+Arabica,United States (Hawaii),4,100 lbs,Natural,7.25,7.58,7.5,10.0,0.67
+Arabica,Mexico,35,1 kg,Washed,7.42,7.58,7.42,10.0,0.67
+Arabica,Mexico,250,1 kg,Washed,7.5,7.42,7.25,10.0,0.64
+Arabica,Mexico,15,1 kg,Washed,7.67,7.5,7.42,10.0,0.68
+Arabica,Vietnam,1,2 kg,Natural,7.67,8.0,7.67,10.0,0.76
+Arabica,Mexico,250,1 kg,Washed,7.58,7.42,7.33,10.0,0.66
+Arabica,United States (Hawaii),10,100 lbs,Washed,7.33,7.5,7.08,10.0,0.62
+Arabica,Honduras,275,69 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Honduras,275,69 kg,Natural,7.5,7.5,7.42,10.0,0.67
+Arabica,Brazil,230,60 kg,Natural,7.5,7.33,7.33,10.0,0.64
+Arabica,"Tanzania, United Republic Of",2,80 kg,Washed,7.67,7.33,7.42,10.0,0.67
+Arabica,Laos,1,2 kg,Washed,7.42,7.5,7.5,10.0,0.67
+Arabica,"Tanzania, United Republic Of",1,60 kg,Washed,7.42,7.42,7.33,10.0,0.65
+Arabica,Malawi,16,60 kg,Washed,7.5,7.42,7.33,10.0,0.65
+Arabica,Taiwan,50,20 kg,Washed,7.33,7.5,7.5,10.0,0.67
+Arabica,Thailand,1,1 kg,Washed,7.58,7.5,7.33,10.0,0.66
+Arabica,Costa Rica,250,1 kg,Washed,7.5,7.25,7.75,10.0,0.68
+Arabica,Honduras,275,69 kg,Washed,7.33,7.33,7.5,10.0,0.65
+Arabica,Colombia,250,70 kg,Washed,7.33,7.33,7.5,10.0,0.65
+Arabica,Taiwan,30,10 kg,Washed,7.42,7.58,8.0,9.33,0.7
+Arabica,Brazil,1,2 kg,Natural,7.33,7.67,7.33,10.0,0.66
+Arabica,Mexico,15,1 kg,Washed,7.67,7.33,7.42,10.0,0.67
+Arabica,Brazil,50,60 kg,Natural,7.42,7.5,7.33,10.0,0.65
+Arabica,Brazil,75,60 kg,Semi-Washed,7.42,7.5,7.5,10.0,0.67
+Arabica,Guatemala,250,1 kg,Natural,7.33,7.33,7.67,10.0,0.67
+Arabica,Brazil,53,60 kg,Semi-Washed,7.58,7.5,7.5,10.0,0.68
+Arabica,Guatemala,250,2 kg,Washed,7.75,7.33,7.75,10.0,0.71
+Arabica,Guatemala,25,69 kg,Washed,7.58,7.5,7.58,9.33,0.65
+Arabica,Guatemala,50,69 kg,Washed,7.5,7.5,7.42,10.0,0.67
+Arabica,Honduras,274,67 kg,Washed,7.58,7.5,7.42,10.0,0.67
+Arabica,Brazil,305,59 kg,Natural,7.42,7.33,7.5,10.0,0.66
+Arabica,El Salvador,275,69 kg,Washed,7.67,7.58,7.5,10.0,0.7
+Arabica,Guatemala,275,69 kg,Washed,7.58,7.58,7.17,10.0,0.65
+Arabica,"Tanzania, United Republic Of",114,60 kg,Washed,7.33,7.33,7.5,10.0,0.65
+Arabica,Nicaragua,275,5 lbs,Washed,7.58,7.42,7.5,10.0,0.68
+Arabica,Zambia,13,2 kg,Washed,7.67,7.08,7.75,10.0,0.68
+Arabica,Honduras,1,2 kg,Washed,7.42,7.33,7.33,10.0,0.64
+Arabica,Taiwan,35,30 kg,,7.5,7.5,7.5,10.0,0.68
+Arabica,Mexico,450,1 kg,Washed,7.58,7.5,7.5,10.0,0.68
+Arabica,Mexico,10,1 kg,Semi-Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,Mexico,10,1 kg,Washed,7.5,7.42,7.33,10.0,0.65
+Arabica,Mexico,30,1 kg,Washed,7.33,7.58,7.42,10.0,0.67
+Arabica,Mexico,62,1 kg,Washed,7.67,7.42,7.5,9.33,0.64
+Arabica,Brazil,8,60 kg,Natural,7.42,7.58,7.33,10.0,0.66
+Arabica,Guatemala,25,69 kg,Washed,7.42,7.5,7.33,10.0,0.65
+Arabica,Costa Rica,15,46 kg,Pulped-Natural,7.25,7.33,7.67,10.0,0.67
+Arabica,Brazil,200,59 kg,Natural,7.42,7.5,7.42,10.0,0.66
+Arabica,Indonesia,166,30 kg,,7.75,7.83,7.92,10.0,0.77
+Arabica,Guatemala,130,69 kg,Washed,7.58,7.5,7.58,10.0,0.69
+Arabica,Brazil,320,2 kg,Natural,7.17,7.58,7.75,10.0,0.69
+Arabica,Brazil,300,2 kg,Natural,7.58,7.0,7.67,10.0,0.66
+Arabica,Myanmar,1,2 kg,Washed,7.33,7.58,7.33,10.0,0.65
+Arabica,Mexico,250,2 kg,Washed,7.58,7.5,7.17,10.0,0.65
+Arabica,Honduras,275,1 kg,Washed,7.5,7.5,7.42,10.0,0.67
+Arabica,Costa Rica,275,18975 kg,Washed,7.67,7.5,7.08,10.0,0.64
+Arabica,Taiwan,8,5 kg,Washed,7.67,7.33,7.75,10.0,0.7
+Arabica,Indonesia,300,10 kg,,7.42,7.42,7.42,10.0,0.66
+Arabica,Malawi,24,60 kg,Washed,7.58,7.42,7.33,10.0,0.66
+Arabica,Brazil,320,2 kg,Natural,7.33,7.58,7.83,10.0,0.71
+Arabica,Honduras,275,1 kg,Natural,7.5,7.5,7.33,10.0,0.66
+Arabica,Mexico,280,2 kg,Washed,7.42,7.42,7.33,10.0,0.65
+Arabica,Colombia,50,70 kg,Washed,7.5,7.5,7.5,10.0,0.68
+Arabica,United States (Hawaii),19,100 lbs,Natural,7.83,7.83,7.83,10.0,0.77
+Arabica,Brazil,300,60 kg,Semi-Washed,7.75,7.75,7.83,9.33,0.71
+Arabica,Guatemala,250,69 kg,Washed,7.83,7.67,7.67,9.33,0.69
+Arabica,Mexico,302,1 kg,Washed,7.83,7.33,7.25,10.0,0.66
+Arabica,Mexico,15,1 kg,Semi-Washed,7.33,7.33,7.5,10.0,0.65
+Arabica,Vietnam,1,2 kg,Washed,7.0,7.08,7.5,10.0,0.61
+Arabica,Brazil,1,5 lbs,Natural,7.17,7.25,7.42,10.0,0.62
+Arabica,Mexico,10,1 kg,Washed,7.5,7.5,7.25,10.0,0.65
+Arabica,Mexico,100,1 kg,Washed,7.42,7.5,7.33,10.0,0.65
+Arabica,Mexico,42,1 kg,Washed,7.42,7.5,7.33,10.0,0.65
+Arabica,Mexico,250,1 kg,Washed,7.33,7.42,7.42,10.0,0.65
+Arabica,Mexico,28,1 kg,Washed,7.5,7.42,7.67,10.0,0.69
+Arabica,Colombia,250,70 kg,Washed,7.33,7.42,7.5,10.0,0.66
+Arabica,Brazil,320,60 kg,Natural,7.42,7.5,7.5,10.0,0.67
+Arabica,Guatemala,50,69 kg,Washed,7.42,7.42,7.33,10.0,0.65
+Arabica,Guatemala,80,69 kg,Washed,7.42,7.33,7.33,10.0,0.64
+Arabica,Honduras,275,69 kg,Washed,7.58,7.5,7.42,10.0,0.67
+Arabica,Brazil,320,2 kg,Natural,7.25,7.75,7.5,10.0,0.68
+Arabica,"Tanzania, United Republic Of",20,60 kg,Washed,7.42,7.33,7.5,10.0,0.66
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.33,7.33,7.42,10.0,0.64
+Arabica,Brazil,300,2 kg,Washed,7.25,7.42,7.5,10.0,0.65
+Arabica,Indonesia,320,4 kg,Semi-Washed,7.17,7.42,7.33,10.0,0.63
+Arabica,Honduras,275,1 kg,Natural,7.5,7.33,7.17,10.0,0.63
+Arabica,Costa Rica,275,69 kg,Washed,7.5,7.17,7.5,10.0,0.65
+Arabica,Mexico,320,5 lbs,Washed,7.42,7.42,7.58,9.33,0.63
+Arabica,Taiwan,10,30 kg,Semi-Washed,7.5,7.5,7.42,10.0,0.67
+Arabica,Taiwan,10,30 kg,Washed,7.58,7.42,7.33,10.0,0.66
+Arabica,Mexico,310,1 kg,Washed,7.5,7.42,7.33,10.0,0.65
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.67,7.33,10.0,0.67
+Arabica,Mexico,100,1 kg,Washed,7.25,7.67,7.67,8.67,0.61
+Arabica,Mexico,15,1 kg,Washed,7.67,7.25,7.5,10.0,0.67
+Arabica,Mexico,275,1 kg,Washed,7.5,7.42,7.42,10.0,0.66
+Arabica,Mexico,250,1 kg,Washed,7.58,7.42,7.25,10.0,0.65
+Arabica,Mexico,12,1 kg,Semi-Washed,7.75,7.58,7.58,9.33,0.67
+Arabica,United States (Hawaii),13,100 lbs,Washed,7.42,7.33,7.17,10.0,0.62
+Arabica,Honduras,275,69 kg,Washed,7.5,7.42,7.5,10.0,0.67
+Arabica,Guatemala,25,69 kg,Washed,7.42,7.42,7.42,10.0,0.66
+Arabica,Taiwan,20,50 kg,Washed,7.42,7.42,7.33,10.0,0.65
+Arabica,Costa Rica,250,69 kg,Washed,7.58,7.42,7.08,10.0,0.63
+Arabica,"Tanzania, United Republic Of",100,60 kg,Washed,7.42,7.42,7.42,10.0,0.66
+Arabica,Malawi,10,60 kg,Washed,7.42,7.42,7.33,10.0,0.65
+Arabica,Taiwan,50,20 kg,Semi-Washed,7.33,7.17,8.33,10.0,0.73
+Arabica,Brazil,300,60 kg,Washed,7.42,7.42,7.5,10.0,0.67
+Arabica,Guatemala,250,69 kg,Washed,7.42,7.33,7.42,10.0,0.65
+Arabica,Mexico,310,1 kg,Washed,7.67,7.5,6.75,10.0,0.6
+Arabica,Mexico,28,1 kg,Natural,7.33,7.5,7.5,10.0,0.67
+Arabica,Mexico,28,1 kg,Natural,7.67,7.58,7.58,10.0,0.71
+Arabica,Guatemala,50,69 kg,Washed,7.67,7.58,7.33,9.33,0.64
+Arabica,Nicaragua,550,69 kg,,7.5,7.42,7.25,10.0,0.64
+Arabica,Honduras,275,69 kg,Washed,7.5,7.5,7.17,10.0,0.64
+Arabica,Taiwan,123,2 kg,Natural,7.5,7.42,7.58,10.0,0.68
+Arabica,Myanmar,1,1 kg,Washed,7.25,7.42,7.33,10.0,0.63
+Arabica,Costa Rica,250,1 kg,Washed,7.83,7.33,7.33,10.0,0.67
+Arabica,Malawi,15,60 kg,Washed,7.67,7.42,7.5,10.0,0.68
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.42,7.25,10.0,0.64
+Arabica,Taiwan,50,20 kg,Washed,7.42,7.33,7.42,10.0,0.65
+Arabica,Brazil,300,60 kg,Semi-Washed,7.58,7.5,7.67,9.33,0.66
+Arabica,Haiti,300,4 lbs,Washed,7.42,7.33,7.42,10.0,0.65
+Arabica,Taiwan,5,30 kg,,7.5,7.42,7.33,10.0,0.65
+Arabica,Mexico,250,1 kg,Washed,7.33,7.33,7.5,10.0,0.65
+Arabica,Mexico,30,1 kg,Washed,7.42,7.25,7.17,10.0,0.61
+Arabica,Mexico,20,1 kg,Semi-Washed,7.33,7.5,7.33,10.0,0.65
+Arabica,Mexico,50,80 kg,Washed,7.42,7.42,7.25,10.0,0.64
+Arabica,Mexico,15,1 kg,Natural,7.5,7.5,7.42,9.33,0.63
+Arabica,Indonesia,10,60 kg,Washed,7.75,7.17,7.58,10.0,0.67
+Arabica,Brazil,300,1 kg,Semi-Washed,7.5,7.42,7.5,10.0,0.67
+Arabica,Guatemala,250,1 kg,Washed,7.33,7.5,7.17,10.0,0.63
+Arabica,Mexico,200,69 kg,Washed,7.58,7.33,7.5,10.0,0.67
+Arabica,Guatemala,450,69 kg,Washed,7.42,7.33,7.33,10.0,0.64
+Arabica,Brazil,300,60 kg,Natural,7.33,7.5,6.83,10.0,0.59
+Arabica,Honduras,275,1 kg,Washed,7.5,7.33,7.5,10.0,0.66
+Arabica,Taiwan,10,60 kg,Washed,7.83,7.75,7.08,10.0,0.68
+Arabica,Malawi,12,60 kg,Washed,7.58,7.17,7.08,10.0,0.61
+Arabica,Brazil,320,2 kg,Natural,7.25,7.5,7.33,10.0,0.64
+Arabica,Guatemala,250,69 kg,Washed,7.42,7.5,7.42,10.0,0.66
+Arabica,Mexico,280,2 kg,Washed,7.67,7.33,7.25,10.0,0.65
+Arabica,Peru,280,5 lbs,Washed,7.42,7.42,7.42,10.0,0.66
+Arabica,Mexico,10,1 kg,Washed,7.42,7.33,7.25,10.0,0.63
+Arabica,Mexico,20,1 kg,Washed,7.42,7.42,7.5,10.0,0.67
+Arabica,Colombia,250,70 kg,Natural,7.5,7.42,7.17,10.0,0.63
+Arabica,Colombia,230,70 kg,Washed,7.5,7.33,7.33,10.0,0.64
+Arabica,Brazil,300,60 kg,Natural,7.25,7.33,7.33,10.0,0.63
+Arabica,Honduras,275,1 kg,Washed,7.58,7.42,7.17,10.0,0.64
+Arabica,Brazil,300,60 kg,,7.17,7.33,7.42,10.0,0.63
+Arabica,Philippines,2,2 kg,Washed,7.08,7.33,7.33,10.0,0.62
+Arabica,Malawi,31,60 kg,Washed,7.75,7.33,7.33,10.0,0.66
+Arabica,Honduras,275,1 kg,Washed,7.33,7.33,7.5,10.0,0.65
+Arabica,Mexico,70,1 kg,Washed,7.33,7.25,7.58,10.0,0.65
+Arabica,Brazil,42,5 kg,Natural,7.5,7.58,7.75,9.33,0.67
+Arabica,Taiwan,20,50 kg,Natural,7.83,7.75,7.83,9.33,0.72
+Arabica,Brazil,320,2 kg,Natural,7.17,7.42,6.92,10.0,0.58
+Arabica,Nicaragua,275,69 kg,Washed,7.08,7.5,7.42,10.0,0.64
+Arabica,Honduras,275,1 kg,Washed,7.42,7.17,7.33,10.0,0.62
+Arabica,Guatemala,36,55 lbs,Washed,7.33,7.42,7.42,10.0,0.65
+Arabica,"Tanzania, United Republic Of",100,60 kg,Washed,7.33,7.17,7.25,10.0,0.61
+Arabica,Taiwan,10,30 kg,Semi-Washed,7.5,7.5,7.25,10.0,0.65
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.33,7.0,10.0,0.61
+Arabica,Mexico,250,1 kg,Washed,7.42,7.42,7.5,9.33,0.62
+Arabica,Nicaragua,275,69 kg,Washed,7.33,7.5,7.58,10.0,0.68
+Arabica,"Tanzania, United Republic Of",100,60 kg,Washed,7.67,7.17,7.5,10.0,0.66
+Arabica,Mexico,275,1 kg,Washed,7.75,7.58,7.08,10.0,0.65
+Arabica,Costa Rica,275,18975 kg,Washed,7.5,7.5,7.08,10.0,0.63
+Arabica,Honduras,275,1 kg,Natural,7.42,7.33,7.33,10.0,0.64
+Arabica,Thailand,20,20 kg,Washed,6.83,7.42,7.5,10.0,0.63
+Arabica,Philippines,2,2 kg,Natural,7.25,7.25,7.58,10.0,0.65
+Arabica,"Tanzania, United Republic Of",320,60 kg,Washed,7.58,7.17,7.33,10.0,0.63
+Arabica,Malawi,300,60 kg,Washed,7.58,7.25,7.33,10.0,0.64
+Arabica,Costa Rica,250,1 kg,Washed,7.33,7.08,7.33,10.0,0.61
+Arabica,Brazil,300,1 kg,Natural,7.42,7.42,7.33,10.0,0.65
+Arabica,Mexico,250,1 kg,Natural,7.42,7.25,7.42,10.0,0.64
+Arabica,Guatemala,250,1 kg,Washed,7.42,7.25,7.25,10.0,0.62
+Arabica,Brazil,17,60 kg,Natural,7.42,7.33,7.5,10.0,0.66
+Arabica,Ethiopia,300,60 kg,Natural,7.42,7.33,7.42,10.0,0.65
+Arabica,Brazil,500,60 kg,Natural,7.58,7.42,7.75,9.33,0.66
+Arabica,Nicaragua,275,69 kg,Washed,7.33,7.33,7.33,10.0,0.63
+Arabica,United States,1,5 lbs,Natural,7.42,7.17,7.25,10.0,0.61
+Arabica,"Tanzania, United Republic Of",54,60 kg,Washed,7.42,7.33,7.25,10.0,0.63
+Arabica,Costa Rica,250,1 kg,Washed,7.42,7.25,7.25,10.0,0.62
+Arabica,United States (Puerto Rico),18,5 lbs,Washed,7.67,7.75,7.58,6.67,0.51
+Arabica,Mexico,100,1 kg,Washed,7.25,7.42,7.17,10.0,0.62
+Arabica,Mexico,30,1 kg,Washed,7.33,7.25,7.25,10.0,0.62
+Arabica,Mexico,40,1 kg,Washed,7.33,7.33,7.25,10.0,0.62
+Arabica,Mexico,15,1 kg,Washed,7.42,7.33,7.17,10.0,0.62
+Arabica,United States (Hawaii),2,100 lbs,Washed,7.42,7.42,6.92,10.0,0.6
+Arabica,Brazil,300,59 kg,Pulped-Natural,7.25,7.25,7.33,10.0,0.62
+Arabica,El Salvador,100,69 kg,Washed,7.42,7.08,7.25,10.0,0.61
+Arabica,Brazil,300,59 kg,Pulped-Natural,7.33,7.17,7.33,10.0,0.62
+Arabica,Guatemala,120,69 kg,Washed,7.42,7.25,7.25,10.0,0.62
+Arabica,Colombia,43,70 kg,Washed,7.67,7.5,7.67,10.0,0.71
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.25,7.5,10.0,0.66
+Arabica,Taiwan,10,5 kg,Washed,7.25,7.17,7.5,10.0,0.63
+Arabica,Honduras,275,18975 kg,Natural,7.42,7.25,7.25,10.0,0.62
+Arabica,Brazil,300,60 kg,Natural,7.67,7.75,7.83,10.0,0.75
+Arabica,"Tanzania, United Republic Of",1,60 kg,Washed,7.33,7.33,7.17,10.0,0.61
+Arabica,Uganda,320,60 kg,Natural,7.33,6.92,7.42,10.0,0.61
+Arabica,Taiwan,10,30 kg,Semi-Washed,7.5,6.92,7.33,10.0,0.61
+Arabica,Thailand,2,1 kg,Washed,7.33,7.42,7.25,10.0,0.63
+Arabica,Mexico,10,1 kg,Washed,7.08,7.33,7.42,10.0,0.63
+Arabica,Mexico,200,1 kg,Washed,7.58,7.67,7.58,8.0,0.58
+Arabica,Taiwan,150,1 kg,Washed,7.33,7.17,7.33,10.0,0.62
+Arabica,Guatemala,25,69 kg,Washed,7.67,7.67,7.67,9.33,0.68
+Arabica,Kenya,150,60 kg,Washed,7.17,7.58,8.0,10.0,0.72
+Arabica,Mexico,240,69 kg,Washed,7.5,7.33,7.5,9.33,0.62
+Arabica,Myanmar,2,2 kg,,7.17,7.42,7.33,10.0,0.63
+Arabica,United States (Hawaii),7,100 lbs,Natural,7.42,7.08,7.58,10.0,0.64
+Arabica,"Tanzania, United Republic Of",250,60 kg,Washed,7.33,7.17,7.42,10.0,0.63
+Arabica,Brazil,300,60 kg,Natural,7.25,7.33,7.25,10.0,0.62
+Arabica,Taiwan,10,60 kg,Washed,7.92,7.67,7.08,10.0,0.67
+Arabica,Brazil,320,2 kg,Natural,7.17,7.42,7.25,10.0,0.62
+Arabica,Nicaragua,275,1 lbs,Washed,7.33,7.08,7.5,10.0,0.63
+Arabica,Guatemala,250,69 kg,Washed,7.58,7.42,7.25,10.0,0.65
+Arabica,Taiwan,35,30 kg,Washed,7.42,7.25,7.25,10.0,0.62
+Arabica,Taiwan,5,30 kg,,7.25,7.17,7.08,10.0,0.58
+Arabica,Taiwan,10,20 kg,Washed,7.42,7.25,7.25,10.0,0.62
+Arabica,Mexico,60,1 kg,Washed,7.58,7.33,7.17,10.0,0.63
+Arabica,Laos,20,50 kg,Washed,7.42,7.33,7.17,10.0,0.62
+Arabica,Guatemala,250,1 kg,Washed,7.67,7.25,7.17,10.0,0.63
+Arabica,Mexico,15,1 kg,Semi-Washed,7.17,7.08,7.25,10.0,0.59
+Arabica,Mexico,100,1 kg,Washed,7.5,7.17,7.17,10.0,0.61
+Arabica,United States (Hawaii),7,100 lbs,Washed,7.42,7.33,7.33,10.0,0.64
+Arabica,Brazil,320,60 kg,Natural,7.17,7.25,7.25,10.0,0.6
+Arabica,Myanmar,1,2 kg,Washed,6.92,7.5,7.5,10.0,0.64
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.33,7.17,10.0,0.63
+Arabica,Nicaragua,275,69 kg,Washed,7.25,7.25,7.33,10.0,0.62
+Arabica,Honduras,275,1 kg,Natural,7.5,7.33,7.25,10.0,0.63
+Arabica,Panama,100,60 kg,,7.25,7.33,7.33,10.0,0.63
+Arabica,Honduras,275,1 kg,Washed,7.42,7.17,7.25,10.0,0.61
+Arabica,Honduras,275,1 kg,Natural,7.25,7.33,7.25,10.0,0.62
+Arabica,Costa Rica,250,3 lbs,Washed,7.33,7.33,7.17,10.0,0.61
+Arabica,Mexico,30,1 kg,Washed,7.58,7.33,7.5,9.33,0.63
+Arabica,Haiti,1,2 kg,Washed,7.42,7.0,7.08,10.0,0.58
+Arabica,United States (Hawaii),3,2 lbs,Natural,7.08,7.33,7.33,10.0,0.62
+Arabica,Taiwan,160,1 kg,,7.33,7.08,7.42,10.0,0.62
+Arabica,Indonesia,200,30 kg,Semi-Washed,7.58,7.42,7.5,9.33,0.64
+Arabica,Guatemala,150,60 kg,Washed,7.67,7.42,7.42,10.0,0.67
+Arabica,Costa Rica,240,1 kg,Washed,7.83,7.5,7.83,6.67,0.53
+Arabica,Malawi,100,60 kg,Washed,7.5,7.25,7.25,10.0,0.63
+Arabica,Mexico,20,1 kg,Washed,7.25,7.17,7.17,10.0,0.59
+Arabica,Colombia,250,70 kg,Natural,7.67,7.5,7.5,10.0,0.69
+Arabica,Guatemala,250,69 kg,Washed,7.67,7.17,7.0,10.0,0.6
+Arabica,Guatemala,250,1 kg,Washed,7.0,7.33,7.0,10.0,0.57
+Arabica,Guatemala,250,1 kg,Washed,7.0,7.5,7.17,10.0,0.61
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.25,7.08,7.33,10.0,0.6
+Arabica,Brazil,300,2 kg,Semi-Washed,7.42,7.25,7.08,10.0,0.6
+Arabica,Honduras,275,69 kg,Washed,7.5,7.17,7.33,10.0,0.63
+Arabica,Guatemala,275,69 kg,Natural,7.17,7.42,7.17,10.0,0.61
+Arabica,Taiwan,20,5 kg,Natural,7.17,7.17,7.17,10.0,0.59
+Arabica,Guatemala,275,69 kg,Washed,7.33,7.25,7.25,10.0,0.62
+Arabica,Honduras,15,69 kg,Washed,7.58,7.33,7.33,10.0,0.65
+Arabica,Brazil,300,60 kg,Semi-Washed,7.25,7.33,7.33,9.33,0.58
+Arabica,Myanmar,1,2 kg,Washed,7.17,7.33,7.25,10.0,0.61
+Arabica,Guatemala,275,69 kg,Washed,7.5,7.17,7.17,10.0,0.61
+Arabica,Brazil,300,60 kg,Semi-Washed,7.42,7.42,7.67,9.33,0.64
+Arabica,United States (Hawaii),10,100 lbs,Natural,7.42,7.33,7.58,8.67,0.58
+Arabica,Guatemala,250,1 kg,Washed,7.5,7.5,7.17,10.0,0.64
+Arabica,Mexico,18,1 kg,Washed,7.25,7.25,7.25,10.0,0.61
+Arabica,Taiwan,10,60 kg,Washed,7.58,7.17,7.17,10.0,0.62
+Arabica,El Salvador,2,2 kg,Washed,7.33,7.17,7.33,10.0,0.62
+Arabica,China,1,2 kg,Washed,7.25,7.08,7.33,10.0,0.6
+Arabica,Taiwan,10,30 kg,Washed,7.25,7.25,7.25,10.0,0.61
+Arabica,Mexico,250,1 kg,Washed,6.92,7.17,7.33,10.0,0.59
+Arabica,Mexico,250,1 kg,Washed,7.42,7.08,7.25,10.0,0.61
+Arabica,"Tanzania, United Republic Of",10,60 kg,Washed,7.25,7.17,7.42,10.0,0.62
+Arabica,"Tanzania, United Republic Of",1,60 kg,Washed,7.25,7.17,7.25,10.0,0.6
+Arabica,Taiwan,10,30 kg,,7.25,7.25,7.25,10.0,0.61
+Arabica,Guatemala,250,69 kg,Washed,7.33,7.33,7.0,10.0,0.59
+Arabica,Mexico,10,1 kg,Semi-Washed,7.25,7.08,7.33,10.0,0.6
+Arabica,United States (Hawaii),10,100 lbs,Washed,7.17,7.5,7.67,9.33,0.63
+Arabica,Brazil,440,59 kg,Natural,7.17,7.33,7.0,10.0,0.58
+Arabica,Honduras,275,69 kg,Natural,7.25,7.25,7.42,10.0,0.63
+Arabica,Mexico,60,69 kg,Washed,7.25,7.17,7.33,10.0,0.61
+Arabica,Myanmar,2,2 kg,Natural,8.0,7.08,7.08,10.0,0.63
+Arabica,Myanmar,1,2 kg,Natural,7.42,7.0,7.17,10.0,0.59
+Arabica,Nicaragua,275,69 kg,Washed,7.08,6.92,7.5,10.0,0.6
+Arabica,United States (Hawaii),2,100 lbs,Natural,7.5,7.08,7.42,9.33,0.59
+Arabica,Colombia,1,2 kg,Washed,7.42,8.0,8.08,8.67,0.7
+Arabica,Taiwan,5,30 kg,Semi-Washed,7.25,7.08,7.17,10.0,0.59
+Arabica,Guatemala,250,1 kg,Washed,7.0,7.17,7.0,10.0,0.56
+Arabica,Mexico,10,1 kg,Washed,7.58,7.33,6.75,10.0,0.58
+Arabica,Vietnam,1,2 kg,,7.42,7.25,7.42,8.67,0.56
+Arabica,Nicaragua,275,2 kg,Washed,7.17,7.08,7.25,10.0,0.59
+Arabica,Honduras,275,1 kg,Washed,7.25,7.25,7.08,10.0,0.59
+Arabica,Guatemala,250,69 kg,Washed,7.33,7.33,7.17,10.0,0.61
+Arabica,Mexico,20,1 kg,Washed,7.33,7.08,7.25,10.0,0.6
+Arabica,Mexico,15,1 kg,Washed,7.58,7.42,7.08,8.67,0.55
+Arabica,Mexico,15,1 kg,Washed,7.33,7.33,7.25,10.0,0.62
+Arabica,Guatemala,250,1 kg,Washed,7.33,7.33,7.0,10.0,0.59
+Arabica,Brazil,440,60 kg,Pulped-Natural,7.17,7.17,7.25,10.0,0.6
+Arabica,Taiwan,10,60 kg,Washed,7.42,7.25,7.0,10.0,0.59
+Arabica,Nicaragua,1,5 lbs,Natural,7.25,7.17,7.17,10.0,0.59
+Arabica,Taiwan,10,30 kg,,7.25,7.25,7.08,10.0,0.59
+Arabica,Taiwan,10,30 kg,Semi-Washed,7.25,7.25,7.17,10.0,0.6
+Arabica,Mexico,13,1 kg,Washed,7.33,7.17,7.08,10.0,0.59
+Arabica,Mexico,10,1 kg,Washed,7.25,7.08,7.33,10.0,0.6
+Arabica,Nicaragua,275,69 kg,Washed,7.33,7.08,7.42,10.0,0.62
+Arabica,Myanmar,1,2 kg,Washed,7.17,7.33,7.17,10.0,0.6
+Arabica,Mexico,280,2 kg,Washed,7.58,7.75,7.5,8.67,0.62
+Arabica,Thailand,2,1 kg,Washed,7.33,6.67,7.42,10.0,0.58
+Arabica,Mexico,20,1 kg,Washed,7.25,7.25,7.33,9.33,0.58
+Arabica,Mexico,256,1 kg,Washed,7.08,7.33,7.08,10.0,0.59
+Arabica,Colombia,275,2 kg,Washed,7.83,7.67,7.83,6.67,0.55
+Arabica,United States (Hawaii),12,100 kg,Natural,7.5,7.0,7.33,10.0,0.61
+Arabica,Mexico,400,1 kg,Washed,7.33,7.08,7.42,9.33,0.58
+Arabica,Mexico,10,1 kg,Washed,7.17,7.17,7.33,10.0,0.61
+Arabica,Mexico,82,1 kg,Washed,7.5,7.17,7.25,10.0,0.62
+Arabica,Mexico,250,1 kg,Washed,7.17,7.08,7.5,9.33,0.58
+Arabica,Mexico,100,1 kg,Natural,7.33,7.25,7.17,9.33,0.56
+Arabica,Mexico,209,1 kg,Washed,7.17,7.33,7.33,10.0,0.62
+Arabica,Kenya,200,12000 kg,Washed,7.0,7.08,7.25,10.0,0.58
+Arabica,Guatemala,50,69 kg,Washed,7.33,7.25,7.25,9.33,0.57
+Arabica,Nicaragua,75,2 kg,Washed,6.83,7.17,7.5,10.0,0.6
+Arabica,Mexico,250,1 kg,Washed,7.17,7.08,7.5,10.0,0.62
+Arabica,United States (Hawaii),12,100 lbs,Natural,7.58,7.08,7.5,9.33,0.6
+Arabica,Guatemala,25,69 kg,Washed,7.5,7.42,7.33,9.33,0.61
+Arabica,Taiwan,28,50 kg,Natural,7.75,7.33,7.67,9.33,0.66
+Arabica,Taiwan,50,20 kg,Washed,7.08,7.08,7.17,10.0,0.57
+Arabica,Thailand,1,1 kg,Washed,7.25,7.08,7.08,10.0,0.58
+Arabica,Peru,320,5 lbs,Washed,7.0,7.08,7.5,9.33,0.56
+Arabica,Costa Rica,275,2 kg,Washed,7.58,7.5,7.67,8.0,0.58
+Arabica,Mexico,310,1 kg,Washed,7.58,7.08,7.5,10.0,0.65
+Arabica,Mexico,275,1 kg,Washed,7.58,7.08,7.5,10.0,0.65
+Arabica,Mexico,380,1 kg,Washed,7.25,7.08,7.17,10.0,0.59
+Arabica,Mexico,12,1 kg,Washed,7.25,7.17,7.17,10.0,0.59
+Arabica,Mexico,250,1 kg,Washed,7.33,7.25,7.08,10.0,0.6
+Arabica,Guatemala,275,69 kg,Washed,7.58,7.33,7.0,9.33,0.57
+Arabica,Mexico,36,1 kg,Washed,7.25,6.83,7.25,10.0,0.57
+Arabica,Guatemala,25,69 kg,Washed,7.42,7.42,7.42,9.33,0.61
+Arabica,El Salvador,275,69 kg,Washed,7.25,7.08,7.33,10.0,0.6
+Arabica,Thailand,1,1 kg,Washed,6.92,7.17,7.17,10.0,0.57
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.0,7.08,10.0,0.58
+Arabica,Mexico,310,1 kg,Washed,7.42,7.25,7.17,10.0,0.61
+Arabica,Mexico,10,1 kg,Washed,7.33,7.17,7.08,10.0,0.59
+Arabica,Mexico,253,1 kg,Washed,6.92,7.17,7.08,10.0,0.56
+Arabica,Mexico,50,1 kg,Washed,7.08,7.0,7.25,10.0,0.58
+Arabica,Mexico,250,1 kg,Washed,7.25,6.92,7.25,10.0,0.58
+Arabica,Nicaragua,275,69 kg,Natural,6.92,6.92,7.25,10.0,0.56
+Arabica,Taiwan,10,2 kg,Natural,6.92,7.0,7.42,10.0,0.58
+Arabica,Colombia,250,70 kg,Washed,7.83,7.5,7.67,10.0,0.72
+Arabica,Mexico,250,1 kg,Washed,7.25,7.08,7.58,9.33,0.59
+Arabica,Mexico,127,1 kg,Washed,7.25,7.33,7.17,9.33,0.57
+Arabica,Guatemala,250,69 kg,Washed,7.08,7.33,7.33,9.33,0.57
+Arabica,Guatemala,275,69 kg,Washed,7.25,7.33,7.0,10.0,0.59
+Arabica,Mexico,10,1 kg,Washed,7.0,6.83,7.33,10.0,0.56
+Arabica,Cote d?Ivoire,2,1 kg,Washed,7.42,7.25,7.33,9.33,0.59
+Arabica,Colombia,250,3 lbs,Washed,7.42,7.25,7.42,9.33,0.6
+Arabica,Mexico,30,1 kg,Washed,7.0,7.0,7.42,10.0,0.59
+Arabica,Mexico,50,1 kg,Washed,7.42,7.17,7.08,9.33,0.55
+Arabica,Guatemala,250,1 kg,Washed,7.17,6.5,7.58,10.0,0.57
+Arabica,Taiwan,50,20 kg,Washed,7.08,6.83,7.42,10.0,0.58
+Arabica,Mexico,12,1 kg,Washed,7.0,7.0,7.17,10.0,0.56
+Arabica,Guatemala,50,69 kg,Washed,7.33,7.42,7.5,8.67,0.58
+Arabica,Honduras,15,69 kg,Washed,7.58,7.0,7.0,10.0,0.58
+Arabica,Guatemala,250,69 kg,Washed,7.08,7.0,7.0,10.0,0.55
+Arabica,Guatemala,275,69 kg,Washed,7.25,7.17,7.0,10.0,0.57
+Arabica,Costa Rica,1,2 kg,Washed,7.17,7.42,7.25,10.0,0.62
+Arabica,Mexico,10,1 kg,Washed,7.25,7.08,7.17,9.33,0.54
+Arabica,Mexico,53,1 kg,Washed,7.17,6.92,7.17,10.0,0.57
+Arabica,Guatemala,50,69 kg,Washed,7.58,7.67,7.67,8.67,0.64
+Arabica,United States (Puerto Rico),18,5 lbs,Washed,7.42,7.08,7.33,10.0,0.62
+Arabica,Mexico,13,1 kg,Washed,7.33,7.0,7.33,9.33,0.56
+Arabica,Mexico,10,1 kg,Washed,7.25,7.08,7.42,9.33,0.57
+Arabica,Mexico,10,1 kg,Washed,7.17,7.25,7.25,9.33,0.56
+Arabica,Guatemala,250,69 kg,Washed,7.33,7.17,7.08,10.0,0.59
+Arabica,Honduras,275,2 kg,Washed,7.0,7.0,7.0,10.0,0.54
+Arabica,Peru,280,69 kg,Washed,7.67,7.17,8.0,8.67,0.63
+Arabica,Mexico,14,1 kg,Natural,6.75,7.08,7.17,10.0,0.55
+Arabica,Mexico,16,1 kg,Semi-Washed,7.5,7.17,7.25,8.67,0.54
+Arabica,Mexico,120,1 kg,Washed,7.17,6.83,7.17,10.0,0.56
+Arabica,Mexico,250,1 kg,Washed,7.33,7.0,7.17,9.33,0.54
+Arabica,Mexico,14,1 kg,Washed,7.5,7.0,6.92,10.0,0.57
+Arabica,Nicaragua,1,1 kg,,7.17,7.0,7.0,10.0,0.55
+Arabica,United States (Hawaii),11,2 lbs,Natural,7.5,6.92,7.58,9.33,0.59
+Arabica,Guatemala,250,69 kg,Washed,7.33,7.08,7.0,10.0,0.57
+Arabica,Mexico,20,1 kg,Washed,7.25,6.83,7.17,10.0,0.56
+Arabica,Mexico,35,1 kg,Semi-Washed,7.25,7.33,7.08,8.67,0.51
+Arabica,Mexico,10,1 kg,Washed,7.67,7.17,7.58,9.33,0.63
+Arabica,China,1,2 kg,Washed,7.0,6.92,7.17,10.0,0.55
+Arabica,Mexico,20,1 kg,Washed,6.92,6.92,7.17,10.0,0.55
+Arabica,Nicaragua,275,2 kg,Natural,6.83,7.08,7.25,10.0,0.57
+Arabica,Guatemala,250,69 kg,Washed,7.33,7.17,7.25,8.67,0.53
+Arabica,Taiwan,50,20 kg,Washed,6.83,6.75,7.0,10.0,0.51
+Arabica,Mexico,250,1 kg,Washed,7.0,7.0,6.92,10.0,0.53
+Arabica,Mexico,50,1 kg,Washed,7.92,7.58,7.92,8.0,0.64
+Arabica,Mexico,280,69 kg,Washed,7.25,6.75,7.25,9.33,0.52
+Arabica,Mexico,10,1 kg,Washed,7.08,6.83,7.0,10.0,0.53
+Arabica,Mexico,20,1 kg,Washed,7.25,7.17,7.58,8.67,0.56
+Arabica,Brazil,300,60 kg,Natural,6.83,7.0,6.92,10.0,0.52
+Arabica,Mexico,10,1 kg,Washed,7.58,7.17,7.33,8.0,0.51
+Arabica,United States (Hawaii),5,100 lbs,Natural,7.5,7.75,7.92,7.33,0.58
+Arabica,Guatemala,275,69 kg,Washed,7.17,6.5,7.17,10.0,0.53
+Arabica,Guatemala,250,1 kg,Washed,7.17,7.17,7.0,10.0,0.57
+Arabica,Mexico,100,1 kg,Natural,7.25,7.25,7.33,8.0,0.49
+Arabica,Guatemala,250,1 kg,Washed,7.17,6.08,7.33,10.0,0.51
+Arabica,United States (Hawaii),18,100 lbs,Natural,7.5,7.5,7.5,8.67,0.6
+Arabica,United States (Hawaii),5,100 lbs,Natural,7.42,7.33,7.67,8.0,0.55
+Arabica,Indonesia,2,1 kg,Washed,6.92,6.83,6.92,10.0,0.51
+Arabica,Mexico,320,1 kg,Washed,7.08,6.83,7.25,10.0,0.56
+Arabica,Taiwan,8,10 kg,Washed,7.5,7.08,7.5,6.67,0.43
+Arabica,Honduras,275,2 kg,Natural,6.83,7.0,7.0,10.0,0.53
+Arabica,United States (Hawaii),5,100 lbs,Natural,7.58,7.33,7.5,8.0,0.54
+Arabica,Guatemala,275,69 kg,Washed,7.42,7.25,7.0,9.33,0.55
+Arabica,China,16,2 kg,Washed,7.33,7.17,7.33,9.33,0.58
+Arabica,Guatemala,250,69 kg,Washed,7.0,6.83,6.67,10.0,0.49
+Arabica,Mexico,10,1 kg,Washed,7.25,7.33,7.25,10.0,0.62
+Arabica,Costa Rica,250,1 kg,Washed,7.5,7.25,7.08,8.67,0.52
+Arabica,Mexico,50,1 kg,Washed,7.42,7.25,7.25,8.0,0.5
+Arabica,Guatemala,250,1 kg,Washed,7.17,6.17,7.33,10.0,0.52
+Arabica,Brazil,1,5 lbs,Washed,7.0,6.75,7.08,10.0,0.53
+Arabica,Guatemala,250,1 kg,Washed,7.0,6.83,6.83,10.0,0.51
+Arabica,Taiwan,100,10 kg,Washed,7.17,6.75,7.33,9.33,0.53
+Arabica,United States (Hawaii),5,100 lbs,Natural,7.58,7.67,7.42,9.33,0.65
+Arabica,Mexico,23,1 kg,Washed,7.17,6.75,6.83,10.0,0.51
+Arabica,Guatemala,250,1 kg,Washed,7.08,6.92,6.92,10.0,0.53
+Arabica,Brazil,320,60 kg,Natural,7.5,7.33,7.58,8.0,0.55
+Arabica,Guatemala,275,69 kg,Washed,7.33,7.0,7.17,9.33,0.54
+Arabica,Mexico,10,1 kg,Washed,7.33,7.0,6.92,9.33,0.51
+Arabica,Haiti,1,4 lbs,Washed,6.83,6.83,6.92,9.33,0.46
+Arabica,United States (Hawaii),9,2 lbs,Natural,7.08,6.92,7.58,8.67,0.52
+Arabica,Mexico,10,1 kg,Washed,7.08,7.0,7.33,8.67,0.5
+Arabica,Peru,275,2 kg,Washed,7.42,7.75,7.92,8.67,0.66
+Arabica,India,20,50 kg,Natural,7.67,7.33,7.17,9.33,0.59
+Arabica,Guatemala,250,2 kg,Washed,6.42,6.5,6.33,10.0,0.38
+Arabica,Mexico,10,1 kg,Washed,7.17,6.58,7.25,9.33,0.5
+Arabica,Guatemala,250,69 kg,Washed,7.5,7.0,7.17,8.67,0.51
+Arabica,Guatemala,250,2 kg,Washed,6.17,6.5,7.0,10.0,0.44
+Arabica,United States (Hawaii),2,100 lbs,Natural,7.25,7.08,7.33,8.67,0.52
+Arabica,United States (Hawaii),6,100 lbs,Natural,7.5,7.33,7.67,8.0,0.56
+Arabica,Mexico,11,1 kg,Washed,7.42,7.0,6.92,7.33,0.39
+Arabica,Indonesia,15,2 kg,Natural,7.33,7.0,7.58,9.33,0.59
+Arabica,Mexico,20,1 kg,Washed,7.08,6.83,7.17,10.0,0.55
+Arabica,Honduras,275,2 kg,Natural,6.83,6.83,7.0,9.33,0.47
+Arabica,Philippines,1,2 kg,Washed,6.83,6.5,6.75,9.33,0.41
+Arabica,Brazil,440,59 kg,Natural,7.17,7.0,7.17,8.0,0.45
+Arabica,Guatemala,250,1 kg,Washed,7.92,7.58,7.33,8.0,0.57
+Arabica,Guatemala,250,1 kg,Washed,6.67,6.5,7.17,8.67,0.41
+Arabica,Mexico,10,1 kg,Washed,7.5,7.25,7.17,8.0,0.49
+Arabica,Mexico,100,1 kg,Washed,7.17,6.92,7.25,10.0,0.57
+Arabica,Mexico,36,1 kg,Washed,7.25,6.83,7.17,10.0,0.56
+Arabica,Mexico,18,1 kg,Washed,7.17,7.17,7.42,8.67,0.53
+Arabica,Mexico,43,1 kg,Washed,7.0,6.92,7.17,10.0,0.55
+Arabica,Mexico,14,1 kg,Washed,7.08,6.75,7.0,8.67,0.44
+Arabica,Mexico,20,1 kg,Washed,7.33,6.75,7.5,10.0,0.6
+Arabica,Guatemala,250,1 kg,Washed,6.75,6.5,7.25,8.0,0.38
+Arabica,Guatemala,250,1 kg,Washed,6.75,6.67,7.0,8.0,0.37
+Arabica,Mexico,275,1 kg,Washed,7.08,7.0,7.33,8.0,0.46
+Arabica,United States (Hawaii),3,100 lbs,Natural,7.5,7.25,7.42,8.0,0.52
+Arabica,Guatemala,250,69 kg,Washed,6.5,6.33,7.33,8.67,0.4
+Arabica,Mexico,20,1 kg,Washed,7.0,6.58,7.08,10.0,0.51
+Arabica,Mexico,100,1 kg,Washed,6.92,6.42,7.25,10.0,0.51
+Arabica,Mexico,20,1 kg,Washed,7.67,7.0,7.33,10.0,0.63
+Arabica,United States (Hawaii),22,100 lbs,Natural,7.17,7.17,7.67,9.33,0.6
+Arabica,Honduras,275,2 kg,Washed,7.0,7.17,7.0,8.0,0.43
+Arabica,Mexico,280,69 kg,Washed,7.08,7.08,6.92,8.0,0.42
+Arabica,Colombia,1,5 lbs,Natural,8.0,7.33,7.42,6.67,0.48
+Arabica,United States (Hawaii),11,100 lbs,Natural,6.92,6.92,7.58,6.67,0.39
+Arabica,Costa Rica,250,1 kg,Washed,6.33,6.5,6.33,10.0,0.37
+Arabica,Mexico,10,1 kg,Washed,6.92,6.92,7.17,10.0,0.55
+Arabica,Mexico,25,1 kg,Washed,6.5,6.67,7.33,8.0,0.39
+Arabica,Mexico,280,2 kg,Washed,6.92,7.0,7.42,6.0,0.33
+Arabica,Brazil,305,59 kg,Natural,7.0,7.0,7.33,6.0,0.33
+Arabica,Honduras,275,1 kg,Washed,6.67,6.5,6.83,8.0,0.33
+Arabica,Honduras,275,1 kg,Washed,7.0,6.17,6.5,8.0,0.28
+Arabica,Honduras,275,1 kg,Washed,7.0,6.33,6.67,8.0,0.32
+Arabica,Mexico,12,1 kg,Washed,7.08,6.83,7.25,10.0,0.56
+Arabica,Haiti,1,2 kg,Natural,6.75,6.58,7.08,9.33,0.45
+Arabica,Nicaragua,550,69 kg,,7.25,6.58,6.42,6.0,0.2
+Arabica,Guatemala,275,1 kg,Washed,7.5,6.67,7.33,8.0,0.46
+Robusta,India,320,60 kg,Washed,8.0,7.75,7.92,10.0,0.78
+Robusta,India,320,60 kg,Washed,7.67,7.75,7.92,10.0,0.76
+Robusta,India,320,60 kg,Washed,7.67,7.75,7.83,10.0,0.75
+Robusta,India,320,60 kg,Natural,7.67,7.83,7.75,10.0,0.75
+Robusta,India,140,2 kg,Natural,7.5,7.5,7.67,10.0,0.7
+Robusta,India,250,2 kg,Natural,7.58,7.42,7.42,10.0,0.67
+Robusta,United States,100,1 kg,Natural,7.92,7.5,7.42,9.33,0.66
+Robusta,United States,1,1 kg,Natural,7.33,7.33,7.5,9.33,0.61
+Robusta,India,1,5 lbs,Natural,7.42,6.83,7.25,9.33,0.54
+Robusta,Vietnam,1,5 lbs,Natural,6.75,6.67,6.92,9.33,0.44
