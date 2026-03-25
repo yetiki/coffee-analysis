@@ -98,7 +98,7 @@ app_ui = ui.page_fluid(
         # 3. Map
         ui.card(
             ui.card_header("Global Supplier Distribution"),
-            ui.output_plot("map_plot"),
+            output_widget("map_plot"),
             height="500px"
         )
     )
@@ -226,30 +226,34 @@ def server(input, output, session):
         return fig
 
     # --- Map Plot ---
-    @render.plot
+    @render_widget
     def map_plot():
         d = filtered_df()
-        if d.empty: return plt.figure()
+        if d.empty: return go.Figure()
         
         counts = d['country_of_origin'].value_counts().reset_index()
         counts.columns = ['country_name', 'rating_count']
         
-        # Merge with global world data
-        # Note: Using inner or left merge. Left keeps map shape, inner only shows countries with data.
-        # 'how=left' on world ensures we see the whole map.
-        plot_data = world.merge(counts, how='left', left_on='ADMIN', right_on='country_name')
-        
-        fig, ax = plt.subplots(figsize=(15, 8))
-        plot_data.plot(
-            column='rating_count', 
-            ax=ax, 
-            legend=True, 
-            cmap='OrRd', 
-            missing_kwds={'color': '#eeeeee'},
-            legend_kwds={'label': "Number of Suppliers", 'orientation': "horizontal"}
+        fig = go.Figure(data=go.Choropleth(
+            locations=counts['country_name'],
+            z=counts['rating_count'],
+            locationmode='country names', # Uses Plotly's built-in country geometry
+            colorscale='OrRd',
+            marker_line_color='darkgray',
+            marker_line_width=0.5,
+            colorbar_title="Suppliers",
+            text=counts['country_name']
+        ))
+
+        fig.update_layout(
+            title_text=f"Supplier Locations (Total: {len(d)})",
+            geo=dict(
+                showframe=False,
+                showcoastlines=True,
+                projection_type='natural earth'
+            ),
+            margin=dict(l=0, r=0, t=40, b=0)
         )
-        ax.set_axis_off()
-        ax.set_title(f"Supplier Locations (Total: {len(d)})")
         return fig
 
 app = App(app_ui, server)
