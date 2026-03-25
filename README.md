@@ -40,7 +40,11 @@ List of available additional variables:
 - `minimum_kg`: Filter by minimum bag weight available from the supplier.
 
 ## Running Tests
-There are no tests!
+To run the tests use:
+`python tests.py`
+
+A good output will look like:
+"all good!"
 
 ## Maintainers
 - Current Maintainer: [YOSHI]
