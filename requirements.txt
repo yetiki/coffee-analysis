@@ -41,3 +41,6 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.6.3
 xyzservices==2025.11.0
+
+plotly
+kaleido
