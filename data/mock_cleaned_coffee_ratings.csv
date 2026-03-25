@@ -1,0 +1,1339 @@
+country_of_origin,species,processing_method,cupper_points,flavor,body,aroma,uniformity,YumScore
+Ethiopia,Arabica,Washed / Wet,8.75,8.83,8.5,8.67,10.0,0.9
+Ethiopia,Arabica,Washed / Wet,8.58,8.67,8.42,8.75,10.0,0.8960000000000001
+Guatemala,Arabica,,9.25,8.5,8.33,8.42,10.0,0.88125
+Ethiopia,Arabica,Natural / Dry,8.67,8.58,8.5,8.17,10.0,0.88125
+Ethiopia,Arabica,Washed / Wet,8.58,8.5,8.42,8.25,10.0,0.8792500000000001
+Brazil,Arabica,Natural / Dry,8.33,8.42,8.25,8.58,10.0,0.88125
+Peru,Arabica,Washed / Wet,8.5,8.5,8.25,8.42,10.0,0.8792500000000001
+Ethiopia,Arabica,,9.0,8.33,8.33,8.25,10.0,0.8727499999999999
+Ethiopia,Arabica,,8.67,8.67,8.33,8.67,9.33,0.875
+Ethiopia,Arabica,Natural / Dry,8.5,8.58,7.67,8.08,10.0,0.85825
+Ethiopia,Arabica,Natural / Dry,8.58,8.67,7.75,8.17,10.0,0.8647500000000001
+United States,Arabica,Washed / Wet,8.5,8.42,8.08,8.25,10.0,0.86875
+United States,Arabica,Washed / Wet,8.33,8.67,8.0,8.08,10.0,0.86875
+United States (Hawaii),Arabica,,8.58,8.42,8.25,8.33,10.0,0.875
+Ethiopia,Arabica,,8.5,8.33,8.58,8.25,9.33,0.8622500000000001
+United States,Arabica,Washed / Wet,8.17,8.5,8.17,8.0,10.0,0.86675
+Indonesia,Arabica,,8.33,8.25,8.5,8.33,10.0,0.877
+Ethiopia,Arabica,,8.83,8.33,8.42,8.17,9.33,0.85625
+China,Arabica,Washed / Wet,8.42,8.25,7.92,8.42,10.0,0.8647500000000001
+Ethiopia,Arabica,Natural / Dry,8.33,8.17,8.08,8.17,10.0,0.8605
+United States,Arabica,Washed / Wet,8.17,8.25,8.25,8.0,10.0,0.8625
+Costa Rica,Arabica,Washed / Wet,8.33,8.25,8.0,8.08,10.0,0.85825
+Mexico,Arabica,Washed / Wet,8.58,8.25,7.83,8.17,10.0,0.85625
+United States,Arabica,Washed / Wet,8.17,8.33,7.83,8.25,10.0,0.86025
+Ethiopia,Arabica,Natural / Dry,8.08,8.17,8.33,8.42,10.0,0.873
+Brazil,Arabica,Natural / Dry,7.92,8.5,8.0,8.5,10.0,0.875
+Ethiopia,Arabica,,8.25,8.25,8.17,7.83,10.0,0.85625
+Uganda,Arabica,Washed / Wet,8.17,8.17,7.83,8.42,10.0,0.8605
+Honduras,Arabica,,8.25,8.08,8.08,8.17,10.0,0.85825
+Taiwan,Arabica,Pulped natural / honey,8.17,8.0,8.0,8.0,10.0,0.85
+Nicaragua,Arabica,,8.0,8.25,8.0,7.92,10.0,0.8542500000000001
+"Tanzania, United Republic Of",Arabica,Natural / Dry,8.17,8.17,7.58,8.42,10.0,0.8542500000000001
+Brazil,Arabica,Natural / Dry,8.0,8.17,8.0,8.5,10.0,0.86675
+Costa Rica,Arabica,Washed / Wet,8.42,7.83,7.83,8.17,10.0,0.84575
+Ethiopia,Arabica,Natural / Dry,8.08,8.08,8.08,8.0,10.0,0.8539999999999999
+Kenya,Arabica,Washed / Wet,8.08,8.0,7.92,8.08,10.0,0.85
+United States (Hawaii),Arabica,Natural / Dry,8.33,8.17,7.92,8.08,10.0,0.8542500000000001
+United States (Hawaii),Arabica,,8.25,8.42,7.67,8.25,10.0,0.8585
+Ethiopia,Arabica,,8.17,7.75,8.08,7.92,10.0,0.84375
+United States,Arabica,Washed / Wet,8.08,8.17,8.17,7.67,10.0,0.85025
+Thailand,Arabica,Washed / Wet,8.42,8.33,7.58,7.83,10.0,0.8435
+Brazil,Arabica,,8.08,7.92,8.33,8.17,10.0,0.8605
+Brazil,Arabica,,8.17,7.92,7.92,8.42,10.0,0.8564999999999999
+Taiwan,Arabica,Semi-washed / Semi-pulped,8.42,8.17,7.75,8.08,10.0,0.85
+Kenya,Arabica,Natural / Dry,8.0,8.08,7.83,8.08,10.0,0.84975
+Brazil,Arabica,Semi-washed / Semi-pulped,8.0,8.0,7.75,8.33,10.0,0.852
+Uganda,Arabica,Semi-washed / Semi-pulped,8.08,8.08,8.08,8.08,10.0,0.8560000000000001
+Colombia,Arabica,Washed / Wet,8.17,7.92,8.08,7.75,10.0,0.84375
+Kenya,Arabica,Washed / Wet,8.17,8.17,7.5,7.92,10.0,0.8397500000000001
+Uganda,Arabica,Washed / Wet,7.92,8.0,8.0,8.25,10.0,0.85625
+Ethiopia,Arabica,,7.92,8.08,8.0,7.75,10.0,0.84575
+United States (Hawaii),Arabica,,8.17,8.17,7.75,8.33,10.0,0.85625
+Guatemala,Arabica,Washed / Wet,8.0,8.08,8.08,7.92,10.0,0.852
+Uganda,Arabica,Natural / Dry,8.0,8.17,7.83,8.17,10.0,0.8542500000000001
+Colombia,Arabica,Washed / Wet,7.92,8.0,7.83,8.0,10.0,0.84575
+Panama,Arabica,Washed / Wet,8.0,8.0,7.83,8.0,10.0,0.84575
+Ethiopia,Arabica,Washed / Wet,8.0,8.08,8.0,7.83,10.0,0.8477499999999999
+Guatemala,Arabica,Washed / Wet,8.0,8.0,7.83,7.83,10.0,0.8414999999999999
+Guatemala,Arabica,Washed / Wet,8.0,8.0,7.83,8.0,10.0,0.84575
+Ethiopia,Arabica,Natural / Dry,8.0,8.0,7.92,7.83,10.0,0.84375
+Peru,Arabica,Washed / Wet,8.0,8.0,7.92,8.0,10.0,0.8480000000000001
+Papua New Guinea,Arabica,Washed / Wet,7.92,8.42,8.0,8.33,9.33,0.852
+El Salvador,Arabica,Washed / Wet,8.0,8.17,7.75,7.92,10.0,0.8460000000000001
+El Salvador,Arabica,Semi-washed / Semi-pulped,7.92,8.0,7.92,7.83,10.0,0.84375
+United States (Hawaii),Arabica,Natural / Dry,8.0,8.0,8.08,7.83,10.0,0.8477499999999999
+Panama,Arabica,Natural / Dry,7.83,7.75,7.67,8.0,10.0,0.8355
+Kenya,Arabica,Natural / Dry,8.0,7.92,7.83,7.92,10.0,0.84175
+Ethiopia,Arabica,Natural / Dry,8.0,8.0,7.83,7.83,10.0,0.8414999999999999
+Uganda,Arabica,Washed / Wet,8.08,7.92,7.67,8.33,10.0,0.8480000000000001
+Guatemala,Arabica,Washed / Wet,7.83,7.83,7.83,8.0,10.0,0.8414999999999999
+Ethiopia,Arabica,Washed / Wet,8.08,7.83,7.92,7.75,10.0,0.8375
+Uganda,Arabica,Washed / Wet,8.0,8.0,8.0,8.08,10.0,0.852
+United States (Hawaii),Arabica,Natural / Dry,8.25,7.92,7.75,7.92,10.0,0.8397500000000001
+Brazil,Arabica,Semi-washed / Semi-pulped,8.0,8.0,7.75,8.0,10.0,0.84375
+El Salvador,Arabica,,7.92,7.83,7.83,8.08,10.0,0.8435
+China,Arabica,Natural / Dry,7.92,8.0,7.83,8.0,10.0,0.84575
+Guatemala,Arabica,Natural / Dry,7.83,7.75,7.83,7.83,10.0,0.8352499999999999
+Costa Rica,Arabica,Washed / Wet,8.0,8.08,8.0,7.92,10.0,0.85
+Costa Rica,Arabica,Washed / Wet,7.92,7.58,8.08,8.0,10.0,0.8414999999999999
+Kenya,Arabica,Washed / Wet,7.92,8.08,7.92,7.83,10.0,0.84575
+Kenya,Arabica,Washed / Wet,7.83,7.92,7.83,8.0,10.0,0.84375
+Ethiopia,Arabica,,8.08,7.83,7.75,7.83,10.0,0.8352499999999999
+Ethiopia,Arabica,,8.0,7.83,7.75,7.92,10.0,0.8375
+Guatemala,Arabica,,7.83,7.92,7.92,8.0,10.0,0.8460000000000001
+Colombia,Arabica,Washed / Wet,7.92,7.92,7.58,8.17,10.0,0.84175
+Colombia,Arabica,Natural / Dry,7.92,8.08,8.0,7.58,10.0,0.8414999999999999
+Indonesia,Arabica,Semi-washed / Semi-pulped,8.0,7.83,8.08,7.75,10.0,0.8414999999999999
+Guatemala,Arabica,Washed / Wet,7.92,8.0,7.75,8.25,10.0,0.85
+Ethiopia,Arabica,Natural / Dry,7.83,8.0,8.0,7.75,10.0,0.84375
+Colombia,Arabica,Natural / Dry,7.67,7.83,8.0,8.17,10.0,0.85
+Ethiopia,Arabica,Natural / Dry,8.08,8.0,7.92,8.42,9.33,0.84175
+United States (Hawaii),Arabica,Natural / Dry,7.92,7.83,7.83,7.58,10.0,0.8310000000000001
+Colombia,Arabica,Natural / Dry,8.08,8.0,7.83,7.83,10.0,0.8414999999999999
+United States (Hawaii),Arabica,,8.17,8.17,8.08,8.08,9.33,0.8414999999999999
+Ethiopia,Arabica,,7.83,8.0,7.92,7.67,10.0,0.8397500000000001
+United States (Hawaii),Arabica,,7.92,7.92,7.92,7.5,10.0,0.8335000000000001
+Uganda,Arabica,Washed / Wet,8.0,7.92,7.67,8.17,10.0,0.844
+Colombia,Arabica,Washed / Wet,7.83,7.92,7.75,8.0,10.0,0.84175
+Costa Rica,Arabica,Washed / Wet,7.92,8.0,7.92,7.83,10.0,0.84375
+Mexico,Arabica,Washed / Wet,8.08,8.0,7.67,7.83,10.0,0.8375
+Kenya,Arabica,Washed / Wet,7.83,7.83,7.67,8.17,10.0,0.84175
+Kenya,Arabica,Washed / Wet,7.83,7.83,8.0,7.75,10.0,0.8394999999999999
+Brazil,Arabica,Natural / Dry,8.0,8.0,7.67,8.0,10.0,0.84175
+Mexico,Arabica,,7.83,8.17,7.42,7.92,10.0,0.83775
+United States (Hawaii),Arabica,,7.83,7.92,8.0,7.75,10.0,0.84175
+Guatemala,Arabica,,8.0,8.08,7.75,7.83,10.0,0.8414999999999999
+Colombia,Arabica,Washed / Wet,7.83,7.92,7.92,7.92,10.0,0.844
+Colombia,Arabica,Washed / Wet,7.83,7.83,7.75,7.92,10.0,0.8375
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.92,7.83,8.0,7.67,10.0,0.8375
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.83,7.83,7.75,8.0,10.0,0.8394999999999999
+Colombia,Arabica,Washed / Wet,7.92,7.92,7.75,7.75,10.0,0.8355
+Mexico,Arabica,Semi-washed / Semi-pulped,8.17,8.0,7.5,7.75,10.0,0.83125
+Brazil,Arabica,Natural / Dry,7.75,7.92,8.0,8.0,10.0,0.8480000000000001
+Brazil,Arabica,Natural / Dry,7.92,8.0,7.5,8.0,10.0,0.8375
+Kenya,Arabica,,7.58,7.67,7.92,8.0,10.0,0.8397500000000001
+Taiwan,Arabica,Natural / Dry,8.0,7.58,7.83,7.92,10.0,0.8332499999999999
+Uganda,Arabica,Natural / Dry,7.83,7.92,8.25,7.75,10.0,0.8480000000000001
+United States (Hawaii),Arabica,Natural / Dry,8.08,7.75,7.83,7.67,10.0,0.83125
+Ethiopia,Arabica,,8.0,7.92,7.75,7.75,10.0,0.8355
+Ethiopia,Arabica,,7.92,7.92,7.83,7.42,10.0,0.82925
+Thailand,Arabica,Pulped natural / honey,8.0,7.75,8.0,7.75,10.0,0.8375
+Kenya,Arabica,Washed / Wet,7.92,7.83,7.75,7.92,10.0,0.8375
+Honduras,Arabica,Washed / Wet,8.17,7.75,7.67,7.83,10.0,0.83125
+El Salvador,Arabica,,7.75,8.0,7.67,7.75,10.0,0.8355
+Nicaragua,Arabica,,8.5,7.58,7.75,7.83,10.0,0.829
+El Salvador,Arabica,Washed / Wet,8.0,7.83,7.83,7.83,10.0,0.83725
+Indonesia,Arabica,Washed / Wet,7.92,7.83,7.75,7.92,10.0,0.8375
+Japan,Arabica,Pulped natural / honey,8.08,7.75,8.08,7.75,10.0,0.8394999999999999
+Costa Rica,Arabica,Washed / Wet,7.92,7.75,7.5,8.08,10.0,0.8332499999999999
+Guatemala,Arabica,Washed / Wet,7.83,7.83,7.92,7.75,10.0,0.8375
+Costa Rica,Arabica,Washed / Wet,7.92,8.0,7.83,8.17,10.0,0.85
+Ethiopia,Arabica,Washed / Wet,7.92,7.83,7.58,8.08,10.0,0.83725
+Costa Rica,Arabica,Other,7.67,7.58,7.67,7.67,10.0,0.8230000000000001
+Costa Rica,Arabica,Washed / Wet,8.0,7.58,7.75,8.0,10.0,0.8332499999999999
+Costa Rica,Arabica,Washed / Wet,7.92,7.83,7.92,8.08,10.0,0.84575
+Taiwan,Arabica,Washed / Wet,7.75,7.92,7.75,8.0,10.0,0.84175
+Colombia,Arabica,Washed / Wet,7.92,7.83,7.75,7.75,10.0,0.8332499999999999
+Kenya,Arabica,Washed / Wet,7.83,7.92,7.58,7.75,10.0,0.83125
+Guatemala,Arabica,Washed / Wet,7.67,7.83,7.67,8.0,10.0,0.8375
+Guatemala,Arabica,Washed / Wet,8.0,7.83,7.67,7.67,10.0,0.82925
+Mexico,Arabica,Washed / Wet,7.92,7.58,7.92,7.83,10.0,0.8332499999999999
+Uganda,Arabica,Washed / Wet,7.83,7.83,7.67,7.92,10.0,0.8355
+Peru,Arabica,,7.92,7.83,7.92,7.67,10.0,0.8355
+Ethiopia,Arabica,,7.83,7.75,8.0,7.42,10.0,0.82925
+Kenya,Arabica,Washed / Wet,7.83,7.75,7.58,7.92,10.0,0.83125
+Colombia,Arabica,Washed / Wet,8.08,7.67,7.67,7.83,10.0,0.82925
+Colombia,Arabica,Washed / Wet,7.75,7.83,7.83,7.92,10.0,0.8394999999999999
+Kenya,Arabica,Washed / Wet,7.92,7.83,7.58,7.83,10.0,0.8310000000000001
+Guatemala,Arabica,Washed / Wet,7.83,7.83,7.75,7.75,10.0,0.8332499999999999
+Guatemala,Arabica,Washed / Wet,8.17,7.92,7.58,8.0,10.0,0.8375
+Colombia,Arabica,Washed / Wet,7.83,7.67,7.58,7.67,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.92,7.75,7.58,7.75,10.0,0.827
+Kenya,Arabica,Washed / Wet,7.75,7.75,7.75,7.75,10.0,0.83125
+Colombia,Arabica,Washed / Wet,7.75,7.83,7.58,7.67,10.0,0.827
+Costa Rica,Arabica,Semi-washed / Semi-pulped,7.75,7.83,7.83,7.75,10.0,0.8352499999999999
+Colombia,Arabica,Washed / Wet,8.08,7.67,8.08,7.42,10.0,0.82925
+Brazil,Arabica,Semi-washed / Semi-pulped,7.75,8.0,7.58,8.0,10.0,0.8394999999999999
+Brazil,Arabica,Semi-washed / Semi-pulped,7.5,8.0,7.5,8.5,10.0,0.85
+Costa Rica,Arabica,Washed / Wet,8.0,7.67,7.67,7.92,10.0,0.8314999999999999
+Uganda,Arabica,Washed / Wet,7.83,7.75,7.83,7.92,10.0,0.8375
+China,Arabica,Washed / Wet,7.92,7.92,7.75,7.75,10.0,0.8355
+Costa Rica,Arabica,Washed / Wet,7.92,7.83,7.58,7.92,10.0,0.8332499999999999
+Colombia,Arabica,Washed / Wet,7.75,7.67,7.67,8.08,10.0,0.8355
+China,Arabica,Washed / Wet,7.92,8.0,7.75,7.67,10.0,0.8355
+Guatemala,Arabica,Washed / Wet,7.5,7.83,7.67,8.17,10.0,0.84175
+Kenya,Arabica,Washed / Wet,7.67,7.83,7.67,7.92,10.0,0.8355
+Mexico,Arabica,Washed / Wet,7.92,7.92,7.5,8.0,10.0,0.8355
+Mexico,Arabica,Washed / Wet,7.67,7.83,7.75,7.92,10.0,0.8375
+Guatemala,Arabica,Washed / Wet,7.83,8.0,7.5,7.67,10.0,0.82925
+Brazil,Arabica,,8.13,7.81,7.38,7.81,9.5,0.8125
+Brazil,Arabica,,7.75,7.67,7.67,8.17,10.0,0.83775
+Costa Rica,Arabica,Washed / Wet,7.92,7.83,7.67,7.58,10.0,0.827
+Indonesia,Arabica,Other,8.0,7.67,7.83,7.67,10.0,0.82925
+Colombia,Arabica,Natural / Dry,7.67,7.83,7.92,7.92,10.0,0.84175
+Colombia,Arabica,Washed / Wet,7.75,7.75,7.67,7.92,10.0,0.8335000000000001
+Taiwan,Arabica,Washed / Wet,7.75,7.83,7.5,7.83,10.0,0.829
+United States (Hawaii),Arabica,Natural / Dry,7.83,7.92,7.5,7.92,10.0,0.8335000000000001
+Mexico,Arabica,Washed / Wet,7.83,7.92,7.83,7.75,10.0,0.8375
+Ethiopia,Arabica,,7.75,7.75,7.92,7.5,10.0,0.82925
+Kenya,Arabica,Washed / Wet,8.17,7.58,7.75,7.33,10.0,0.8164999999999999
+Honduras,Arabica,,7.58,8.0,7.67,7.92,10.0,0.8397500000000001
+Colombia,Arabica,Washed / Wet,7.5,7.75,7.67,7.58,10.0,0.825
+Honduras,Arabica,Washed / Wet,7.83,7.92,7.92,7.58,10.0,0.8355
+Colombia,Arabica,,7.83,7.67,7.75,7.67,10.0,0.82725
+Colombia,Arabica,Natural / Dry,7.33,7.67,8.08,7.75,10.0,0.8375
+Colombia,Arabica,Washed / Wet,8.17,7.58,7.58,7.75,10.0,0.8227499999999999
+Mexico,Arabica,Washed / Wet,7.83,7.75,7.5,8.0,10.0,0.83125
+Brazil,Arabica,,7.75,8.0,7.5,8.17,10.0,0.84175
+Brazil,Arabica,,7.92,8.0,7.67,8.0,10.0,0.84175
+Ethiopia,Arabica,,7.75,7.75,7.5,7.75,10.0,0.825
+Guatemala,Arabica,,7.92,7.67,7.92,7.5,10.0,0.82725
+Taiwan,Arabica,Washed / Wet,7.67,7.75,7.67,7.92,10.0,0.8335000000000001
+Thailand,Arabica,Natural / Dry,8.0,7.75,7.83,7.83,10.0,0.8352499999999999
+Colombia,Arabica,Natural / Dry,7.83,7.58,7.67,7.83,10.0,0.827
+Guatemala,Arabica,Washed / Wet,7.75,7.75,7.75,7.75,10.0,0.83125
+Guatemala,Arabica,Washed / Wet,7.75,7.92,7.58,7.75,10.0,0.83125
+China,Arabica,Natural / Dry,7.75,7.83,7.75,7.83,10.0,0.8352499999999999
+Colombia,Arabica,Washed / Wet,7.83,7.67,7.67,7.67,10.0,0.8252499999999999
+Colombia,Arabica,Washed / Wet,7.75,7.67,7.92,7.83,10.0,0.8355
+Colombia,Arabica,Washed / Wet,7.83,7.75,7.67,7.83,10.0,0.83125
+Colombia,Arabica,Natural / Dry,7.83,7.67,7.92,7.42,10.0,0.8252499999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.83,7.67,7.67,7.83,10.0,0.82925
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.75,7.75,7.67,7.83,10.0,0.83125
+Guatemala,Arabica,Other,7.83,7.83,7.58,7.83,10.0,0.8310000000000001
+Colombia,Arabica,Washed / Wet,7.83,7.5,7.92,7.58,10.0,0.825
+United States (Hawaii),Arabica,Natural / Dry,7.83,7.92,7.92,7.33,10.0,0.82925
+Mexico,Arabica,Semi-washed / Semi-pulped,7.75,7.92,7.5,7.83,10.0,0.83125
+Mexico,Arabica,Washed / Wet,7.75,7.83,7.83,7.83,10.0,0.83725
+Mexico,Arabica,Washed / Wet,7.83,7.92,7.5,7.83,10.0,0.83125
+Uganda,Arabica,Natural / Dry,7.67,7.75,7.83,8.17,10.0,0.84375
+Guatemala,Arabica,Washed / Wet,7.75,7.83,7.67,7.75,10.0,0.83125
+Colombia,Arabica,Washed / Wet,7.75,7.75,7.75,7.83,10.0,0.8332499999999999
+Costa Rica,Arabica,Washed / Wet,8.0,7.75,7.5,7.92,10.0,0.82925
+Guatemala,Arabica,Washed / Wet,7.58,7.75,7.67,7.75,10.0,0.82925
+Guatemala,Arabica,Washed / Wet,7.67,7.92,7.67,7.75,10.0,0.8335000000000001
+Guatemala,Arabica,Washed / Wet,7.83,7.83,7.83,7.58,10.0,0.8310000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.5,8.0,8.0,10.0,0.8375
+Nicaragua,Arabica,Natural / Dry,7.83,7.83,7.67,7.67,10.0,0.82925
+Brazil,Arabica,Natural / Dry,7.75,7.75,7.83,7.67,10.0,0.83125
+Costa Rica,Arabica,Washed / Wet,7.83,7.75,7.5,7.67,10.0,0.8230000000000001
+Ethiopia,Arabica,Natural / Dry,7.75,7.92,7.75,7.5,10.0,0.82925
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.67,7.75,7.75,7.92,10.0,0.8355
+Colombia,Arabica,Washed / Wet,7.5,7.5,7.83,7.67,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.83,7.75,7.75,7.67,10.0,0.82925
+Kenya,Arabica,Washed / Wet,7.75,7.75,7.75,7.58,10.0,0.827
+Brazil,Arabica,Natural / Dry,7.67,7.83,7.67,7.58,10.0,0.827
+Guatemala,Arabica,Washed / Wet,7.42,7.75,7.83,7.92,10.0,0.8375
+El Salvador,Arabica,Natural / Dry,7.92,8.08,7.58,8.42,9.33,0.8352499999999999
+Colombia,Arabica,Washed / Wet,7.58,7.75,7.83,7.75,10.0,0.8332499999999999
+Guatemala,Arabica,Natural / Dry,7.67,7.5,7.83,7.83,10.0,0.829
+Uganda,Arabica,Washed / Wet,7.67,7.75,7.83,7.83,10.0,0.8352499999999999
+Indonesia,Arabica,Natural / Dry,7.75,7.88,7.63,7.81,10.0,0.833
+Colombia,Arabica,Washed / Wet,7.5,7.5,7.83,7.83,10.0,0.829
+Taiwan,Arabica,Washed / Wet,7.92,7.67,7.75,7.58,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.67,7.75,7.92,8.0,10.0,0.84175
+Colombia,Arabica,Washed / Wet,7.67,7.75,7.67,7.92,10.0,0.8335000000000001
+Guatemala,Arabica,Washed / Wet,7.67,7.75,7.75,7.58,10.0,0.827
+United States (Hawaii),Arabica,Natural / Dry,8.0,7.75,7.42,7.83,9.33,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.83,7.75,7.67,7.67,10.0,0.82725
+Ethiopia,Arabica,Natural / Dry,7.92,7.92,7.92,7.92,10.0,0.844
+Costa Rica,Arabica,Washed / Wet,7.67,7.75,7.83,7.58,10.0,0.829
+Ethiopia,Arabica,Natural / Dry,7.92,7.75,7.33,7.83,10.0,0.8227499999999999
+Honduras,Arabica,Washed / Wet,7.75,7.83,7.75,7.42,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.58,7.83,7.75,7.67,10.0,0.83125
+Colombia,Arabica,Washed / Wet,7.83,7.67,7.58,7.67,10.0,0.8230000000000001
+Guatemala,Arabica,Natural / Dry,7.5,7.67,7.75,7.92,10.0,0.8335000000000001
+Guatemala,Arabica,Other,7.83,7.83,7.58,7.75,10.0,0.829
+Colombia,Arabica,Washed / Wet,7.83,7.75,7.67,7.67,10.0,0.82725
+Colombia,Arabica,Natural / Dry,7.67,7.42,7.75,7.58,10.0,0.81875
+Colombia,Arabica,Washed / Wet,8.33,7.67,7.67,7.67,10.0,0.8252499999999999
+Ethiopia,Arabica,Natural / Dry,7.83,7.75,7.67,7.75,10.0,0.82925
+Brazil,Arabica,Natural / Dry,7.92,7.83,8.0,7.58,10.0,0.8352499999999999
+Colombia,Arabica,Washed / Wet,7.67,7.83,7.67,7.67,10.0,0.82925
+Kenya,Arabica,Washed / Wet,7.67,7.83,7.92,7.67,10.0,0.8355
+Thailand,Arabica,Washed / Wet,8.42,8.17,8.08,7.92,8.67,0.8210000000000001
+Kenya,Arabica,Washed / Wet,7.67,7.75,7.83,7.67,10.0,0.83125
+Uganda,Arabica,Washed / Wet,7.58,7.75,7.67,7.92,10.0,0.8335000000000001
+Thailand,Arabica,,8.0,7.75,7.58,7.58,10.0,0.8227499999999999
+Brazil,Arabica,Natural / Dry,8.5,7.75,7.58,7.5,10.0,0.82075
+Mexico,Arabica,Washed / Wet,7.83,7.83,7.42,7.83,10.0,0.827
+Thailand,Arabica,Natural / Dry,7.83,7.75,7.67,7.67,10.0,0.82725
+Brazil,Arabica,Natural / Dry,7.83,7.67,7.58,7.58,10.0,0.82075
+Taiwan,Arabica,Washed / Wet,7.83,7.75,7.83,7.83,9.33,0.8185
+Colombia,Arabica,,7.67,7.67,7.83,7.75,10.0,0.83125
+Colombia,Arabica,,7.58,7.58,7.75,7.75,10.0,0.827
+Taiwan,Arabica,Natural / Dry,7.67,7.75,7.75,7.75,10.0,0.83125
+Colombia,Arabica,Washed / Wet,7.75,7.67,7.58,7.92,10.0,0.82925
+Colombia,Arabica,Washed / Wet,7.67,7.75,7.75,7.83,10.0,0.8332499999999999
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.83,7.75,10.0,0.829
+Taiwan,Arabica,Washed / Wet,7.17,7.92,7.67,8.0,10.0,0.8397500000000001
+Colombia,Arabica,Natural / Dry,7.5,7.83,7.67,7.67,10.0,0.82925
+Mexico,Arabica,Washed / Wet,7.67,7.75,7.75,7.67,10.0,0.82925
+Mexico,Arabica,Washed / Wet,7.83,7.67,7.75,7.5,10.0,0.8230000000000001
+Mexico,Arabica,Washed / Wet,7.75,7.92,7.75,7.75,9.33,0.81875
+Colombia,Arabica,Washed / Wet,7.75,7.58,7.58,7.92,10.0,0.827
+Colombia,Arabica,,7.58,7.67,7.75,7.83,10.0,0.83125
+Costa Rica,Arabica,Washed / Wet,7.83,7.67,7.5,7.67,10.0,0.8210000000000001
+Guatemala,Arabica,Washed / Wet,7.67,7.75,7.83,7.75,10.0,0.8332499999999999
+Taiwan,Arabica,,7.75,7.67,7.75,7.75,10.0,0.82925
+Brazil,Arabica,Natural / Dry,8.0,7.58,7.75,7.25,10.0,0.8145
+Taiwan,Arabica,Washed / Wet,7.83,7.75,7.42,7.67,10.0,0.8210000000000001
+Ethiopia,Arabica,Natural / Dry,7.75,7.75,7.58,7.75,10.0,0.827
+Brazil,Arabica,Semi-washed / Semi-pulped,8.08,7.67,7.83,7.67,10.0,0.82925
+Costa Rica,Arabica,Washed / Wet,7.67,7.42,7.75,7.83,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.75,7.83,7.58,7.58,10.0,0.8247500000000001
+Brazil,Arabica,Natural / Dry,7.75,7.5,8.17,7.92,10.0,0.8397500000000001
+Ecuador,Arabica,Natural / Dry,7.67,7.67,7.83,7.5,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.92,7.58,7.58,7.67,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.67,7.83,7.83,7.5,10.0,0.829
+Mexico,Arabica,Natural / Dry,7.92,8.0,7.67,7.67,10.0,0.8335000000000001
+Mexico,Arabica,Natural / Dry,7.83,7.58,7.75,7.67,10.0,0.825
+Brazil,Arabica,Semi-washed / Semi-pulped,7.83,7.83,7.5,7.83,10.0,0.829
+Thailand,Arabica,,7.5,7.75,7.67,7.75,10.0,0.82925
+Thailand,Arabica,,7.75,7.83,7.75,7.5,10.0,0.827
+Ethiopia,Arabica,,7.5,7.83,7.83,7.58,10.0,0.8310000000000001
+Kenya,Arabica,Washed / Wet,7.83,7.58,7.75,7.75,10.0,0.827
+Brazil,Arabica,Natural / Dry,7.75,7.67,7.67,7.67,10.0,0.8252499999999999
+Colombia,Arabica,Washed / Wet,7.75,7.83,7.58,7.83,10.0,0.8310000000000001
+Taiwan,Arabica,Natural / Dry,7.75,7.67,7.67,7.67,10.0,0.8252499999999999
+Colombia,Arabica,Washed / Wet,7.67,7.75,7.75,7.92,10.0,0.8355
+China,Arabica,Washed / Wet,7.75,7.75,7.58,7.83,10.0,0.829
+Colombia,Arabica,Natural / Dry,7.75,7.67,7.58,7.75,10.0,0.825
+Uganda,Arabica,Natural / Dry,7.67,7.92,7.33,8.0,10.0,0.83125
+United States (Puerto Rico),Arabica,Washed / Wet,7.75,7.83,8.0,7.83,9.33,0.8247500000000001
+Colombia,Arabica,Washed / Wet,7.67,7.67,7.5,7.67,10.0,0.8210000000000001
+Colombia,Arabica,Washed / Wet,7.5,7.42,8.0,7.67,10.0,0.82725
+Colombia,Arabica,Washed / Wet,7.75,7.67,7.67,7.58,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.58,7.67,7.42,7.75,10.0,0.8210000000000001
+United States (Hawaii),Arabica,Natural / Dry,7.75,7.42,7.83,7.25,10.0,0.8125
+Mexico,Arabica,Natural / Dry,7.83,7.58,7.75,7.83,10.0,0.829
+Guatemala,Arabica,Washed / Wet,7.75,7.58,7.75,7.67,10.0,0.825
+Colombia,Arabica,,8.08,7.83,7.42,7.83,10.0,0.827
+Colombia,Arabica,,7.75,7.67,7.58,7.75,10.0,0.825
+United States (Hawaii),Arabica,,7.75,7.67,7.58,7.83,10.0,0.827
+Brazil,Arabica,Natural / Dry,7.83,7.83,7.67,7.67,10.0,0.82925
+Kenya,Arabica,Washed / Wet,7.75,7.67,7.25,8.08,10.0,0.825
+Honduras,Arabica,Washed / Wet,7.33,7.5,8.0,7.5,10.0,0.825
+Nicaragua,Arabica,Washed / Wet,7.5,7.75,7.83,7.67,10.0,0.83125
+Brazil,Arabica,Natural / Dry,7.83,7.75,7.58,7.58,10.0,0.8227499999999999
+Taiwan,Arabica,Natural / Dry,7.75,7.67,7.83,7.5,10.0,0.825
+Costa Rica,Arabica,,8.33,7.67,7.67,7.33,10.0,0.8167500000000001
+Thailand,Arabica,Washed / Wet,7.75,7.75,7.67,7.5,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.83,7.75,7.67,7.5,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.5,7.5,8.0,8.0,9.33,0.82075
+Colombia,Arabica,Washed / Wet,7.58,7.75,7.58,7.83,10.0,0.829
+Colombia,Arabica,Washed / Wet,7.92,7.67,7.33,7.67,10.0,0.8167500000000001
+Guatemala,Arabica,Washed / Wet,7.5,7.67,8.0,7.67,10.0,0.8335000000000001
+Guatemala,Arabica,Washed / Wet,7.67,7.67,7.67,7.83,10.0,0.82925
+Colombia,Arabica,Washed / Wet,7.83,7.75,7.17,7.75,10.0,0.8167500000000001
+Guatemala,Arabica,Natural / Dry,8.0,8.17,8.08,8.17,9.33,0.84375
+Guatemala,Arabica,Washed / Wet,7.5,8.17,7.58,7.67,10.0,0.8355
+Mexico,Arabica,Washed / Wet,7.58,7.5,7.83,7.67,10.0,0.825
+Indonesia,Arabica,Washed / Wet,7.58,7.67,7.42,8.17,10.0,0.8314999999999999
+Guatemala,Arabica,Washed / Wet,7.83,7.5,7.67,7.67,10.0,0.8210000000000001
+United States (Hawaii),Arabica,,8.17,8.0,7.75,7.75,9.33,0.82075
+Brazil,Arabica,Natural / Dry,7.92,7.67,7.67,7.58,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.58,7.75,7.58,7.75,10.0,0.827
+Colombia,Arabica,Washed / Wet,7.67,7.75,7.67,7.75,10.0,0.82925
+China,Arabica,Washed / Wet,7.75,7.58,7.67,7.67,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.58,7.75,7.75,7.67,10.0,0.82925
+Mexico,Arabica,Washed / Wet,7.75,7.75,7.5,7.75,10.0,0.825
+Ethiopia,Arabica,Washed / Wet,7.75,7.67,7.5,7.75,10.0,0.8230000000000001
+Uganda,Arabica,Washed / Wet,7.67,7.67,7.75,7.67,10.0,0.82725
+Colombia,Arabica,Natural / Dry,7.67,7.58,7.67,7.67,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.58,7.67,7.67,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.75,7.75,10.0,0.827
+Taiwan,Arabica,Other,7.5,7.75,7.5,7.75,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.67,7.67,7.75,7.67,10.0,0.82725
+Mexico,Arabica,Washed / Wet,7.67,7.67,7.67,7.83,10.0,0.82925
+Colombia,Arabica,Natural / Dry,7.75,7.58,7.67,7.67,10.0,0.8230000000000001
+Brazil,Arabica,Semi-washed / Semi-pulped,7.67,7.75,7.5,7.83,10.0,0.827
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.75,7.75,10.0,0.827
+Taiwan,Arabica,,10.0,7.58,7.0,7.58,10.0,0.8039999999999999
+Costa Rica,Arabica,Washed / Wet,7.83,7.42,7.5,7.92,10.0,0.8210000000000001
+Colombia,Arabica,Natural / Dry,7.58,7.58,7.75,7.75,10.0,0.827
+Guatemala,Arabica,Washed / Wet,7.58,7.75,7.58,7.67,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.75,7.58,7.75,7.58,10.0,0.8227499999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.67,7.67,7.75,10.0,0.82725
+Indonesia,Arabica,Semi-washed / Semi-pulped,7.67,7.67,7.83,7.25,10.0,0.81875
+Ethiopia,Arabica,Natural / Dry,7.58,7.75,7.75,7.67,10.0,0.82925
+Colombia,Arabica,Washed / Wet,7.67,7.42,7.58,7.67,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.92,8.0,10.0,0.8375
+Guatemala,Arabica,Washed / Wet,7.75,7.75,7.42,7.58,10.0,0.81875
+Colombia,Arabica,Washed / Wet,7.67,7.58,7.83,7.75,10.0,0.829
+Honduras,Arabica,Natural / Dry,7.83,7.5,7.67,7.67,10.0,0.8210000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.75,7.75,7.58,10.0,0.827
+Colombia,Arabica,Washed / Wet,7.58,7.67,7.58,7.58,10.0,0.82075
+Mexico,Arabica,Natural / Dry,8.42,7.58,7.5,7.83,10.0,0.8227499999999999
+Mexico,Arabica,Semi-washed / Semi-pulped,7.58,7.75,7.58,7.67,10.0,0.825
+Mexico,Arabica,Washed / Wet,7.83,7.67,7.33,7.75,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.5,7.5,7.67,7.83,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.67,7.58,7.67,7.67,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.58,7.5,8.0,7.5,10.0,0.825
+United States (Hawaii),Arabica,,7.58,7.67,7.58,7.5,10.0,0.81875
+Indonesia,Arabica,,7.58,7.58,7.75,7.83,10.0,0.829
+Colombia,Arabica,Washed / Wet,7.67,7.58,7.75,7.5,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.67,7.75,7.58,7.67,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.67,7.67,7.67,7.67,10.0,0.8252499999999999
+Costa Rica,Arabica,Washed / Wet,7.83,7.5,7.5,7.58,10.0,0.8145
+Taiwan,Arabica,,10.0,7.67,7.0,7.67,10.0,0.8085000000000001
+Uganda,Arabica,Washed / Wet,7.75,7.75,7.67,7.58,10.0,0.825
+Thailand,Arabica,Washed / Wet,7.67,7.58,7.75,7.5,10.0,0.82075
+El Salvador,Arabica,Washed / Wet,7.58,7.5,7.75,7.58,10.0,0.82075
+Colombia,Arabica,Natural / Dry,7.67,7.67,7.58,7.58,10.0,0.82075
+Brazil,Arabica,Semi-washed / Semi-pulped,7.75,7.83,7.42,7.33,10.0,0.8145
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.67,7.58,7.75,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.75,7.58,9.33,0.806
+Guatemala,Arabica,Natural / Dry,7.5,7.83,7.5,7.75,10.0,0.827
+Guatemala,Arabica,Washed / Wet,7.58,7.75,7.58,7.67,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.58,7.5,7.75,7.67,10.0,0.8230000000000001
+United States (Hawaii),Arabica,Natural / Dry,7.67,7.75,7.67,7.42,10.0,0.8210000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.75,7.67,7.5,10.0,0.8230000000000001
+Colombia,Arabica,,7.58,7.58,7.75,7.58,10.0,0.8227499999999999
+United States (Hawaii),Arabica,,7.5,7.92,7.83,7.5,10.0,0.83125
+Thailand,Arabica,,7.83,7.25,7.92,7.58,10.0,0.81875
+Mexico,Arabica,,8.0,7.88,7.5,7.25,9.0,0.79075
+Colombia,Arabica,Washed / Wet,7.58,7.5,7.58,7.75,10.0,0.82075
+Colombia,Arabica,Washed / Wet,7.67,7.58,7.67,7.67,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.58,7.5,7.83,10.0,0.8227499999999999
+Brazil,Arabica,Semi-washed / Semi-pulped,7.58,7.83,7.58,7.5,10.0,0.8227499999999999
+Mexico,Arabica,Washed / Wet,7.58,7.75,7.5,7.75,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.42,7.75,7.83,7.67,10.0,0.83125
+"Tanzania, United Republic Of",Arabica,Semi-washed / Semi-pulped,7.58,7.58,7.58,7.75,10.0,0.8227499999999999
+Mexico,Arabica,Washed / Wet,7.67,7.67,7.5,7.67,10.0,0.8210000000000001
+Costa Rica,Arabica,Washed / Wet,7.58,7.67,7.67,7.67,10.0,0.8252499999999999
+United States (Hawaii),Arabica,Natural / Dry,7.83,7.58,7.92,7.83,9.33,0.8164999999999999
+Costa Rica,Arabica,Washed / Wet,8.0,7.67,7.83,7.5,10.0,0.825
+Peru,Arabica,Washed / Wet,7.5,7.75,7.92,7.83,9.33,0.82075
+Haiti,Arabica,Washed / Wet,7.83,7.5,7.83,7.58,10.0,0.8227499999999999
+Colombia,Arabica,Natural / Dry,7.5,7.67,7.92,7.67,10.0,0.8314999999999999
+Guatemala,Arabica,Washed / Wet,7.67,7.67,7.67,7.83,10.0,0.82925
+United States (Hawaii),Arabica,Natural / Dry,7.83,7.5,7.67,7.92,9.33,0.8105
+Burundi,Arabica,Washed / Wet,7.83,7.67,7.5,7.75,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.67,7.67,7.5,10.0,0.8210000000000001
+United States (Hawaii),Arabica,,7.92,7.83,7.67,8.08,9.33,0.8227499999999999
+United States (Hawaii),Arabica,,7.5,7.67,7.83,7.58,10.0,0.827
+Mexico,Arabica,Washed / Wet,7.67,7.83,7.33,7.67,10.0,0.82075
+Costa Rica,Arabica,Pulped natural / honey,7.58,7.5,7.67,7.5,10.0,0.8167500000000001
+Costa Rica,Arabica,Washed / Wet,7.67,7.5,7.5,7.83,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.67,7.58,7.67,7.5,10.0,0.81875
+Uganda,Arabica,Washed / Wet,7.67,7.67,7.67,7.5,10.0,0.8210000000000001
+Brazil,Arabica,,8.0,7.67,7.67,7.58,10.0,0.8230000000000001
+Colombia,Arabica,Natural / Dry,7.58,7.67,7.75,7.58,10.0,0.825
+Mexico,Arabica,Natural / Dry,7.42,7.75,7.58,7.83,10.0,0.829
+Taiwan,Arabica,Washed / Wet,7.58,7.5,7.67,7.67,10.0,0.8210000000000001
+Taiwan,Arabica,Washed / Wet,7.33,7.83,7.5,7.92,10.0,0.83125
+Colombia,Arabica,Natural / Dry,7.67,7.58,7.58,7.58,10.0,0.8185
+Guatemala,Arabica,Washed / Wet,7.67,7.67,7.67,7.5,10.0,0.8210000000000001
+Colombia,Arabica,Washed / Wet,7.58,7.5,7.67,7.83,10.0,0.825
+Mexico,Arabica,Washed / Wet,7.75,7.75,7.58,7.58,10.0,0.8227499999999999
+United States (Hawaii),Arabica,Natural / Dry,7.67,7.75,8.08,7.58,9.33,0.8185
+Mexico,Arabica,Washed / Wet,7.67,7.58,7.5,7.75,10.0,0.82075
+Mexico,Arabica,Washed / Wet,7.58,7.75,7.33,7.75,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.42,7.58,7.42,7.83,10.0,0.82075
+Brazil,Arabica,Semi-washed / Semi-pulped,7.58,7.67,7.58,7.75,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.83,7.67,10.0,0.827
+Colombia,Arabica,Washed / Wet,7.67,7.67,7.58,7.67,10.0,0.8230000000000001
+Colombia,Arabica,,7.5,7.75,7.83,7.92,10.0,0.8375
+Colombia,Arabica,,7.5,7.67,7.67,8.0,10.0,0.8335000000000001
+Colombia,Arabica,,7.58,7.75,7.42,7.92,10.0,0.82725
+Brazil,Arabica,Natural / Dry,7.75,7.42,7.67,7.67,10.0,0.819
+Guatemala,Arabica,Washed / Wet,7.67,7.58,7.75,7.58,10.0,0.8227499999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.58,7.67,7.67,10.0,0.8230000000000001
+Peru,Arabica,,7.5,7.5,7.67,7.92,10.0,0.82725
+Vietnam,Arabica,Natural / Dry,7.58,7.42,7.58,7.58,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.5,7.75,7.58,7.67,10.0,0.825
+Honduras,Arabica,Washed / Wet,7.5,7.67,7.5,7.67,10.0,0.8210000000000001
+China,Arabica,Washed / Wet,7.67,7.67,7.67,7.5,10.0,0.8210000000000001
+China,Arabica,Washed / Wet,7.67,7.67,7.42,7.67,10.0,0.819
+El Salvador,Arabica,Washed / Wet,7.5,7.5,8.0,7.5,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.5,7.75,7.58,7.5,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.42,7.67,7.5,7.92,10.0,0.82725
+Kenya,Arabica,Washed / Wet,7.83,7.75,7.83,7.83,9.33,0.8185
+Thailand,Arabica,Washed / Wet,7.5,7.58,7.42,7.67,10.0,0.8167500000000001
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.67,7.67,7.42,7.58,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.75,7.5,7.5,7.58,10.0,0.8145
+Uganda,Arabica,Washed / Wet,7.67,7.67,7.33,8.0,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.58,7.75,7.58,7.58,10.0,0.8227499999999999
+Honduras,Arabica,Natural / Dry,7.67,7.5,7.67,7.5,10.0,0.8167500000000001
+Honduras,Arabica,Natural / Dry,7.5,7.67,7.5,7.67,10.0,0.8210000000000001
+Guatemala,Arabica,Washed / Wet,7.67,7.83,7.33,7.33,10.0,0.81225
+United States (Hawaii),Arabica,Natural / Dry,7.58,7.5,7.92,7.5,10.0,0.8230000000000001
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.5,7.58,7.58,10.0,0.8164999999999999
+Guatemala,Arabica,Washed / Wet,7.5,7.83,7.5,7.67,10.0,0.825
+Mexico,Arabica,Washed / Wet,7.75,7.58,7.5,7.75,10.0,0.82075
+Mexico,Arabica,Washed / Wet,7.67,7.67,7.42,7.75,10.0,0.8210000000000001
+Mexico,Arabica,Washed / Wet,7.67,7.75,7.5,7.58,10.0,0.82075
+Colombia,Arabica,Washed / Wet,7.25,7.5,7.58,7.67,10.0,0.81875
+Mexico,Arabica,Washed / Wet,7.58,7.5,7.58,7.75,10.0,0.82075
+Colombia,Arabica,Washed / Wet,7.5,7.67,7.67,7.58,10.0,0.8230000000000001
+Mexico,Arabica,Washed / Wet,7.58,7.75,7.67,7.5,10.0,0.8230000000000001
+Brazil,Arabica,Natural / Dry,7.5,7.67,7.58,7.75,10.0,0.825
+Brazil,Arabica,Natural / Dry,7.67,7.58,7.42,7.92,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.5,7.5,7.92,7.75,10.0,0.82925
+Brazil,Arabica,Semi-washed / Semi-pulped,7.58,7.5,7.75,7.75,10.0,0.825
+Brazil,Arabica,,7.42,7.75,7.67,7.58,10.0,0.825
+El Salvador,Arabica,,7.58,7.83,7.17,7.42,10.0,0.8105
+Ethiopia,Arabica,,7.92,8.0,7.83,7.75,9.33,0.8227499999999999
+Colombia,Arabica,Washed / Wet,7.5,7.67,7.75,7.58,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.17,7.5,8.0,7.75,10.0,0.83125
+Brazil,Arabica,Pulped natural / honey,7.58,7.58,7.67,7.58,10.0,0.82075
+Brazil,Arabica,Natural / Dry,7.92,7.67,7.75,7.33,10.0,0.81875
+Taiwan,Arabica,Natural / Dry,7.75,7.92,7.67,7.83,9.33,0.81875
+Brazil,Arabica,Natural / Dry,7.5,7.67,7.75,7.42,10.0,0.8210000000000001
+Brazil,Arabica,Washed / Wet,7.67,7.83,7.42,7.58,10.0,0.82075
+Costa Rica,Arabica,Washed / Wet,7.5,7.33,7.58,7.83,10.0,0.8185
+United States (Hawaii),Arabica,Natural / Dry,7.58,7.75,7.83,7.33,10.0,0.8227499999999999
+Taiwan,Arabica,Other,7.58,7.75,7.5,7.75,10.0,0.825
+United States (Hawaii),Arabica,Natural / Dry,7.5,7.83,7.75,7.83,10.0,0.8352499999999999
+Mexico,Arabica,Washed / Wet,7.5,7.67,7.5,7.75,10.0,0.8230000000000001
+United States (Hawaii),Arabica,Natural / Dry,8.08,7.58,7.92,7.67,9.33,0.8125
+United States (Hawaii),Arabica,Washed / Wet,7.42,7.58,7.67,7.33,10.0,0.8145
+Colombia,Arabica,,8.17,7.33,7.25,7.33,10.0,0.79775
+Colombia,Arabica,,7.58,7.75,7.42,7.83,10.0,0.825
+Indonesia,Arabica,,7.5,7.58,7.67,7.67,10.0,0.8230000000000001
+Guatemala,Arabica,,7.75,7.67,7.83,7.92,9.33,0.81875
+Brazil,Arabica,Natural / Dry,7.5,7.5,7.67,7.58,10.0,0.81875
+Brazil,Arabica,Natural / Dry,7.58,7.58,7.58,7.5,10.0,0.8164999999999999
+Brazil,Arabica,Natural / Dry,7.58,7.67,7.58,7.5,10.0,0.81875
+Uganda,Arabica,Washed / Wet,7.58,7.58,7.83,7.67,10.0,0.827
+Uganda,Arabica,Natural / Dry,7.67,7.67,7.42,7.67,10.0,0.819
+Colombia,Arabica,,7.58,7.67,7.5,7.67,10.0,0.8210000000000001
+Vietnam,Arabica,Other,8.0,7.67,7.42,7.75,9.33,0.80425
+Guatemala,Arabica,Washed / Wet,7.42,7.75,7.42,7.67,10.0,0.8210000000000001
+Guatemala,Arabica,Washed / Wet,7.58,7.67,7.5,7.75,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.33,7.67,7.75,7.83,10.0,0.83125
+Brazil,Arabica,Natural / Dry,7.58,7.67,7.42,7.67,10.0,0.819
+Taiwan,Arabica,Washed / Wet,7.17,7.92,7.33,7.92,10.0,0.82925
+Uganda,Arabica,Washed / Wet,7.5,7.58,7.58,7.83,10.0,0.8247500000000001
+United States (Puerto Rico),Arabica,Washed / Wet,7.42,7.5,7.75,7.67,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.42,7.67,7.5,7.67,10.0,0.8210000000000001
+Costa Rica,Arabica,Washed / Wet,7.67,7.58,7.5,7.67,10.0,0.81875
+Brazil,Arabica,Semi-washed / Semi-pulped,7.5,7.58,7.42,7.75,10.0,0.81875
+Colombia,Arabica,Washed / Wet,8.25,7.42,7.58,7.75,10.0,0.81875
+Colombia,Arabica,Washed / Wet,7.58,7.5,7.5,7.83,10.0,0.82075
+Colombia,Arabica,Natural / Dry,7.5,7.67,7.75,7.33,10.0,0.81875
+Colombia,Arabica,Natural / Dry,7.58,7.75,7.58,7.58,10.0,0.8227499999999999
+Colombia,Arabica,Washed / Wet,7.67,7.5,7.75,7.5,10.0,0.81875
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.67,7.67,10.0,0.8230000000000001
+Mexico,Arabica,Semi-washed / Semi-pulped,7.83,7.83,7.58,7.67,9.33,0.8102499999999999
+Mexico,Arabica,Washed / Wet,7.67,7.67,7.58,7.5,10.0,0.81875
+Colombia,Arabica,Natural / Dry,7.5,7.58,7.75,7.67,10.0,0.825
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.83,7.75,9.33,0.81225
+Colombia,Arabica,Washed / Wet,7.5,7.58,7.67,7.67,10.0,0.8230000000000001
+Guatemala,Arabica,Washed / Wet,7.33,7.67,7.5,7.5,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.5,7.67,7.67,7.67,10.0,0.8252499999999999
+Thailand,Arabica,,7.5,7.67,7.75,7.33,10.0,0.81875
+Colombia,Arabica,,7.58,7.67,7.58,7.33,10.0,0.8145
+United States (Hawaii),Arabica,,8.08,7.83,7.92,7.83,9.33,0.8227499999999999
+United States (Hawaii),Arabica,,7.67,7.58,7.58,7.5,10.0,0.8164999999999999
+Colombia,Arabica,,7.42,7.58,7.58,7.5,10.0,0.8164999999999999
+Nicaragua,Arabica,,7.92,7.83,7.92,7.58,9.33,0.8164999999999999
+Thailand,Arabica,,7.42,7.25,8.17,7.5,10.0,0.8230000000000001
+Brazil,Arabica,Natural / Dry,7.5,7.58,7.58,7.67,10.0,0.82075
+El Salvador,Arabica,Washed / Wet,7.5,7.5,7.92,7.5,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.58,7.67,7.67,7.58,10.0,0.8230000000000001
+Taiwan,Arabica,Natural / Dry,7.75,7.83,7.67,7.17,10.0,0.8167500000000001
+Ethiopia,Arabica,Washed / Wet,7.58,7.58,7.58,7.58,10.0,0.8185
+Taiwan,Arabica,Natural / Dry,7.58,7.58,7.5,7.5,10.0,0.8145
+Philippines,Arabica,Washed / Wet,7.5,7.58,7.5,7.58,10.0,0.8164999999999999
+Philippines,Arabica,Washed / Wet,7.42,7.5,7.33,8.08,10.0,0.8227499999999999
+Mexico,Arabica,Natural / Dry,7.58,7.67,7.5,7.83,10.0,0.825
+Mexico,Arabica,Washed / Wet,7.42,7.67,7.75,7.75,10.0,0.82925
+Brazil,Arabica,Semi-washed / Semi-pulped,7.58,7.5,7.75,7.08,10.0,0.8082499999999999
+Uganda,Arabica,Washed / Wet,7.58,7.5,7.33,8.0,10.0,0.82075
+Uganda,Arabica,Washed / Wet,7.5,7.58,7.5,7.75,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.5,7.5,7.67,7.75,10.0,0.8230000000000001
+Guatemala,Arabica,Natural / Dry,7.67,7.83,7.33,7.67,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.75,7.58,7.58,7.58,10.0,0.8185
+Colombia,Arabica,Washed / Wet,7.58,7.5,7.58,7.58,10.0,0.8164999999999999
+Colombia,Arabica,Natural / Dry,7.67,7.5,7.75,7.75,10.0,0.825
+Guatemala,Arabica,Washed / Wet,7.5,7.75,7.5,7.83,10.0,0.827
+Colombia,Arabica,Washed / Wet,7.5,7.67,7.5,7.83,10.0,0.825
+Mexico,Arabica,Natural / Dry,7.83,7.58,7.58,7.58,10.0,0.8185
+Vietnam,Arabica,Natural / Dry,7.67,7.33,8.08,7.67,10.0,0.827
+Mexico,Arabica,Washed / Wet,7.75,7.92,7.67,8.0,9.33,0.8230000000000001
+United States (Hawaii),Arabica,Washed / Wet,7.5,7.5,7.67,7.5,10.0,0.8167500000000001
+Colombia,Arabica,,7.67,7.75,7.08,7.5,10.0,0.8082499999999999
+Thailand,Arabica,,7.75,7.58,7.5,7.42,10.0,0.8125
+Kenya,Arabica,Washed / Wet,7.5,7.58,7.5,7.75,10.0,0.82075
+Guatemala,Arabica,Washed / Wet,7.58,7.58,7.58,7.5,10.0,0.8164999999999999
+Brazil,Arabica,Pulped natural / honey,7.58,7.58,7.5,7.67,10.0,0.81875
+El Salvador,Arabica,Washed / Wet,7.33,7.67,7.33,7.33,10.0,0.8082499999999999
+Rwanda,Arabica,Washed / Wet,8.0,7.92,7.75,7.83,9.33,0.82075
+Vietnam,Arabica,Other,7.92,7.58,7.75,7.25,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.5,7.58,7.67,7.58,10.0,0.82075
+Brazil,Arabica,Natural / Dry,7.67,7.83,7.42,7.58,10.0,0.82075
+Colombia,Arabica,Washed / Wet,7.08,7.67,7.5,7.83,10.0,0.825
+United States,Arabica,Other,7.58,7.58,7.75,7.42,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.42,7.67,10.0,0.819
+Colombia,Arabica,Natural / Dry,7.67,7.42,7.58,7.5,10.0,0.8125
+Colombia,Arabica,Washed / Wet,7.58,7.5,7.5,7.83,10.0,0.82075
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.75,7.5,7.58,7.67,10.0,0.81875
+Mexico,Arabica,Washed / Wet,7.5,7.67,7.5,7.58,10.0,0.81875
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.42,7.67,10.0,0.8167500000000001
+Guatemala,Arabica,Washed / Wet,7.42,7.67,7.33,7.67,10.0,0.8167500000000001
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.67,7.58,10.0,0.82075
+El Salvador,Arabica,,7.25,7.58,7.25,7.75,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.5,7.58,7.58,7.5,10.0,0.8164999999999999
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.5,7.58,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.67,7.5,10.0,0.8210000000000001
+Guatemala,Arabica,Washed / Wet,7.58,7.5,7.67,7.5,10.0,0.8167500000000001
+Guatemala,Arabica,Washed / Wet,7.67,7.58,7.5,7.42,10.0,0.8125
+Indonesia,Arabica,Other,7.58,7.58,7.58,7.5,10.0,0.8164999999999999
+Guatemala,Arabica,Washed / Wet,7.67,7.58,7.33,7.58,10.0,0.81225
+Taiwan,Arabica,Natural / Dry,7.67,7.67,7.58,7.83,9.33,0.8102499999999999
+El Salvador,Arabica,Washed / Wet,7.67,7.67,7.58,7.67,10.0,0.8230000000000001
+Costa Rica,Arabica,Washed / Wet,7.67,7.5,7.42,7.58,10.0,0.8125
+Honduras,Arabica,Natural / Dry,7.67,7.5,7.5,7.58,10.0,0.8145
+Brazil,Arabica,Pulped natural / honey,7.5,7.5,7.58,7.5,10.0,0.8145
+China,Arabica,Natural / Dry,7.58,7.5,7.67,7.67,10.0,0.8210000000000001
+China,Arabica,Washed / Wet,7.5,7.67,7.5,7.5,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.5,7.58,7.33,7.5,10.0,0.8102499999999999
+Malawi,Arabica,Washed / Wet,7.67,7.58,7.33,7.75,10.0,0.8164999999999999
+Guatemala,Arabica,Washed / Wet,7.42,7.42,7.5,7.75,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.67,7.42,7.33,7.67,10.0,0.8105
+United States (Hawaii),Arabica,Natural / Dry,7.42,7.58,7.33,7.67,10.0,0.8145
+United States (Hawaii),Arabica,Natural / Dry,7.75,7.83,7.42,7.58,9.33,0.8039999999999999
+Colombia,Arabica,Washed / Wet,7.5,7.33,7.25,7.58,10.0,0.8039999999999999
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.5,7.58,10.0,0.8164999999999999
+Mexico,Arabica,Washed / Wet,7.67,7.58,7.25,7.58,10.0,0.8102499999999999
+Mexico,Arabica,Natural / Dry,8.08,8.17,7.83,8.08,6.67,0.76875
+Colombia,Arabica,Washed / Wet,7.5,7.58,7.5,7.5,10.0,0.8145
+Colombia,Arabica,Washed / Wet,7.42,7.58,7.5,7.67,10.0,0.81875
+United States (Hawaii),Arabica,Washed / Wet,7.75,7.75,7.67,7.25,9.33,0.8
+Panama,Arabica,Washed / Wet,7.58,7.42,7.5,7.42,10.0,0.8085000000000001
+United States (Hawaii),Arabica,,7.42,7.67,7.17,7.75,10.0,0.8147500000000001
+Brazil,Arabica,Natural / Dry,7.5,7.58,7.58,7.5,10.0,0.8164999999999999
+Brazil,Arabica,Natural / Dry,7.5,7.58,7.5,7.5,10.0,0.8145
+Laos,Arabica,Washed / Wet,7.58,7.67,7.42,7.67,10.0,0.819
+El Salvador,Arabica,Washed / Wet,7.5,7.67,7.5,7.67,10.0,0.8210000000000001
+Mexico,Arabica,,7.75,7.67,7.42,7.5,10.0,0.8147500000000001
+Colombia,Arabica,Washed / Wet,7.42,7.5,7.33,7.75,10.0,0.8145
+Brazil,Arabica,Natural / Dry,7.5,7.5,7.5,7.58,10.0,0.8145
+Brazil,Arabica,Natural / Dry,7.5,7.5,7.67,7.33,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.5,7.5,7.5,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.5,7.33,7.58,10.0,0.8102499999999999
+Taiwan,Arabica,Washed / Wet,7.08,7.83,7.25,8.0,10.0,0.827
+Mexico,Arabica,Natural / Dry,7.58,7.58,7.42,7.67,10.0,0.8167500000000001
+Uganda,Arabica,Washed / Wet,7.5,7.5,7.5,7.67,10.0,0.8167500000000001
+Taiwan,Arabica,Washed / Wet,7.5,7.5,7.5,7.67,10.0,0.8167500000000001
+Thailand,Arabica,Washed / Wet,7.5,7.5,7.58,7.42,10.0,0.8125
+Colombia,Arabica,Washed / Wet,7.42,7.58,7.58,7.75,10.0,0.8227499999999999
+El Salvador,Arabica,Washed / Wet,7.67,8.0,7.92,7.92,10.0,0.8460000000000001
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.5,7.67,10.0,0.8210000000000001
+Thailand,Arabica,Washed / Wet,7.58,7.33,7.58,7.83,10.0,0.8185
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.42,7.58,10.0,0.8145
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.42,7.5,10.0,0.8125
+Colombia,Arabica,,7.58,7.58,7.67,7.33,10.0,0.8145
+United States (Hawaii),Arabica,,7.58,7.67,7.5,7.83,10.0,0.825
+Mexico,Arabica,,7.08,7.58,7.67,7.75,10.0,0.825
+Colombia,Arabica,,7.42,7.67,7.33,8.08,10.0,0.827
+Colombia,Arabica,,7.58,7.42,7.67,7.5,10.0,0.8147500000000001
+Guatemala,Arabica,Washed / Wet,7.5,7.42,7.5,7.5,10.0,0.8105
+Taiwan,Arabica,Pulped natural / honey,7.5,7.42,7.58,7.67,10.0,0.8167500000000001
+Brazil,Arabica,Pulped natural / honey,7.5,7.58,7.75,7.5,10.0,0.82075
+Taiwan,Arabica,,10.0,7.25,7.0,7.25,10.0,0.7875
+Brazil,Arabica,,8.0,7.42,7.25,7.42,10.0,0.8022500000000001
+Indonesia,Arabica,Semi-washed / Semi-pulped,7.5,7.58,7.42,7.83,10.0,0.82075
+Thailand,Arabica,Washed / Wet,7.5,7.33,7.42,7.75,10.0,0.8125
+Thailand,Arabica,Washed / Wet,7.5,7.58,7.58,7.42,10.0,0.8145
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.5,7.42,7.58,7.75,10.0,0.81875
+Uganda,Arabica,Natural / Dry,7.42,7.5,7.42,7.83,10.0,0.81875
+Costa Rica,Arabica,Washed / Wet,7.58,7.42,7.0,7.67,10.0,0.8022500000000001
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.67,7.58,9.33,0.8039999999999999
+Guatemala,Arabica,Natural / Dry,7.5,7.58,7.42,7.5,10.0,0.8125
+Colombia,Arabica,Washed / Wet,7.5,7.25,7.5,7.75,10.0,0.8125
+Colombia,Arabica,Washed / Wet,7.42,7.5,7.33,7.75,10.0,0.8145
+Colombia,Arabica,Washed / Wet,7.42,7.5,7.67,7.58,10.0,0.81875
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.42,7.5,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.67,7.67,10.0,0.8230000000000001
+Colombia,Arabica,Washed / Wet,7.67,7.42,7.67,7.33,10.0,0.8105
+Brazil,Arabica,,7.42,7.5,7.5,7.58,10.0,0.8145
+Brazil,Arabica,Natural / Dry,7.42,7.5,7.58,7.5,10.0,0.8145
+Indonesia,Arabica,Washed / Wet,7.42,7.75,7.42,7.83,10.0,0.825
+Honduras,Arabica,Washed / Wet,7.5,7.58,7.5,7.58,10.0,0.8164999999999999
+Guatemala,Arabica,Washed / Wet,7.5,7.5,7.67,7.5,10.0,0.8167500000000001
+Thailand,Arabica,Washed / Wet,7.83,7.83,7.33,7.5,9.33,0.7997500000000001
+Thailand,Arabica,Washed / Wet,7.5,7.5,7.67,7.33,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.5,7.42,7.5,7.67,10.0,0.8147500000000001
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.0,7.58,7.75,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.25,7.42,10.0,0.80625
+Brazil,Arabica,Semi-washed / Semi-pulped,7.5,7.5,7.42,7.42,10.0,0.8085000000000001
+Guatemala,Arabica,Washed / Wet,7.33,7.42,7.42,7.83,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.5,7.5,7.58,7.5,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.33,7.67,7.5,7.83,10.0,0.825
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.42,7.5,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.5,7.5,7.5,7.67,10.0,0.8167500000000001
+Mexico,Arabica,Semi-washed / Semi-pulped,7.5,7.5,7.25,7.92,10.0,0.8167500000000001
+Guatemala,Arabica,Natural / Dry,7.5,7.33,7.5,7.67,10.0,0.8125
+Brazil,Arabica,Semi-washed / Semi-pulped,7.42,7.42,7.5,7.67,10.0,0.8147500000000001
+Colombia,Arabica,Washed / Wet,7.58,7.5,7.25,7.67,10.0,0.8105
+United States (Hawaii),Arabica,Washed / Wet,7.58,7.42,7.42,7.33,10.0,0.80425
+Guatemala,Arabica,,7.33,7.58,7.58,7.75,9.33,0.806
+Honduras,Arabica,Washed / Wet,7.5,7.67,7.58,7.42,10.0,0.8167500000000001
+Guatemala,Arabica,Washed / Wet,7.42,7.5,7.33,7.58,10.0,0.8102499999999999
+Guatemala,Arabica,Washed / Wet,7.5,7.58,7.42,7.67,10.0,0.8167500000000001
+Guatemala,Arabica,Washed / Wet,7.42,7.5,7.5,7.58,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.5,7.42,7.67,7.5,10.0,0.8147500000000001
+Colombia,Arabica,Washed / Wet,8.08,7.75,7.83,5.08,10.0,0.7665
+China,Arabica,Washed / Wet,7.58,7.42,7.42,7.67,10.0,0.81275
+Brazil,Arabica,,8.0,7.5,7.25,7.42,10.0,0.80425
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.25,7.67,7.67,10.0,0.8147500000000001
+Brazil,Arabica,Natural / Dry,7.42,7.83,7.75,7.17,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.33,7.5,7.42,7.5,10.0,0.8105
+Mexico,Arabica,Washed / Wet,7.58,7.5,7.42,7.42,10.0,0.8085000000000001
+Brazil,Arabica,Semi-washed / Semi-pulped,7.42,7.67,7.5,7.58,10.0,0.81875
+Peru,Arabica,Washed / Wet,7.5,7.58,7.5,7.58,9.33,0.7997500000000001
+Brazil,Arabica,Natural / Dry,8.17,7.33,7.42,7.25,10.0,0.8
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.42,7.5,9.33,0.79575
+Honduras,Arabica,Washed / Wet,7.67,7.67,7.75,7.25,10.0,0.8167500000000001
+Colombia,Arabica,Washed / Wet,7.42,7.42,7.58,7.67,10.0,0.8167500000000001
+Mexico,Arabica,Washed / Wet,7.42,7.42,7.42,7.5,10.0,0.8085000000000001
+Mexico,Arabica,Semi-washed / Semi-pulped,7.42,7.58,7.58,7.42,10.0,0.8145
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.5,7.42,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.58,7.33,7.58,7.75,10.0,0.8164999999999999
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.5,7.5,10.0,0.8145
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.5,7.58,10.0,0.8164999999999999
+Mexico,Arabica,Washed / Wet,7.58,7.33,7.5,7.58,10.0,0.8102499999999999
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.58,7.67,10.0,0.82075
+Mexico,Arabica,Washed / Wet,7.5,7.5,7.17,7.83,10.0,0.8125
+Colombia,Arabica,Natural / Dry,7.58,7.33,7.5,7.67,10.0,0.8125
+Brazil,Arabica,Natural / Dry,7.42,7.5,7.5,7.75,10.0,0.81875
+Colombia,Arabica,Washed / Wet,7.75,7.58,7.42,7.33,10.0,0.8082499999999999
+Colombia,Arabica,,7.5,7.25,7.58,7.58,10.0,0.8102499999999999
+Honduras,Arabica,Washed / Wet,7.58,7.58,7.42,7.5,10.0,0.8125
+Brazil,Arabica,Natural / Dry,7.67,7.5,7.5,7.33,10.0,0.8082499999999999
+Brazil,Arabica,Natural / Dry,7.5,7.42,7.5,7.42,10.0,0.8085000000000001
+Brazil,Arabica,Natural / Dry,7.5,7.5,7.42,7.5,10.0,0.8105
+Costa Rica,Arabica,Washed / Wet,7.5,7.5,7.42,7.75,10.0,0.8167500000000001
+Costa Rica,Arabica,Washed / Wet,7.33,7.33,7.33,7.75,10.0,0.8102499999999999
+China,Arabica,Pulped natural / honey,7.5,7.58,7.42,7.5,10.0,0.8125
+Brazil,Arabica,Natural / Dry,7.75,7.83,8.17,8.25,10.0,0.85625
+Brazil,Arabica,Natural / Dry,7.42,7.5,7.5,7.42,10.0,0.8105
+Guatemala,Arabica,Washed / Wet,7.42,7.42,7.5,7.5,10.0,0.8105
+Malawi,Arabica,Washed / Wet,7.58,7.58,7.33,7.33,10.0,0.806
+Brazil,Arabica,Natural / Dry,8.0,8.08,8.08,7.75,10.0,0.8477499999999999
+Guatemala,Arabica,Washed / Wet,7.42,7.67,7.75,7.58,9.33,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.5,7.33,10.0,0.8102499999999999
+Colombia,Arabica,Washed / Wet,7.5,7.33,7.08,7.42,10.0,0.79575
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.33,7.5,7.5,7.5,10.0,0.8125
+Taiwan,Arabica,Washed / Wet,7.33,7.5,7.5,7.5,10.0,0.8125
+Guatemala,Arabica,Washed / Wet,7.25,7.42,7.5,7.5,10.0,0.8105
+Colombia,Arabica,Washed / Wet,7.33,7.42,7.5,7.5,10.0,0.8105
+Mexico,Arabica,Washed / Wet,7.42,7.5,7.42,7.67,10.0,0.8147500000000001
+Costa Rica,Arabica,Washed / Wet,7.67,7.58,7.92,7.92,9.33,0.81875
+Guatemala,Arabica,Washed / Wet,7.33,7.5,7.5,7.67,10.0,0.8167500000000001
+Mexico,Arabica,Natural / Dry,7.58,7.67,7.0,7.58,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.0,7.58,7.5,7.67,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.33,7.5,10.0,0.8125
+Brazil,Arabica,Natural / Dry,7.42,7.5,7.5,7.58,10.0,0.8145
+Mexico,Arabica,Washed / Wet,7.83,7.75,7.08,8.0,9.33,0.8039999999999999
+Brazil,Arabica,Washed / Wet,7.42,7.58,7.42,7.58,10.0,0.8145
+Colombia,Arabica,Natural / Dry,7.33,7.58,7.58,7.83,10.0,0.8247500000000001
+Brazil,Arabica,Washed / Wet,7.5,7.5,7.67,7.58,10.0,0.81875
+Taiwan,Arabica,,10.0,7.08,7.0,7.0,10.0,0.7769999999999999
+Guatemala,Arabica,Washed / Wet,7.33,7.5,7.42,7.67,10.0,0.8147500000000001
+Brazil,Arabica,Natural / Dry,7.67,7.67,7.5,7.42,10.0,0.8147500000000001
+El Salvador,Arabica,Washed / Wet,7.58,7.67,7.83,7.58,9.33,0.8102499999999999
+Honduras,Arabica,Washed / Wet,7.33,7.5,7.42,7.58,10.0,0.8125
+Malawi,Arabica,Washed / Wet,7.42,7.42,7.58,7.58,10.0,0.8145
+Brazil,Arabica,Natural / Dry,7.42,7.58,7.33,7.75,10.0,0.8164999999999999
+Taiwan,Arabica,Washed / Wet,7.25,7.5,7.5,7.5,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.42,7.58,7.42,7.58,10.0,0.8145
+United States (Hawaii),Arabica,Natural / Dry,7.42,7.42,7.5,7.33,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.58,7.58,7.42,7.58,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.33,7.5,7.67,7.5,10.0,0.8167500000000001
+Mexico,Arabica,Washed / Wet,7.33,7.58,7.33,7.5,10.0,0.8102499999999999
+Mexico,Arabica,Washed / Wet,7.33,7.58,7.42,7.67,10.0,0.8167500000000001
+El Salvador,Arabica,Washed / Wet,7.33,7.33,7.5,7.75,10.0,0.8145
+Mexico,Arabica,Washed / Wet,7.42,7.58,7.33,7.33,10.0,0.806
+Mexico,Arabica,Washed / Wet,7.42,7.5,7.42,7.42,10.0,0.8085000000000001
+Colombia,Arabica,Washed / Wet,7.42,7.42,7.58,7.5,10.0,0.8125
+Colombia,Arabica,Washed / Wet,7.58,7.33,7.5,7.67,10.0,0.8125
+Brazil,Arabica,Natural / Dry,7.5,7.58,7.5,7.67,10.0,0.81875
+Colombia,Arabica,,7.75,7.25,7.58,7.17,10.0,0.8
+Brazil,Arabica,Natural / Dry,7.5,7.42,7.42,7.42,10.0,0.8065
+Honduras,Arabica,Washed / Wet,7.58,7.5,7.5,7.5,10.0,0.8125
+Nicaragua,Arabica,,7.5,7.5,7.5,7.5,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.5,7.42,7.5,7.58,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.58,7.42,7.5,7.42,10.0,0.8085000000000001
+Brazil,Arabica,Natural / Dry,7.58,7.58,7.83,6.92,10.0,0.8082499999999999
+Thailand,Arabica,Washed / Wet,7.5,7.42,7.25,7.42,10.0,0.8022500000000001
+Honduras,Arabica,Washed / Wet,7.33,7.5,7.58,7.67,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.42,7.42,7.42,7.42,10.0,0.8065
+Brazil,Arabica,Natural / Dry,7.5,7.5,7.5,7.58,10.0,0.8145
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.25,7.42,7.33,7.75,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.33,7.33,7.33,7.42,10.0,0.8019999999999999
+Mexico,Arabica,Washed / Wet,7.5,7.5,7.5,7.5,10.0,0.8125
+Taiwan,Arabica,Other,7.17,7.5,7.5,7.5,10.0,0.8125
+Taiwan,Arabica,Washed / Wet,7.58,7.5,7.17,7.67,10.0,0.8085000000000001
+Colombia,Arabica,Washed / Wet,7.5,7.25,7.75,7.33,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.67,7.67,7.33,7.5,10.0,0.8125
+Guatemala,Arabica,Washed / Wet,7.17,7.75,8.17,7.25,10.0,0.82925
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.5,7.5,10.0,0.8145
+Mexico,Arabica,Washed / Wet,7.58,7.67,7.42,7.0,10.0,0.8022500000000001
+Colombia,Arabica,,7.42,7.67,7.17,7.58,10.0,0.8105
+Indonesia,Arabica,Washed / Wet,7.33,7.5,7.5,7.5,10.0,0.8125
+Colombia,Arabica,Washed / Wet,7.58,7.58,7.83,7.75,9.33,0.81225
+Brazil,Arabica,Natural / Dry,7.5,7.58,7.42,7.42,10.0,0.8105
+Brazil,Arabica,Natural / Dry,7.25,7.25,7.25,7.25,10.0,0.79375
+Costa Rica,Arabica,Washed / Wet,7.67,7.42,7.17,7.75,10.0,0.8085000000000001
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.42,7.33,7.5,7.42,10.0,0.80625
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.5,7.5,7.33,7.42,10.0,0.80625
+Colombia,Arabica,Washed / Wet,7.25,7.42,7.67,7.5,10.0,0.8147500000000001
+Costa Rica,Arabica,Washed / Wet,7.33,7.33,7.5,7.58,10.0,0.8102499999999999
+United States (Hawaii),Arabica,Natural / Dry,7.5,7.58,7.5,7.25,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.42,7.58,7.42,7.42,10.0,0.8105
+Mexico,Arabica,Washed / Wet,7.5,7.42,7.25,7.5,10.0,0.80425
+Mexico,Arabica,Washed / Wet,7.33,7.5,7.42,7.67,10.0,0.8147500000000001
+Vietnam,Arabica,Natural / Dry,7.42,8.0,7.67,7.67,10.0,0.8335000000000001
+Mexico,Arabica,Washed / Wet,7.33,7.42,7.33,7.58,10.0,0.8082499999999999
+United States (Hawaii),Arabica,Washed / Wet,7.42,7.5,7.08,7.33,10.0,0.79775
+Colombia,Arabica,,7.17,7.42,7.25,7.67,10.0,0.8085000000000001
+Honduras,Arabica,Washed / Wet,7.42,7.5,7.5,7.5,10.0,0.8125
+Honduras,Arabica,Natural / Dry,7.5,7.5,7.42,7.5,10.0,0.8105
+Brazil,Arabica,Natural / Dry,7.5,7.33,7.33,7.5,10.0,0.8039999999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.42,7.33,7.42,7.67,10.0,0.8105
+Laos,Arabica,Washed / Wet,7.5,7.5,7.5,7.42,10.0,0.8105
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.5,7.42,7.33,7.42,10.0,0.80425
+Malawi,Arabica,Washed / Wet,7.33,7.42,7.33,7.5,10.0,0.80625
+Taiwan,Arabica,Washed / Wet,7.75,7.5,7.5,7.33,10.0,0.8082499999999999
+Thailand,Arabica,Washed / Wet,7.33,7.5,7.33,7.58,10.0,0.8102499999999999
+Costa Rica,Arabica,Washed / Wet,7.33,7.25,7.75,7.5,10.0,0.8125
+Honduras,Arabica,Washed / Wet,7.17,7.33,7.5,7.33,10.0,0.8039999999999999
+Colombia,Arabica,Washed / Wet,7.17,7.33,7.5,7.33,10.0,0.8039999999999999
+Taiwan,Arabica,Washed / Wet,7.42,7.58,8.0,7.42,9.33,0.8082499999999999
+Brazil,Arabica,Natural / Dry,7.67,7.67,7.33,7.33,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.42,7.33,7.42,7.67,10.0,0.8105
+Brazil,Arabica,Natural / Dry,7.42,7.5,7.33,7.42,10.0,0.80625
+Brazil,Arabica,Semi-washed / Semi-pulped,7.42,7.5,7.5,7.42,10.0,0.8105
+Guatemala,Arabica,Natural / Dry,7.17,7.33,7.67,7.33,10.0,0.8082499999999999
+Brazil,Arabica,Semi-washed / Semi-pulped,7.33,7.5,7.5,7.58,10.0,0.8145
+Guatemala,Arabica,Washed / Wet,7.42,7.33,7.75,7.75,10.0,0.82075
+Colombia,Arabica,,8.0,7.0,7.5,7.33,10.0,0.79575
+Guatemala,Arabica,Washed / Wet,7.58,7.5,7.58,7.58,9.33,0.7997500000000001
+Guatemala,Arabica,Washed / Wet,7.42,7.5,7.42,7.5,10.0,0.8105
+Honduras,Arabica,Washed / Wet,7.33,7.5,7.42,7.58,10.0,0.8125
+Brazil,Arabica,Natural / Dry,7.5,7.33,7.5,7.42,10.0,0.80625
+El Salvador,Arabica,Washed / Wet,7.33,7.58,7.5,7.67,10.0,0.81875
+Guatemala,Arabica,Washed / Wet,7.25,7.58,7.17,7.58,10.0,0.8082499999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.42,7.33,7.5,7.33,10.0,0.8039999999999999
+Nicaragua,Arabica,Washed / Wet,7.33,7.42,7.5,7.58,10.0,0.8125
+Zambia,Arabica,Washed / Wet,7.25,7.08,7.75,7.67,10.0,0.8125
+Honduras,Arabica,Washed / Wet,7.42,7.33,7.33,7.42,10.0,0.8019999999999999
+Taiwan,Arabica,Other,7.25,7.5,7.5,7.5,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.25,7.5,7.5,7.58,10.0,0.8145
+Mexico,Arabica,Semi-washed / Semi-pulped,7.42,7.5,7.5,7.5,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.58,7.42,7.33,7.5,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.42,7.33,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.33,7.42,7.5,7.67,9.33,0.798
+Brazil,Arabica,Natural / Dry,7.33,7.58,7.33,7.42,10.0,0.8082499999999999
+Colombia,Arabica,,7.33,7.33,7.33,7.67,10.0,0.8082499999999999
+Guatemala,Arabica,Washed / Wet,7.42,7.5,7.33,7.42,10.0,0.80625
+Costa Rica,Arabica,Pulped natural / honey,7.33,7.33,7.67,7.25,10.0,0.80625
+Brazil,Arabica,Natural / Dry,7.33,7.5,7.42,7.42,10.0,0.8085000000000001
+Indonesia,Arabica,Other,5.17,7.83,7.92,7.75,10.0,0.8375
+Guatemala,Arabica,Washed / Wet,7.17,7.5,7.58,7.58,10.0,0.8164999999999999
+Brazil,Arabica,Natural / Dry,7.75,7.58,7.75,7.17,10.0,0.8125
+Brazil,Arabica,Natural / Dry,8.25,7.0,7.67,7.58,10.0,0.80625
+Myanmar,Arabica,Washed / Wet,7.33,7.58,7.33,7.33,10.0,0.806
+Mexico,Arabica,Washed / Wet,7.42,7.5,7.17,7.58,10.0,0.80625
+Honduras,Arabica,Washed / Wet,7.33,7.5,7.42,7.5,10.0,0.8105
+Costa Rica,Arabica,Washed / Wet,7.42,7.5,7.08,7.67,10.0,0.80625
+Taiwan,Arabica,Washed / Wet,7.33,7.33,7.75,7.67,10.0,0.81875
+Indonesia,Arabica,Other,7.42,7.42,7.42,7.42,10.0,0.8065
+Malawi,Arabica,Washed / Wet,7.42,7.42,7.33,7.58,10.0,0.8082499999999999
+Brazil,Arabica,Natural / Dry,7.33,7.58,7.83,7.33,10.0,0.8185
+Honduras,Arabica,Natural / Dry,7.5,7.5,7.33,7.5,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.5,7.42,7.33,7.42,10.0,0.80425
+Colombia,Arabica,Washed / Wet,7.33,7.5,7.5,7.5,10.0,0.8125
+United States (Hawaii),Arabica,Natural / Dry,8.0,7.83,7.83,7.83,10.0,0.83725
+Brazil,Arabica,Semi-washed / Semi-pulped,7.83,7.75,7.83,7.75,9.33,0.8164999999999999
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.67,7.83,9.33,0.8125
+Mexico,Arabica,Washed / Wet,7.25,7.33,7.25,7.83,10.0,0.8102499999999999
+Mexico,Arabica,Semi-washed / Semi-pulped,7.42,7.33,7.5,7.33,10.0,0.8039999999999999
+Brazil,Arabica,,7.33,7.67,7.5,7.33,10.0,0.8125
+Colombia,Arabica,,7.33,7.5,7.33,7.58,10.0,0.8102499999999999
+United States (Hawaii),Arabica,,7.33,7.58,7.75,7.25,9.33,0.79775
+Guatemala,Arabica,Washed / Wet,7.33,7.5,7.42,7.5,10.0,0.8105
+Vietnam,Arabica,Washed / Wet,8.0,7.08,7.5,7.0,10.0,0.7895
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.42,7.42,7.33,7.42,10.0,0.80425
+Brazil,Arabica,Natural / Dry,7.25,7.25,7.42,7.17,10.0,0.796
+Mexico,Arabica,Washed / Wet,7.5,7.5,7.25,7.5,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.25,7.5,7.33,7.42,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.25,7.5,7.33,7.42,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.33,7.42,7.42,7.33,10.0,0.80425
+Mexico,Arabica,Washed / Wet,7.33,7.42,7.67,7.5,10.0,0.8147500000000001
+Colombia,Arabica,Washed / Wet,7.17,7.42,7.5,7.33,10.0,0.80625
+Colombia,Arabica,,7.5,7.58,7.25,7.42,10.0,0.80625
+Brazil,Arabica,Natural / Dry,7.25,7.5,7.5,7.42,10.0,0.8105
+Guatemala,Arabica,Washed / Wet,7.58,7.42,7.33,7.42,10.0,0.80425
+Guatemala,Arabica,Washed / Wet,7.33,7.33,7.33,7.42,10.0,0.8019999999999999
+Honduras,Arabica,Washed / Wet,7.25,7.5,7.42,7.58,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,,7.58,7.33,7.5,7.17,10.0,0.8
+Nicaragua,Arabica,,7.33,7.5,7.5,7.58,10.0,0.8145
+Colombia,Arabica,,7.67,7.75,5.25,7.75,10.0,0.76875
+Brazil,Arabica,Natural / Dry,7.25,7.75,7.5,7.25,10.0,0.8125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.33,7.33,7.5,7.42,10.0,0.80625
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.5,7.33,7.42,7.33,10.0,0.8019999999999999
+Brazil,Arabica,Washed / Wet,7.33,7.42,7.5,7.25,10.0,0.80425
+Indonesia,Arabica,Semi-washed / Semi-pulped,7.58,7.42,7.33,7.17,10.0,0.798
+Honduras,Arabica,Natural / Dry,7.5,7.33,7.17,7.5,10.0,0.8
+Costa Rica,Arabica,Washed / Wet,8.08,7.17,7.5,7.5,10.0,0.80425
+Mexico,Arabica,Washed / Wet,7.42,7.42,7.58,7.42,9.33,0.79375
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.25,7.5,7.42,7.5,10.0,0.8105
+Taiwan,Arabica,Washed / Wet,7.25,7.42,7.33,7.58,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.42,7.42,7.33,7.5,10.0,0.80625
+Guatemala,Arabica,Washed / Wet,7.17,7.67,7.33,7.5,10.0,0.8125
+Mexico,Arabica,Washed / Wet,7.58,7.67,7.67,7.25,8.67,0.7815
+Mexico,Arabica,Washed / Wet,7.08,7.25,7.5,7.67,10.0,0.8105
+Mexico,Arabica,Washed / Wet,7.17,7.42,7.42,7.5,10.0,0.8085000000000001
+Mexico,Arabica,Washed / Wet,7.42,7.42,7.25,7.58,10.0,0.80625
+Mexico,Arabica,Semi-washed / Semi-pulped,7.67,7.58,7.58,7.75,9.33,0.806
+United States (Hawaii),Arabica,Washed / Wet,7.25,7.33,7.17,7.42,10.0,0.798
+Honduras,Arabica,Washed / Wet,7.33,7.42,7.5,7.5,10.0,0.8105
+Guatemala,Arabica,Washed / Wet,7.42,7.42,7.42,7.42,10.0,0.8065
+Taiwan,Arabica,Washed / Wet,7.25,7.42,7.33,7.42,10.0,0.80425
+Costa Rica,Arabica,Washed / Wet,7.25,7.42,7.08,7.58,10.0,0.8019999999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.25,7.42,7.42,7.42,10.0,0.8065
+Malawi,Arabica,Washed / Wet,7.33,7.42,7.33,7.42,10.0,0.80425
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.0,7.17,8.33,7.33,10.0,0.82075
+Brazil,Arabica,Washed / Wet,7.33,7.42,7.5,7.42,10.0,0.8085000000000001
+Guatemala,Arabica,Washed / Wet,7.17,7.33,7.42,7.42,10.0,0.80425
+Mexico,Arabica,Washed / Wet,7.33,7.5,6.75,7.67,10.0,0.798
+Mexico,Arabica,Natural / Dry,7.33,7.5,7.5,7.33,10.0,0.8082499999999999
+Mexico,Arabica,Natural / Dry,7.67,7.58,7.58,7.67,10.0,0.82075
+Thailand,Arabica,,7.33,7.33,7.17,7.08,10.0,0.7895
+Thailand,Arabica,,7.33,7.33,7.58,7.33,10.0,0.806
+Costa Rica,Arabica,,7.25,7.17,7.5,7.25,10.0,0.798
+Guatemala,Arabica,Washed / Wet,7.58,7.58,7.33,7.67,9.33,0.79775
+Nicaragua,Arabica,Other,7.33,7.42,7.25,7.5,10.0,0.80425
+Honduras,Arabica,Washed / Wet,7.33,7.5,7.17,7.5,10.0,0.80425
+Guatemala,Arabica,,7.33,7.42,7.5,7.5,10.0,0.8105
+Taiwan,Arabica,Natural / Dry,7.33,7.42,7.58,7.5,10.0,0.8125
+Myanmar,Arabica,Washed / Wet,7.42,7.42,7.33,7.25,10.0,0.8
+Costa Rica,Arabica,Washed / Wet,7.33,7.33,7.33,7.83,10.0,0.81225
+Malawi,Arabica,Washed / Wet,7.33,7.42,7.5,7.67,10.0,0.8147500000000001
+Guatemala,Arabica,Washed / Wet,7.17,7.42,7.25,7.5,10.0,0.80425
+Taiwan,Arabica,Washed / Wet,7.5,7.33,7.42,7.42,10.0,0.80425
+Brazil,Arabica,Semi-washed / Semi-pulped,7.75,7.5,7.67,7.58,9.33,0.8019999999999999
+Haiti,Arabica,Washed / Wet,7.33,7.33,7.42,7.42,10.0,0.80425
+Taiwan,Arabica,Other,7.42,7.42,7.33,7.5,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.25,7.33,7.5,7.33,10.0,0.8039999999999999
+Mexico,Arabica,Washed / Wet,7.17,7.42,7.33,7.58,10.0,0.8082499999999999
+Mexico,Arabica,Washed / Wet,7.08,7.25,7.17,7.42,10.0,0.796
+Mexico,Arabica,Semi-washed / Semi-pulped,7.25,7.5,7.33,7.33,10.0,0.8039999999999999
+Mexico,Arabica,Washed / Wet,7.5,7.42,7.25,7.42,10.0,0.8022500000000001
+Mexico,Arabica,Natural / Dry,7.42,7.5,7.42,7.5,9.33,0.79375
+Indonesia,Arabica,Washed / Wet,7.17,7.17,7.58,7.75,10.0,0.8125
+Brazil,Arabica,Semi-washed / Semi-pulped,7.17,7.42,7.5,7.5,10.0,0.8105
+Guatemala,Arabica,Washed / Wet,7.42,7.5,7.17,7.33,10.0,0.8
+Colombia,Arabica,,7.33,7.42,7.42,7.42,10.0,0.8065
+United States (Hawaii),Arabica,,7.33,7.33,7.5,7.33,9.33,0.78725
+Mexico,Arabica,Washed / Wet,7.25,7.33,7.5,7.58,10.0,0.8102499999999999
+Guatemala,Arabica,Washed / Wet,7.42,7.33,7.33,7.42,10.0,0.8019999999999999
+Brazil,Arabica,Natural / Dry,7.5,7.5,6.83,7.33,10.0,0.7915
+Honduras,Arabica,Washed / Wet,7.25,7.33,7.5,7.5,10.0,0.8082499999999999
+Taiwan,Arabica,Washed / Wet,7.08,7.75,7.08,7.83,10.0,0.8164999999999999
+Malawi,Arabica,Washed / Wet,7.42,7.17,7.08,7.58,10.0,0.79575
+Brazil,Arabica,Natural / Dry,7.42,7.5,7.33,7.25,10.0,0.8019999999999999
+Guatemala,Arabica,Washed / Wet,7.08,7.5,7.42,7.42,10.0,0.8085000000000001
+Mexico,Arabica,Washed / Wet,7.33,7.33,7.25,7.67,10.0,0.80625
+Peru,Arabica,Washed / Wet,7.25,7.42,7.42,7.42,10.0,0.8065
+Guatemala,Arabica,Washed / Wet,7.08,7.33,7.42,7.42,10.0,0.80425
+Mexico,Arabica,Washed / Wet,7.58,7.33,7.25,7.42,10.0,0.8
+Mexico,Arabica,Washed / Wet,7.25,7.42,7.5,7.42,10.0,0.8085000000000001
+Colombia,Arabica,Natural / Dry,7.17,7.42,7.17,7.5,10.0,0.8022500000000001
+Colombia,Arabica,,7.33,7.33,7.33,7.75,10.0,0.8102499999999999
+United States (Hawaii),Arabica,,6.92,7.0,7.58,7.83,10.0,0.8102499999999999
+Colombia,Arabica,Washed / Wet,7.25,7.33,7.33,7.5,10.0,0.8039999999999999
+Honduras,Arabica,Washed / Wet,7.33,7.5,7.5,7.5,10.0,0.8125
+Mexico,Arabica,,7.17,7.42,7.58,7.67,10.0,0.8167500000000001
+Brazil,Arabica,Natural / Dry,7.33,7.33,7.33,7.25,10.0,0.79775
+Honduras,Arabica,Washed / Wet,7.42,7.42,7.17,7.58,10.0,0.80425
+Brazil,Arabica,Other,7.42,7.33,7.42,7.17,10.0,0.798
+Philippines,Arabica,Washed / Wet,7.33,7.33,7.33,7.08,10.0,0.7935000000000001
+Malawi,Arabica,Washed / Wet,7.25,7.33,7.33,7.75,10.0,0.8102499999999999
+Honduras,Arabica,Washed / Wet,7.33,7.33,7.5,7.33,10.0,0.8039999999999999
+Mexico,Arabica,Washed / Wet,7.25,7.42,7.25,7.58,10.0,0.80625
+Mexico,Arabica,Washed / Wet,7.25,7.25,7.58,7.33,10.0,0.8039999999999999
+Brazil,Arabica,Natural / Dry,7.58,7.58,7.75,7.5,9.33,0.8039999999999999
+Taiwan,Arabica,Natural / Dry,5.25,7.75,7.83,7.83,9.33,0.8185
+Brazil,Arabica,Natural / Dry,7.33,7.42,6.92,7.17,10.0,0.78775
+Nicaragua,Arabica,Washed / Wet,7.5,7.5,7.42,7.08,10.0,0.8
+Honduras,Arabica,Washed / Wet,7.42,7.17,7.33,7.42,10.0,0.798
+Guatemala,Arabica,Washed / Wet,7.33,7.42,7.42,7.33,10.0,0.80425
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.42,7.17,7.25,7.33,10.0,0.79375
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.25,7.5,7.25,7.5,10.0,0.80625
+Guatemala,Arabica,Washed / Wet,7.08,7.33,7.0,7.5,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.5,7.42,7.5,7.42,9.33,0.7917500000000001
+Nicaragua,Arabica,Washed / Wet,7.25,7.5,7.58,7.33,10.0,0.8102499999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.17,7.17,7.5,7.67,10.0,0.8085000000000001
+Mexico,Arabica,Washed / Wet,7.17,7.58,7.08,7.75,10.0,0.8102499999999999
+Costa Rica,Arabica,Washed / Wet,7.42,7.5,7.08,7.5,10.0,0.8019999999999999
+Honduras,Arabica,Natural / Dry,7.33,7.33,7.33,7.42,10.0,0.8019999999999999
+Thailand,Arabica,Washed / Wet,7.42,7.42,7.5,6.83,10.0,0.79375
+Philippines,Arabica,Natural / Dry,7.25,7.25,7.58,7.25,10.0,0.8019999999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.33,7.17,7.33,7.58,10.0,0.8019999999999999
+Malawi,Arabica,Washed / Wet,7.25,7.25,7.33,7.58,10.0,0.8039999999999999
+Costa Rica,Arabica,Washed / Wet,7.25,7.08,7.33,7.33,10.0,0.7935000000000001
+Brazil,Arabica,Natural / Dry,7.17,7.42,7.33,7.42,10.0,0.80425
+Mexico,Arabica,Natural / Dry,7.08,7.25,7.42,7.42,10.0,0.8022500000000001
+Guatemala,Arabica,Washed / Wet,7.25,7.25,7.25,7.42,10.0,0.798
+Brazil,Arabica,Natural / Dry,7.08,7.33,7.5,7.42,10.0,0.80625
+United States (Hawaii),Arabica,,7.75,7.75,7.42,7.25,8.67,0.7772500000000001
+Ethiopia,Arabica,Natural / Dry,7.25,7.33,7.42,7.42,10.0,0.80425
+Brazil,Arabica,Natural / Dry,7.33,7.42,7.75,7.58,9.33,0.8019999999999999
+Nicaragua,Arabica,Washed / Wet,7.0,7.33,7.33,7.33,10.0,0.7997500000000001
+United States,Arabica,Natural / Dry,7.17,7.17,7.25,7.42,10.0,0.796
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.17,7.33,7.25,7.42,10.0,0.8
+Costa Rica,Arabica,Washed / Wet,7.17,7.25,7.25,7.42,10.0,0.798
+United States (Puerto Rico),Arabica,Washed / Wet,8.5,7.75,7.58,7.67,6.67,0.74175
+Mexico,Arabica,Washed / Wet,7.25,7.42,7.17,7.25,10.0,0.796
+Mexico,Arabica,Washed / Wet,7.08,7.25,7.25,7.33,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.25,7.33,7.25,7.33,10.0,0.79775
+Mexico,Arabica,Washed / Wet,7.25,7.33,7.17,7.42,10.0,0.798
+United States (Hawaii),Arabica,Washed / Wet,7.33,7.42,6.92,7.42,10.0,0.7939999999999999
+Brazil,Arabica,Pulped natural / honey,7.33,7.25,7.33,7.25,10.0,0.79575
+El Salvador,Arabica,Washed / Wet,7.25,7.08,7.25,7.42,10.0,0.79375
+Brazil,Arabica,Pulped natural / honey,7.17,7.17,7.33,7.33,10.0,0.79575
+Guatemala,Arabica,Washed / Wet,7.25,7.25,7.25,7.42,10.0,0.798
+Colombia,Arabica,Washed / Wet,7.75,7.5,7.67,7.67,10.0,0.8210000000000001
+Guatemala,Arabica,Washed / Wet,7.25,7.25,7.5,7.5,10.0,0.80625
+Taiwan,Arabica,Washed / Wet,7.33,7.17,7.5,7.25,10.0,0.798
+Honduras,Arabica,Natural / Dry,7.33,7.25,7.25,7.42,10.0,0.798
+Brazil,Arabica,Natural / Dry,7.75,7.75,7.83,7.67,10.0,0.83125
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.33,7.33,7.17,7.33,10.0,0.79575
+Uganda,Arabica,Natural / Dry,7.42,6.92,7.42,7.33,10.0,0.7917500000000001
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.25,6.92,7.33,7.5,10.0,0.79375
+Thailand,Arabica,Washed / Wet,7.17,7.42,7.25,7.33,10.0,0.8
+Mexico,Arabica,Washed / Wet,7.25,7.33,7.42,7.08,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.5,7.67,7.58,7.58,8.0,0.7707499999999999
+Taiwan,Arabica,Washed / Wet,7.25,7.17,7.33,7.33,10.0,0.79575
+Guatemala,Arabica,Washed / Wet,7.5,7.67,7.67,7.67,9.33,0.8084999999999999
+Kenya,Arabica,Washed / Wet,5.42,7.58,8.0,7.17,10.0,0.81875
+Mexico,Arabica,Washed / Wet,7.33,7.33,7.5,7.5,9.33,0.7914999999999999
+Myanmar,Arabica,Other,7.42,7.42,7.33,7.17,10.0,0.798
+United States (Hawaii),Arabica,Natural / Dry,7.25,7.08,7.58,7.42,10.0,0.8019999999999999
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.25,7.17,7.42,7.33,10.0,0.798
+Brazil,Arabica,Natural / Dry,7.25,7.33,7.25,7.25,10.0,0.79575
+Taiwan,Arabica,Washed / Wet,6.75,7.67,7.08,7.92,10.0,0.8167500000000001
+Brazil,Arabica,Natural / Dry,7.33,7.42,7.25,7.17,10.0,0.796
+Nicaragua,Arabica,Washed / Wet,7.33,7.08,7.5,7.33,10.0,0.79775
+Guatemala,Arabica,Washed / Wet,7.08,7.42,7.25,7.58,10.0,0.80625
+Taiwan,Arabica,Washed / Wet,7.25,7.25,7.25,7.42,10.0,0.798
+Taiwan,Arabica,Other,7.17,7.17,7.08,7.25,10.0,0.7875
+Taiwan,Arabica,Washed / Wet,7.25,7.25,7.25,7.42,10.0,0.798
+Mexico,Arabica,Washed / Wet,7.0,7.33,7.17,7.58,10.0,0.8019999999999999
+Thailand,Arabica,,6.83,7.58,7.17,7.67,10.0,0.8105
+Laos,Arabica,Washed / Wet,7.33,7.33,7.17,7.42,10.0,0.798
+Guatemala,Arabica,Washed / Wet,7.08,7.25,7.17,7.67,10.0,0.8022500000000001
+Mexico,Arabica,Semi-washed / Semi-pulped,7.33,7.08,7.25,7.17,10.0,0.7875
+Mexico,Arabica,Washed / Wet,7.17,7.25,7.25,7.33,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.25,7.17,7.17,7.5,10.0,0.796
+United States (Hawaii),Arabica,Washed / Wet,7.0,7.33,7.33,7.42,10.0,0.8019999999999999
+Colombia,Arabica,,7.33,7.33,7.33,7.33,10.0,0.7997500000000001
+Brazil,Arabica,Natural / Dry,7.25,7.25,7.25,7.17,10.0,0.7917500000000001
+Myanmar,Arabica,Washed / Wet,7.17,7.5,7.5,6.92,10.0,0.798
+Guatemala,Arabica,Washed / Wet,7.17,7.33,7.17,7.5,10.0,0.8
+Nicaragua,Arabica,Washed / Wet,7.25,7.25,7.33,7.25,10.0,0.79575
+Honduras,Arabica,Natural / Dry,7.08,7.33,7.25,7.5,10.0,0.8019999999999999
+Panama,Arabica,Other,7.17,7.33,7.33,7.25,10.0,0.79775
+Honduras,Arabica,Washed / Wet,7.17,7.17,7.25,7.42,10.0,0.796
+Honduras,Arabica,Natural / Dry,7.0,7.33,7.25,7.25,10.0,0.79575
+Costa Rica,Arabica,Washed / Wet,7.25,7.33,7.17,7.33,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.5,7.33,7.5,7.58,9.33,0.7935000000000001
+Haiti,Arabica,Washed / Wet,7.25,7.0,7.08,7.42,10.0,0.7875
+United States (Hawaii),Arabica,Natural / Dry,6.92,7.33,7.33,7.08,10.0,0.7935000000000001
+Taiwan,Arabica,Other,7.33,7.08,7.42,7.33,10.0,0.79575
+Indonesia,Arabica,Semi-washed / Semi-pulped,7.33,7.42,7.5,7.58,9.33,0.79575
+Guatemala,Arabica,Washed / Wet,7.0,7.42,7.42,7.67,10.0,0.81275
+Costa Rica,Arabica,Washed / Wet,8.0,7.5,7.83,7.83,6.67,0.7457499999999999
+Malawi,Arabica,Washed / Wet,7.17,7.25,7.25,7.5,10.0,0.8
+Mexico,Arabica,Washed / Wet,7.25,7.17,7.17,7.25,10.0,0.78975
+Colombia,Arabica,Natural / Dry,8.5,7.5,7.5,7.67,10.0,0.8167500000000001
+Guatemala,Arabica,Washed / Wet,7.33,7.17,7.0,7.67,10.0,0.796
+Guatemala,Arabica,Washed / Wet,7.17,7.33,7.0,7.0,10.0,0.78325
+Guatemala,Arabica,Washed / Wet,7.33,7.5,7.17,7.0,10.0,0.7917500000000001
+Colombia,Arabica,,7.25,7.25,7.08,7.17,10.0,0.7875
+Brazil,Arabica,,7.42,7.25,7.58,7.33,9.33,0.78725
+Nicaragua,Arabica,,7.33,7.5,7.42,7.08,10.0,0.8
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.25,7.08,7.33,7.25,10.0,0.7915
+Brazil,Arabica,Semi-washed / Semi-pulped,7.25,7.25,7.08,7.42,10.0,0.79375
+Honduras,Arabica,Washed / Wet,7.17,7.17,7.33,7.5,10.0,0.8
+Guatemala,Arabica,Natural / Dry,7.25,7.42,7.17,7.17,10.0,0.7939999999999999
+United States (Hawaii),Arabica,,7.83,7.58,7.83,7.42,8.67,0.7875
+Colombia,Arabica,,7.33,7.25,7.08,7.08,10.0,0.78525
+Taiwan,Arabica,Natural / Dry,7.17,7.17,7.17,7.17,10.0,0.78775
+Guatemala,Arabica,Washed / Wet,7.25,7.25,7.25,7.33,10.0,0.79575
+Honduras,Arabica,Washed / Wet,7.0,7.33,7.33,7.58,10.0,0.806
+Mauritius,Arabica,,7.25,7.25,7.25,7.25,10.0,0.79375
+Brazil,Arabica,Semi-washed / Semi-pulped,7.33,7.33,7.33,7.25,9.33,0.781
+Myanmar,Arabica,Washed / Wet,7.08,7.33,7.25,7.17,10.0,0.79375
+Guatemala,Arabica,Washed / Wet,7.17,7.17,7.17,7.5,10.0,0.796
+Brazil,Arabica,Semi-washed / Semi-pulped,7.42,7.42,7.67,7.42,9.33,0.7959999999999999
+United States (Hawaii),Arabica,Natural / Dry,7.17,7.33,7.58,7.42,8.67,0.775
+Guatemala,Arabica,Washed / Wet,6.67,7.5,7.17,7.5,10.0,0.80425
+Mexico,Arabica,Washed / Wet,7.17,7.25,7.25,7.25,10.0,0.79375
+Honduras,Arabica,,7.0,7.42,7.33,7.25,10.0,0.8
+Taiwan,Arabica,Washed / Wet,7.0,7.17,7.17,7.58,10.0,0.798
+El Salvador,Arabica,Washed / Wet,7.25,7.17,7.33,7.33,10.0,0.79575
+China,Arabica,Washed / Wet,7.17,7.08,7.33,7.25,10.0,0.7915
+Taiwan,Arabica,Washed / Wet,7.0,7.25,7.25,7.25,10.0,0.79375
+Mexico,Arabica,Washed / Wet,7.25,7.17,7.33,6.92,10.0,0.7855000000000001
+Mexico,Arabica,Washed / Wet,7.08,7.08,7.25,7.42,10.0,0.79375
+Burundi,Arabica,,7.33,7.25,7.08,7.08,10.0,0.78525
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.17,7.17,7.42,7.25,10.0,0.796
+"Tanzania, United Republic Of",Arabica,Washed / Wet,7.08,7.17,7.25,7.25,10.0,0.7917500000000001
+Taiwan,Arabica,Other,7.0,7.25,7.25,7.25,10.0,0.79375
+Guatemala,Arabica,Washed / Wet,7.17,7.33,7.0,7.33,10.0,0.7915
+Mexico,Arabica,Semi-washed / Semi-pulped,7.08,7.08,7.33,7.25,10.0,0.7915
+United States (Hawaii),Arabica,Washed / Wet,7.08,7.5,7.67,7.17,9.33,0.7917500000000001
+Ethiopia,Arabica,,7.08,7.25,7.5,7.25,9.33,0.78325
+Brazil,Arabica,Natural / Dry,7.25,7.33,7.0,7.17,10.0,0.7875
+Honduras,Arabica,Natural / Dry,7.33,7.25,7.42,7.25,10.0,0.798
+Mexico,Arabica,Washed / Wet,7.17,7.17,7.33,7.25,10.0,0.79375
+Myanmar,Arabica,Natural / Dry,6.83,7.08,7.08,8.0,10.0,0.8039999999999999
+Myanmar,Arabica,Natural / Dry,7.25,7.0,7.17,7.42,10.0,0.78975
+Nicaragua,Arabica,Washed / Wet,7.25,6.92,7.5,7.08,10.0,0.7875
+United States (Hawaii),Arabica,Natural / Dry,7.33,7.08,7.42,7.5,9.33,0.78325
+Colombia,Arabica,Washed / Wet,7.58,8.0,8.08,7.42,8.67,0.80425
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.0,7.08,7.17,7.25,10.0,0.7875
+Guatemala,Arabica,Washed / Wet,7.25,7.17,7.0,7.0,10.0,0.77925
+Mexico,Arabica,Washed / Wet,7.17,7.33,6.75,7.58,10.0,0.7915
+Vietnam,Arabica,Other,7.25,7.25,7.42,7.42,8.67,0.7689999999999999
+Nicaragua,Arabica,Washed / Wet,7.17,7.08,7.25,7.17,10.0,0.7875
+Honduras,Arabica,Washed / Wet,7.33,7.25,7.08,7.25,10.0,0.7895
+Guatemala,Arabica,Washed / Wet,7.0,7.33,7.17,7.33,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.08,7.08,7.25,7.33,10.0,0.7915
+Mexico,Arabica,Washed / Wet,7.42,7.42,7.08,7.58,8.67,0.76875
+Mexico,Arabica,Washed / Wet,7.0,7.33,7.25,7.33,10.0,0.79775
+Guatemala,Arabica,Washed / Wet,7.17,7.33,7.0,7.33,10.0,0.7915
+United States (Hawaii),Arabica,,7.42,7.5,7.67,7.58,9.33,0.8019999999999999
+Brazil,Arabica,Pulped natural / honey,7.08,7.17,7.25,7.17,10.0,0.78975
+Taiwan,Arabica,Washed / Wet,7.0,7.25,7.0,7.42,10.0,0.7917500000000001
+Nicaragua,Arabica,Natural / Dry,7.08,7.17,7.17,7.25,10.0,0.78975
+Taiwan,Arabica,Other,7.0,7.25,7.08,7.25,10.0,0.7895
+Taiwan,Arabica,Washed / Wet,7.0,7.25,7.25,7.25,10.0,0.79375
+Taiwan,Arabica,Semi-washed / Semi-pulped,7.0,7.25,7.17,7.25,10.0,0.7917500000000001
+Mexico,Arabica,Washed / Wet,7.08,7.17,7.08,7.33,10.0,0.7895
+Mexico,Arabica,Washed / Wet,7.08,7.08,7.33,7.25,10.0,0.7915
+Nicaragua,Arabica,Washed / Wet,7.0,7.08,7.42,7.33,10.0,0.79575
+Myanmar,Arabica,Washed / Wet,6.92,7.33,7.17,7.17,10.0,0.7917500000000001
+Mexico,Arabica,Washed / Wet,7.42,7.75,7.5,7.58,8.67,0.7875
+Taiwan,Arabica,Washed / Wet,7.0,7.25,7.25,7.25,10.0,0.79375
+Thailand,Arabica,Washed / Wet,7.0,6.67,7.42,7.33,10.0,0.7855000000000001
+Mexico,Arabica,Washed / Wet,7.25,7.25,7.33,7.25,9.33,0.7789999999999999
+Mexico,Arabica,Washed / Wet,7.17,7.33,7.08,7.08,10.0,0.78725
+Ethiopia,Arabica,,7.75,7.42,7.75,7.42,8.67,0.7815
+Colombia,Arabica,Washed / Wet,7.42,7.67,7.83,7.83,6.67,0.75
+United States (Hawaii),Arabica,Natural / Dry,7.0,7.0,7.33,7.5,10.0,0.79575
+Mexico,Arabica,Washed / Wet,7.17,7.08,7.42,7.33,9.33,0.7789999999999999
+Mexico,Arabica,Washed / Wet,7.0,7.17,7.33,7.17,10.0,0.7917500000000001
+Mexico,Arabica,Washed / Wet,6.75,7.17,7.25,7.5,10.0,0.798
+Mexico,Arabica,Washed / Wet,7.33,7.08,7.5,7.17,9.33,0.7769999999999999
+Mexico,Arabica,Natural / Dry,7.25,7.25,7.17,7.33,9.33,0.7769999999999999
+Mexico,Arabica,Washed / Wet,7.0,7.33,7.33,7.17,10.0,0.79575
+United States (Hawaii),Arabica,,7.58,7.42,7.5,7.5,8.67,0.7772500000000001
+Kenya,Arabica,Washed / Wet,7.08,7.08,7.25,7.0,10.0,0.78325
+Guatemala,Arabica,Washed / Wet,7.08,7.25,7.25,7.33,9.33,0.7789999999999999
+Nicaragua,Arabica,Washed / Wet,7.17,7.17,7.5,6.83,10.0,0.7875
+Mexico,Arabica,Washed / Wet,6.83,7.08,7.5,7.17,10.0,0.79375
+United States (Hawaii),Arabica,Natural / Dry,7.17,7.08,7.5,7.58,9.33,0.78725
+Guatemala,Arabica,Washed / Wet,7.25,7.42,7.33,7.5,9.33,0.7895
+Taiwan,Arabica,Natural / Dry,7.33,7.33,7.67,7.75,9.33,0.8019999999999999
+Taiwan,Arabica,Washed / Wet,7.0,7.08,7.17,7.08,10.0,0.78325
+Thailand,Arabica,Washed / Wet,7.0,7.08,7.08,7.25,10.0,0.78525
+Peru,Arabica,Washed / Wet,7.17,7.08,7.5,7.0,9.33,0.7727499999999999
+Costa Rica,Arabica,Washed / Wet,8.0,7.5,7.67,7.58,8.0,0.76875
+Mexico,Arabica,Washed / Wet,6.67,7.08,7.5,7.58,10.0,0.8039999999999999
+Mexico,Arabica,Washed / Wet,6.83,7.08,7.5,7.58,10.0,0.8039999999999999
+Mexico,Arabica,Washed / Wet,7.0,7.08,7.17,7.25,10.0,0.7875
+Mexico,Arabica,Washed / Wet,6.92,7.17,7.17,7.25,10.0,0.78975
+Mexico,Arabica,Washed / Wet,7.0,7.25,7.08,7.33,10.0,0.7915
+Guatemala,Arabica,Washed / Wet,7.67,7.33,7.0,7.58,9.33,0.781
+Mexico,Arabica,Washed / Wet,7.33,6.83,7.25,7.25,10.0,0.78325
+Guatemala,Arabica,Washed / Wet,7.25,7.42,7.42,7.42,9.33,0.78975
+El Salvador,Arabica,Washed / Wet,7.0,7.08,7.33,7.25,10.0,0.7915
+Thailand,Arabica,Washed / Wet,7.08,7.17,7.17,6.92,10.0,0.7815
+Guatemala,Arabica,Washed / Wet,7.0,7.0,7.08,7.5,10.0,0.7895
+Mexico,Arabica,Washed / Wet,6.83,7.25,7.17,7.42,10.0,0.796
+Mexico,Arabica,Washed / Wet,7.33,7.17,7.08,7.33,10.0,0.7895
+Mexico,Arabica,Washed / Wet,7.08,7.17,7.08,6.92,10.0,0.77925
+Thailand,Arabica,,7.17,7.17,7.25,7.17,10.0,0.78975
+Mexico,Arabica,Washed / Wet,6.92,7.0,7.25,7.08,10.0,0.78325
+Mexico,Arabica,Washed / Wet,6.92,6.92,7.25,7.25,10.0,0.7855000000000001
+Colombia,Arabica,,6.92,7.17,7.17,7.25,10.0,0.78975
+Guatemala,Arabica,,7.08,7.0,7.25,7.08,10.0,0.78325
+Nicaragua,Arabica,Natural / Dry,7.0,6.92,7.25,6.92,10.0,0.77725
+Taiwan,Arabica,Natural / Dry,7.0,7.0,7.42,6.92,10.0,0.7835
+Colombia,Arabica,Washed / Wet,7.5,7.5,7.67,7.83,10.0,0.825
+Mexico,Arabica,Washed / Wet,7.0,7.08,7.58,7.25,9.33,0.781
+Mexico,Arabica,Washed / Wet,7.0,7.33,7.17,7.25,9.33,0.7769999999999999
+Guatemala,Arabica,Washed / Wet,7.42,7.33,7.33,7.08,9.33,0.77675
+Guatemala,Arabica,Washed / Wet,6.83,7.33,7.0,7.25,10.0,0.7895
+Mexico,Arabica,Washed / Wet,6.83,6.83,7.33,7.0,10.0,0.779
+Cote d?Ivoire,Arabica,Washed / Wet,7.08,7.25,7.33,7.42,9.33,0.78325
+Colombia,Arabica,Washed / Wet,7.33,7.25,7.42,7.42,9.33,0.7855000000000001
+Mexico,Arabica,Washed / Wet,6.83,7.0,7.42,7.0,10.0,0.7855000000000001
+Mexico,Arabica,Washed / Wet,7.0,7.17,7.08,7.42,9.33,0.775
+Guatemala,Arabica,Washed / Wet,7.17,6.5,7.58,7.17,10.0,0.78125
+Taiwan,Arabica,Washed / Wet,6.75,6.83,7.42,7.08,10.0,0.78325
+Mexico,Arabica,Washed / Wet,6.92,7.0,7.17,7.0,10.0,0.77925
+Guatemala,Arabica,Washed / Wet,7.42,7.42,7.5,7.33,8.67,0.773
+Honduras,Arabica,Washed / Wet,7.0,7.0,7.0,7.58,10.0,0.7895
+Guatemala,Arabica,Washed / Wet,6.83,7.0,7.0,7.08,10.0,0.7769999999999999
+Guatemala,Arabica,Washed / Wet,6.83,7.17,7.0,7.25,10.0,0.7855000000000001
+Costa Rica,Arabica,Washed / Wet,7.33,7.42,7.25,7.17,10.0,0.796
+Mexico,Arabica,Washed / Wet,7.17,7.08,7.17,7.25,9.33,0.7707499999999999
+Mexico,Arabica,Washed / Wet,6.92,6.92,7.17,7.17,10.0,0.7815
+Mexico,Arabica,,6.92,6.75,7.58,6.75,10.0,0.7769999999999999
+Guatemala,Arabica,Washed / Wet,7.67,7.67,7.67,7.58,8.67,0.7897500000000001
+United States (Puerto Rico),Arabica,Washed / Wet,6.92,7.08,7.33,7.42,10.0,0.79575
+Mexico,Arabica,Washed / Wet,6.83,7.0,7.33,7.33,9.33,0.77475
+Mexico,Arabica,Washed / Wet,6.92,7.08,7.42,7.25,9.33,0.7769999999999999
+Mexico,Arabica,Washed / Wet,7.25,7.25,7.25,7.17,9.33,0.775
+Guatemala,Arabica,Washed / Wet,6.58,7.17,7.08,7.33,10.0,0.7895
+Honduras,Arabica,Washed / Wet,7.0,7.0,7.0,7.0,10.0,0.775
+Peru,Arabica,Washed / Wet,7.0,7.17,8.0,7.67,8.67,0.78775
+Mexico,Arabica,Natural / Dry,7.0,7.08,7.17,6.75,10.0,0.775
+Mexico,Arabica,Semi-washed / Semi-pulped,7.0,7.17,7.25,7.5,8.67,0.76475
+Mexico,Arabica,Washed / Wet,6.83,6.83,7.17,7.17,10.0,0.77925
+Mexico,Arabica,Washed / Wet,7.0,7.0,7.17,7.33,9.33,0.7707499999999999
+Mexico,Arabica,Washed / Wet,6.75,7.0,6.92,7.5,10.0,0.7855000000000001
+Nicaragua,Arabica,Other,6.75,7.0,7.0,7.17,10.0,0.77925
+United States (Hawaii),Arabica,Natural / Dry,7.17,6.92,7.58,7.5,9.33,0.78325
+Guatemala,Arabica,Washed / Wet,6.75,7.08,7.0,7.33,10.0,0.78525
+Mexico,Arabica,Washed / Wet,6.67,6.83,7.17,7.25,10.0,0.78125
+Mexico,Arabica,Semi-washed / Semi-pulped,7.0,7.33,7.08,7.25,8.67,0.75825
+Mexico,Arabica,Washed / Wet,7.0,7.17,7.58,7.67,9.33,0.79375
+China,Arabica,Washed / Wet,7.08,6.92,7.17,7.0,10.0,0.77725
+Mexico,Arabica,Washed / Wet,6.83,6.92,7.17,6.92,10.0,0.77525
+Nicaragua,Arabica,,6.92,7.0,7.08,7.08,10.0,0.779
+Nicaragua,Arabica,Natural / Dry,6.67,7.08,7.25,6.83,10.0,0.779
+Guatemala,Arabica,Washed / Wet,7.17,7.17,7.25,7.33,8.67,0.7605000000000001
+Taiwan,Arabica,Washed / Wet,6.67,6.75,7.0,6.83,10.0,0.7645
+Mexico,Arabica,Washed / Wet,6.67,7.0,6.92,7.0,10.0,0.773
+Mexico,Arabica,Washed / Wet,7.5,7.58,7.92,7.92,8.0,0.7855000000000001
+United States (Hawaii),Arabica,,7.25,6.83,6.75,7.92,8.67,0.7542500000000001
+Mexico,Arabica,Washed / Wet,7.17,6.75,7.25,7.25,9.33,0.7645
+Mexico,Arabica,Washed / Wet,6.83,6.83,7.0,7.08,10.0,0.77275
+Mexico,Arabica,Washed / Wet,6.92,7.17,7.58,7.25,8.67,0.76675
+Brazil,Arabica,Natural / Dry,6.83,7.0,6.92,6.83,10.0,0.76875
+Mexico,Arabica,Washed / Wet,7.17,7.17,7.33,7.58,8.0,0.752
+United States (Hawaii),Arabica,Natural / Dry,7.83,7.75,7.92,7.5,7.33,0.7625
+Guatemala,Arabica,Washed / Wet,6.67,6.5,7.17,7.17,10.0,0.771
+Guatemala,Arabica,Washed / Wet,6.5,7.17,7.0,7.17,10.0,0.7835
+Mexico,Arabica,Natural / Dry,7.75,7.25,7.33,7.25,8.0,0.7457499999999999
+Guatemala,Arabica,Washed / Wet,7.0,6.08,7.33,7.17,10.0,0.7645
+United States (Hawaii),Arabica,Natural / Dry,7.42,7.5,7.5,7.5,8.67,0.77925
+United States (Hawaii),Arabica,Natural / Dry,7.25,7.33,7.67,7.42,8.0,0.7605000000000001
+Indonesia,Arabica,Washed / Wet,6.83,6.83,6.92,6.92,10.0,0.76675
+Mexico,Arabica,Washed / Wet,6.75,6.83,7.25,7.08,10.0,0.779
+Taiwan,Arabica,Washed / Wet,7.25,7.08,7.5,7.5,6.67,0.71875
+Honduras,Arabica,Natural / Dry,6.67,7.0,7.0,6.83,10.0,0.7707499999999999
+United States (Hawaii),Arabica,Natural / Dry,7.33,7.33,7.5,7.58,8.0,0.76025
+Guatemala,Arabica,Washed / Wet,7.25,7.25,7.0,7.42,9.33,0.775
+China,Arabica,Washed / Wet,7.17,7.17,7.33,7.33,9.33,0.7789999999999999
+Guatemala,Arabica,Washed / Wet,6.67,6.83,6.67,7.0,10.0,0.7625
+Mexico,Arabica,Washed / Wet,7.08,7.33,7.25,7.25,10.0,0.79575
+Colombia,Arabica,,7.08,7.17,7.67,7.42,8.67,0.77325
+Costa Rica,Arabica,Washed / Wet,6.83,7.25,7.08,7.5,8.67,0.7625
+Mexico,Arabica,Washed / Wet,6.92,7.25,7.25,7.42,8.0,0.748
+Guatemala,Arabica,Washed / Wet,7.17,6.17,7.33,7.17,10.0,0.76675
+Nicaragua,Arabica,,7.17,7.0,7.08,7.42,9.33,0.7707499999999999
+Brazil,Arabica,Washed / Wet,6.67,6.75,7.08,7.0,10.0,0.7707499999999999
+Guatemala,Arabica,Washed / Wet,6.5,6.83,6.83,7.0,10.0,0.7665
+Taiwan,Arabica,Washed / Wet,6.67,6.75,7.33,7.17,9.33,0.7645
+United States (Hawaii),Arabica,Natural / Dry,7.58,7.67,7.42,7.58,9.33,0.8
+Mexico,Arabica,Washed / Wet,6.67,6.75,6.83,7.17,10.0,0.76875
+Guatemala,Arabica,Washed / Wet,6.17,6.92,6.92,7.08,10.0,0.773
+Brazil,Arabica,Natural / Dry,7.0,7.33,7.58,7.5,8.0,0.76025
+Guatemala,Arabica,Washed / Wet,6.67,7.0,7.17,7.33,9.33,0.7707499999999999
+Mexico,Arabica,Washed / Wet,6.83,7.0,6.92,7.33,9.33,0.7645
+Haiti,Arabica,Washed / Wet,6.83,6.83,6.92,6.83,9.33,0.7477499999999999
+United States (Hawaii),Arabica,Natural / Dry,6.75,6.92,7.58,7.08,8.67,0.75625
+Mexico,Arabica,Washed / Wet,6.92,7.0,7.33,7.08,8.67,0.752
+Peru,Arabica,Washed / Wet,7.67,7.75,7.92,7.42,8.67,0.7939999999999999
+India,Arabica,Natural / Dry,7.42,7.33,7.17,7.67,9.33,0.7875
+Mexico,Arabica,,6.58,6.33,7.0,6.67,10.0,0.75
+Guatemala,Arabica,Washed / Wet,6.5,6.5,6.33,6.42,10.0,0.73125
+Mexico,Arabica,Washed / Wet,6.58,6.58,7.25,7.17,9.33,0.75825
+Guatemala,Arabica,Washed / Wet,7.0,7.0,7.17,7.5,8.67,0.7585000000000001
+Guatemala,Arabica,Washed / Wet,6.17,6.5,7.0,6.17,10.0,0.74175
+United States (Hawaii),Arabica,Natural / Dry,7.08,7.08,7.33,7.25,8.67,0.75825
+United States (Hawaii),Arabica,Natural / Dry,7.5,7.33,7.67,7.5,8.0,0.7625
+Mexico,Arabica,Washed / Wet,6.75,7.0,6.92,7.42,7.33,0.71675
+Indonesia,Arabica,Natural / Dry,6.67,7.0,7.58,7.33,9.33,0.781
+Mexico,Arabica,Washed / Wet,6.58,6.83,7.17,7.08,10.0,0.7769999999999999
+Honduras,Arabica,Natural / Dry,7.0,6.83,7.0,6.83,9.33,0.74975
+Philippines,Arabica,Washed / Wet,6.67,6.5,6.75,6.83,9.33,0.73525
+Brazil,Arabica,Natural / Dry,7.0,7.0,7.17,7.17,8.0,0.7335
+Guatemala,Arabica,Washed / Wet,6.83,7.58,7.33,7.92,8.0,0.7707499999999999
+Guatemala,Arabica,Washed / Wet,6.5,6.5,7.17,6.67,8.67,0.72525
+Mexico,Arabica,Washed / Wet,6.83,7.25,7.17,7.5,8.0,0.748
+Mexico,Arabica,Washed / Wet,6.58,6.92,7.25,7.17,10.0,0.7835
+Mexico,Arabica,Washed / Wet,6.67,6.83,7.17,7.25,10.0,0.78125
+Mexico,Arabica,Washed / Wet,6.75,7.17,7.42,7.17,8.67,0.76075
+Mexico,Arabica,Washed / Wet,6.75,6.92,7.17,7.0,10.0,0.77725
+Mexico,Arabica,Washed / Wet,6.42,6.75,7.0,7.08,8.67,0.7375
+Mexico,Arabica,Washed / Wet,7.0,6.75,7.5,7.33,10.0,0.7895
+Guatemala,Arabica,Washed / Wet,6.33,6.5,7.25,6.75,8.0,0.7125
+Guatemala,Arabica,Washed / Wet,6.42,6.67,7.0,6.75,8.0,0.7105
+Mexico,Arabica,Washed / Wet,6.75,7.0,7.33,7.08,8.0,0.73525
+United States (Hawaii),Arabica,Natural / Dry,7.33,7.25,7.42,7.5,8.0,0.7542500000000001
+Guatemala,Arabica,Washed / Wet,6.0,6.33,7.33,6.5,8.67,0.72075
+Mexico,Arabica,Washed / Wet,6.67,6.58,7.08,7.0,10.0,0.7665
+Mexico,Arabica,Washed / Wet,6.5,6.42,7.25,6.92,10.0,0.76475
+Mexico,Arabica,Washed / Wet,7.08,7.0,7.33,7.67,10.0,0.8
+United States (Hawaii),Arabica,Natural / Dry,7.33,7.17,7.67,7.17,9.33,0.7834999999999999
+Brazil,Arabica,,6.67,6.58,7.0,7.25,8.0,0.72075
+Honduras,Arabica,Washed / Wet,7.08,7.17,7.0,7.0,8.0,0.7292500000000001
+Mexico,Arabica,Washed / Wet,6.92,7.08,6.92,7.08,8.0,0.727
+Colombia,Arabica,Natural / Dry,7.33,7.33,7.42,8.0,6.67,0.7355
+United States (Hawaii),Arabica,Natural / Dry,6.92,6.92,7.58,6.92,6.67,0.70225
+Haiti,Arabica,,6.42,6.75,7.33,6.92,10.0,0.775
+Costa Rica,Arabica,Washed / Wet,6.25,6.5,6.33,6.33,10.0,0.729
+Mexico,Arabica,Washed / Wet,6.58,6.92,7.17,6.92,10.0,0.77525
+Mexico,Arabica,Washed / Wet,6.42,6.67,7.33,6.5,8.0,0.7125
+Mexico,Arabica,Washed / Wet,6.75,7.0,7.42,6.92,6.0,0.6835
+Brazil,Arabica,Natural / Dry,6.67,7.0,7.33,7.0,6.0,0.6832499999999999
+Honduras,Arabica,Washed / Wet,6.33,6.5,6.83,6.67,8.0,0.7
+Honduras,Arabica,Washed / Wet,6.5,6.17,6.5,7.0,8.0,0.6917500000000001
+Honduras,Arabica,Washed / Wet,6.33,6.33,6.67,7.0,8.0,0.7
+Mexico,Arabica,Washed / Wet,6.75,6.83,7.25,7.08,10.0,0.779
+Haiti,Arabica,Natural / Dry,6.42,6.58,7.08,6.75,9.33,0.7435
+Nicaragua,Arabica,Other,6.17,6.58,6.42,7.25,6.0,0.65625
+Guatemala,Arabica,Washed / Wet,6.67,6.67,7.33,7.5,8.0,0.7375
+Honduras,Arabica,,0.0,0.0,0.0,0.0,0.0,0.0
+Uganda,Robusta,,8.0,8.08,8.25,7.83,10.0,0.8539999999999999
+India,Robusta,Washed / Wet,8.0,7.75,7.92,8.0,10.0,0.84175
+India,Robusta,,8.0,7.83,7.83,7.92,10.0,0.8394999999999999
+Uganda,Robusta,,8.08,7.92,7.83,8.0,10.0,0.84375
+Uganda,Robusta,,7.67,7.83,8.25,8.33,10.0,0.86025
+India,Robusta,,7.75,7.92,7.75,8.0,10.0,0.84175
+India,Robusta,,7.83,7.75,7.92,7.67,10.0,0.8335000000000001
+India,Robusta,Washed / Wet,7.92,7.75,7.92,7.67,10.0,0.8335000000000001
+India,Robusta,Washed / Wet,7.92,7.75,7.83,7.67,10.0,0.83125
+Uganda,Robusta,,7.83,7.83,7.92,7.67,10.0,0.8355
+Uganda,Robusta,,7.83,7.92,7.5,7.58,10.0,0.825
+India,Robusta,Natural / Dry,7.75,7.83,7.75,7.67,10.0,0.83125
+India,Robusta,,8.33,7.58,7.67,7.58,10.0,0.82075
+Uganda,Robusta,,7.67,7.75,7.67,8.0,10.0,0.8355
+Uganda,Robusta,,7.75,7.67,7.67,8.0,10.0,0.8335000000000001
+India,Robusta,,7.83,7.75,7.58,7.75,10.0,0.827
+India,Robusta,Natural / Dry,7.83,7.5,7.67,7.5,10.0,0.8167500000000001
+Uganda,Robusta,,7.58,7.58,7.75,7.33,10.0,0.8164999999999999
+Uganda,Robusta,,7.42,7.58,7.5,7.83,10.0,0.8227499999999999
+Uganda,Robusta,,7.5,7.42,7.67,7.75,10.0,0.8210000000000001
+India,Robusta,,7.5,7.67,7.58,7.67,10.0,0.8230000000000001
+India,Robusta,Natural / Dry,7.58,7.42,7.42,7.58,10.0,0.8105
+United States,Robusta,Natural / Dry,7.33,7.5,7.42,7.92,9.33,0.80425
+Ecuador,Robusta,,7.83,7.58,5.08,7.75,10.0,0.76025
+Ecuador,Robusta,,8.58,7.67,5.17,7.5,10.0,0.7585
+United States,Robusta,Natural / Dry,7.17,7.33,7.5,7.33,9.33,0.78725
+India,Robusta,Natural / Dry,6.92,6.83,7.25,7.42,9.33,0.7707499999999999
+Vietnam,Robusta,Natural / Dry,7.92,6.67,6.92,6.75,9.33,0.74175
