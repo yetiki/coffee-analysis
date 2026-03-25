@@ -63,6 +63,7 @@ psygnal==0.15.1
 pure_eval==0.2.3
 pyarrow==23.0.1
 Pygments==2.19.2
+PyJWT==2.12.1
 pyogrio==0.12.1
 pyparsing==3.2.3
 pyproj==3.7.1
@@ -73,8 +74,10 @@ python-multipart==0.0.22
 pytz==2025.2
 questionary==2.1.1
 requests==2.32.5
+rsconnect_python==1.28.2
 scikit-learn==1.7.2
 scipy==1.15.3
+semver==3.0.4
 shapely==2.1.2
 shiny==1.6.0
 shinychat==0.2.9
@@ -85,6 +88,7 @@ SQLAlchemy==2.0.48
 stack-data==0.6.3
 starlette==1.0.0
 threadpoolctl==3.6.0
+toml==0.10.2
 tomli==2.4.0
 traitlets==5.14.3
 typing_extensions==4.15.0
@@ -98,6 +102,3 @@ websockets==16.0
 widgetsnbextension==4.0.15
 xyzservices==2025.11.0
 zipp==3.23.0
-
-plotly
-kaleido
