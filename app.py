@@ -10,6 +10,7 @@ import numpy as np
 
 # ── Global Setup & Data Loading ───────────────────────────────────────────────
 # Load main dataset
+print("Loading dataset from:", "data/results/coffee_ratings_yscore.csv")
 df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
 #print column names
 df.columns.tolist()
