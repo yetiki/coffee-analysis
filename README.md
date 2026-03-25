@@ -70,7 +70,7 @@ all good!
 This project has no LICENCE! :o
 
 ## Authors
-- NoDoYeMo Corporation
+- NeDoYeMo
 
 ## Acknowledgements
 - James LeDoux for the Coffee Quality Database.
