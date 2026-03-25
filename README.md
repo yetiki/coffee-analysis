@@ -6,8 +6,11 @@ The report is presented as an interactive **Shiny for Python** application. The 
 It also produces multiple visual plots of worldwide coffee suppliers to aid in decision-making.
 
 Plots:
+
 - **Chart 1 — The Main Evidence Plot (Scatter + Bubble)**: Plot every country aggregated: avg `cupper_points` on X, avg `yum_score` on Y, bubble size = number of entries (proxy for producer volume), colour = % of washed processing. This puts all 4 client criteria in one view, and the top 3 countries get annotated labels. This is the hero visual.
+
 - **Chart 2 — Processing Breakdown for Top 3 Countries (Stacked Bar)**: A stacked bar chart showing the processing method distribution (Washed, Natural, Pulped-Natural, Semi-Washed) for the top 3 recommended countries. This gives the client direct evidence that the washed preference is well-supported.
+
 - **Chart 3 — Top 3 Country Profile Radar Chart**: A radar/spider chart with one polygon per country, axes being: avg `cupper_points`, avg `yum_score`, % washed, producer count (normalised). This is the clean, client-friendly "at a glance" summary that makes the final recommendation obvious.
 - World map where each country containing a supplier is colored. If the main table is filtered the map will reflect this. Color intensity is proportional to the number of suppliers in the country.
 
@@ -67,7 +70,7 @@ all good!
 This project has no LICENCE! :o
 
 ## Authors
-- NoDoYeMo
+- NoDoYeMo Corporation
 
 ## Acknowledgements
 - James LeDoux for the Coffee Quality Database.
