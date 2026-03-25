@@ -7,11 +7,10 @@ def normalise_points(min, max, score):
     normal_points = (score - min)/(max - min)
     return normal_points
 
-### yum_score() returns a score from 0-1
+### total_points() returns a score from 0-1
 def yum_score(a_points, f_points, b_points, u_points):
-    total_points = a_points + f_points + b_points + u_points
-    y_score = total_points / 4
-    return y_score
+    total_points = a_points + f_points + b_points + u_points / 4
+    return total_points
 
 def main(input_csv_file: str = "data/clean/coffee_ratings.csv", output_csv_file: str = "data/results/coffee_ratings_yscore.csv"):
     # Normalise filename paths

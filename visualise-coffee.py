@@ -17,12 +17,12 @@ the data columns for processing type
 """
 
 # ── Import from your analysis module ──────────────────────────────────────────
-from analyse_coffee import get_top3  # returns a list of 3 country name strings
+from analyse-coffee import get_top3  # returns a list of 3 country name strings
                                      # e.g. ["Ethiopia", "Colombia", "Kenya"]
 
 # ── Config ────────────────────────────────────────────────────────────────────
-CSV_PATH = "data/coffee_clean.csv"
-OUTPUT_PATH = "output/chart1_scatter.png"
+CSV_PATH = "data/clean/coffee_ratings.csv"
+OUTPUT_PATH = "results/chart1_scatter.png"
 
 # ── Load data ─────────────────────────────────────────────────────────────────
 df = pd.read_csv(CSV_PATH)
@@ -164,7 +164,7 @@ print(f"Chart 1 saved to {OUTPUT_PATH}")
 # ══════════════════════════════════════════════════════════════════════════════
 # CHART 2 — Processing Method Breakdown for Top 3 Countries (Stacked Bar)
 # ══════════════════════════════════════════════════════════════════════════════
-OUTPUT_PATH_2 = "output/chart2_processing.png"
+OUTPUT_PATH_2 = "results/chart2_processing.png"
 
 # Processing method colour palette
 # Washed is highlighted in the client's preferred teal; others are muted
@@ -268,7 +268,7 @@ print(f"Chart 2 saved to {OUTPUT_PATH_2}")
 # ══════════════════════════════════════════════════════════════════════════════
 # CHART 3 — Top 3 Country Profile Radar Chart
 # ══════════════════════════════════════════════════════════════════════════════
-OUTPUT_PATH_3 = "output/chart3_radar.png"
+OUTPUT_PATH_3 = "results/chart3_radar.png"
 
 # Colour per country — distinct, accessible palette
 COUNTRY_COLOURS = ["#2a9d8f", "#e76f51", "#e9c46a"]  # teal, coral, yellow
