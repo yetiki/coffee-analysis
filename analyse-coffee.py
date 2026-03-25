@@ -49,7 +49,7 @@ def main(input_csv_file: str = "data/clean/coffee_ratings.csv", output_csv_file:
 
         ### Loop through remaining rows to calculate the yum score ###
         for row in reader:
-            aroma_points = normalise_points(min_aroma, max_aroma, row['aroma'])
+            aroma_points = normalise_points(min_aroma, max_aroma, float(row['aroma']))
             flavour_points = normalise_points(min_flavour, max_flavour, row['flavour'])
             body_points = normalise_points(min_body, max_body, row['body'])
             uniformity_points = normalise_points(min_uniformity, max_uniformity, row['uniformity'])
