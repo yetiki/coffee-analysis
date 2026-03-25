@@ -1,0 +1,12 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "C:\\Users\\mtn1n22\\OneDrive - University of Southampton\\Documents\\coffee-analysis",
+        "app_url": "https://4qd3zs-moi-nicholas.shinyapps.io/coffee-analysis1/",
+        "app_id": "16981891",
+        "app_guid": null,
+        "title": "coffee-analysis",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}
