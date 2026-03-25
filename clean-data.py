@@ -17,6 +17,25 @@ def main(
         ],
         export_csv_filename: str = "data/clean/coffee_ratings.csv",
 ) -> None:
+    """
+    Main function to clean the coffee ratings data.
+
+    Parameters
+    ----------
+    input_csv_filename : str
+        The filename of the input CSV file containing the raw coffee ratings data.
+
+    columns : list[str]
+        The list of columns to select and clean from the raw data.
+
+    export_csv_filename : str
+        The filename of the output CSV file to save the cleaned coffee ratings data.
+
+    Returns
+    -------
+    None
+        This function does not return any value. It reads the raw data, cleans it, and saves the cleaned data to a new CSV file.
+    """
     # Normalise filename paths
     input_csv_filename: Path = Path(input_csv_filename)
     export_csv_filename: Path = Path(export_csv_filename)
@@ -59,22 +78,79 @@ def main(
     coffee_ratings_cleaned_df = coffee_ratings_cleaned_df.drop_duplicates()
     print(f"Removed {n_duplicates} duplicate rows.")
 
-    # Clean processing_method values
+    # Normalise processing_method values
+
+    if "processing_method" in coffee_ratings_cleaned_df.columns:
+        print("Normalising processing_method values...")
+        coffee_ratings_cleaned_df["processing_method"] = coffee_ratings_cleaned_df["processing_method"].apply(normalise_processing_methods)
+
+    # Normalise units for bag_weight to kilograms
+    if "bag_weight" in coffee_ratings_cleaned_df.columns:
+        print("Normalising bag_weight units to kilograms...")
+        coffee_ratings_cleaned_df["bag_weight"] = coffee_ratings_cleaned_df["bag_weight"].apply(normalise_bag_weights)
+
+    # Export cleaned DataFrame to a new CSV file
+    print("Exporting cleaned data to CSV...")
+    coffee_ratings_cleaned_df.to_csv(export_csv_filename, index=False)
+
+
+def pounds_to_kilograms(pounds: float) -> float:
+    """Convert pounds to kilograms."""
+    return pounds * 0.453592
+
+
+def normalise_bag_weights(bag_weight: str) -> float:
+    """
+    Normalise bag weight values to kilograms.
+    Converts string values with "kg" or "lbs" units to float values in kilograms.
+
+    Parameters
+    ----------
+    bag_weight : str
+        The bag weight as a string, e.g., "60 kg" or "132 lbs".
+
+    Returns
+    -------
+    float
+        The bag weight in kilograms.
+
+    Raises   
+    ------
+    ValueError
+        If the bag weight string does not contain a recognized unit ("kg" or "lbs").
+    """
+    if "kg" in bag_weight:
+        return float(bag_weight.replace("kg", "").strip())
+    
+    elif "lbs" in bag_weight:
+        return pounds_to_kilograms(float(bag_weight.replace("lbs", "").strip()))
+    
+    else:
+        raise ValueError(f"Unknown weight unit in '{bag_weight}'")
+
+
+def normalise_processing_methods(processing_method: str) -> str:
+    """
+    Normalise processing method values to a standard set of categories.
+
+    Parameters
+    ----------
+    processing_method : str
+        The original processing method value.
+
+    Returns
+    -------
+    str
+        The normalised processing method value.
+    """
     processing_methods_mapping: dict[str, str] = {
         "Natural / Dry": "Natural",
         "Pulped natural / honey": "Pulped-Natural",
         "Semi-washed / Semi-pulped": "Semi-Washed",
         "Washed / Wet": "Washed",
     }
-
-    if "processing_method" in coffee_ratings_cleaned_df.columns:
-        print("Cleaning processing_method values...")
-        coffee_ratings_cleaned_df["processing_method"] = coffee_ratings_cleaned_df["processing_method"].map(processing_methods_mapping)
-
-    # Export cleaned DataFrame to a new CSV file
-    print("Exporting cleaned data to CSV...")
-    coffee_ratings_cleaned_df.to_csv(export_csv_filename, index=False)
-
+    
+    return processing_methods_mapping.get(processing_method, processing_method)
 
 if __name__ == "__main__":
     main()
