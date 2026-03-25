@@ -17,11 +17,11 @@ the data columns for processing type
 """
 
 # ── Import from your analysis module ──────────────────────────────────────────
-from analyse_coffee import get_top3  # returns a list of 3 country name strings
+from analyse-coffee import get_top3  # returns a list of 3 country name strings
                                      # e.g. ["Ethiopia", "Colombia", "Kenya"]
 
 # ── Config ────────────────────────────────────────────────────────────────────
-CSV_PATH = "data/coffee_clean.csv"
+CSV_PATH = "data/clean/coffee_ratings.csv"
 OUTPUT_PATH = "output/chart1_scatter.png"
 
 # ── Load data ─────────────────────────────────────────────────────────────────
