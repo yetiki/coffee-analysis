@@ -44,7 +44,6 @@ def get_top3(csv_file: str = "data/results/coffee_ratings_yscore.csv"):
     top3 = agg.nlargest(3, "composite_score")["country_of_origin"].tolist()
     return top3
 
-
 def main(
     input_csv_file:  str = "data/clean/coffee_ratings.csv",
     output_csv_file: str = "data/results/coffee_ratings_yscore.csv"
@@ -73,20 +72,42 @@ def main(
         writer = csv.writer(outfile)
 
         header = next(reader)
-        header.append("yum_score")   # FIX 2: underscore not hyphen
+        
+        # --- FIX 1: Rename 'processing_method' to 'processing' ---
+        if "processing_method" in header:
+            idx = header.index("processing_method")
+            header[idx] = "processing"
+            
+        # --- FIX 2: Add 'cupper_points' to the header ---
+        header.append("cupper_points")
+        header.append("yum_score")   # (Your existing fix)
         writer.writerow(header)
 
         for row in reader:
-            aroma_points      = normalise_points(min_aroma,      max_aroma,      float(row[5]))
-            flavour_points    = normalise_points(min_flavour,    max_flavour,    float(row[6]))
-            body_points       = normalise_points(min_body,       max_body,       float(row[7]))
-            uniformity_points = normalise_points(min_uniformity, max_uniformity, float(row[8]))
+            # Extract raw floats first so we can use them for both calculations
+            aroma_raw      = float(row[5])
+            flavour_raw    = float(row[6])
+            body_raw       = float(row[7])
+            uniformity_raw = float(row[8])
+            
+            # --- FIX 3: Calculate cupper_points (average of 4 raw metrics) ---
+            c_points = (aroma_raw + flavour_raw + body_raw + uniformity_raw) / 4
+
+            # Calculate yum_score using your functions
+            aroma_points      = normalise_points(min_aroma,      max_aroma,      aroma_raw)
+            flavour_points    = normalise_points(min_flavour,    max_flavour,    flavour_raw)
+            body_points       = normalise_points(min_body,       max_body,       body_raw)
+            uniformity_points = normalise_points(min_uniformity, max_uniformity, uniformity_raw)
+            
             y_score = yum_score(aroma_points, flavour_points, body_points, uniformity_points)
+            
+            # Append BOTH metrics to the end of the row
+            row.append(round(c_points, 2))
             row.append(round(y_score, 2))
+            
             writer.writerow(row)
 
-    print(f"Done - yum scores written to {output_csv_file}")
-
+    print(f"Done - cupper points and yum scores written to {output_csv_file}")
 
 if __name__ == "__main__":
     main()
