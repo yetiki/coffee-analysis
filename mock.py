@@ -37,3 +37,4 @@ print(filtered_data.shape)
 
 # save the filtered data to a new csv
 # called "mock_cleaned_coffee_ratings.csv"
+filtered_data.to_csv('data/mock_cleaned_coffee_ratings.csv', index=False)
