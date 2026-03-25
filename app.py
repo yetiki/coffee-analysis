@@ -6,47 +6,51 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import numpy as np
 
+#from analyse_coffee import get_top3 this version is hard coded to using the CSV
+
 # ── Global Setup & Data Loading ───────────────────────────────────────────────
 # Load main dataset
-df = pd.read_csv("data/clean/coffee_ratings.csv")
+df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
+#print column names
+df.columns.tolist()
+# ['species', 'country_of_origin', 'number_of_bags', 'bag_weight', 'processing', 'aroma', 'flavor', 'body', 'uniformity', 'cupper_points', 'yum_score']
 
+#print the catagories in country of origin and processing
+# print("Countries of Origin:", df["country_of_origin"].unique())
+# print("Processing Methods:", df["processing"].unique())
 
-# ── Data Preprocessing & Normalisation ────────────────────────────────────────
-# Handle column name mismatches from different data sources
-if 'processing_method' in df.columns and 'processing' not in df.columns:
-    df = df.rename(columns={'processing_method': 'processing'})
+def new_get_top3(data: pd.DataFrame):
+    """Determine the top 3 countries based on a composite score."""
+    if data.empty:
+        return []
 
-# Ensure we have a quality metric (0-10 scale)
-if 'cupper_points' not in df.columns:
-    # Use 'flavor' as a proxy for the cupper points if total score isn't there
-    df['cupper_points'] = df['flavor'] if 'flavor' in df.columns else np.nan
+    agg = data.groupby("country_of_origin").agg(
+        avg_cupper   = ("cupper_points", "mean"),
+        avg_yum      = ("yum_score",     "mean"),
+        entry_count  = ("cupper_points", "count"),
+        washed_count = ("processing",    lambda x: (x.str.lower() == "washed").sum())
+    ).reset_index()
 
-# Ensure we have a "yum" metric (0-1 scale)
-if 'yum_score' not in df.columns:
-    # Create a synthetic score from available sensory columns
-    sensory_cols = [c for c in ['aroma', 'flavor', 'body', 'uniformity'] if c in df.columns]
-    if sensory_cols:
-        df['yum_score'] = df[sensory_cols].mean(axis=1) / 10
-    else:
-        df['yum_score'] = 0.5 # default fallback
+    agg["pct_washed"] = agg["washed_count"] / agg["entry_count"]
+
+    # Normalize each criterion to 0-1 then combine into a composite score
+    for col in ["avg_cupper", "avg_yum", "pct_washed", "entry_count"]:
+        col_min, col_max = agg[col].min(), agg[col].max()
+        agg[f"norm_{col}"] = (agg[col] - col_min) / (col_max - col_min)
+
+    agg["composite_score"] = (
+        agg["norm_avg_cupper"] +
+        agg["norm_avg_yum"] +
+        agg["norm_pct_washed"] +
+        agg["norm_entry_count"]
+    ) / 4
+
+    top3 = agg.nlargest(3, "composite_score")["country_of_origin"].tolist()
+    return top3
 
 # Load map data globally to avoid re-fetching
 WORLD_URL = "https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip"
 world = gpd.read_file(WORLD_URL)
-
-# ── Helper Functions (Adapted from visualise-coffee.py) ───────────────────────
-def get_top_countries(data, n=3):
-    """Dynamically determine top n countries by average cupper score."""
-    if data.empty: return []
-    # Only consider countries with > 1 entry to avoid outliers
-    counts = data['country_of_origin'].value_counts()
-    valid_countries = counts[counts > 1].index
-    
-    subset = data[data['country_of_origin'].isin(valid_countries)]
-    if subset.empty: subset = data 
-    
-    agg = subset.groupby("country_of_origin")["cupper_points"].mean()
-    return agg.sort_values(ascending=False).head(n).index.tolist()
 
 # ── UI Definition ─────────────────────────────────────────────────────────────
 app_ui = ui.page_fluid(
@@ -110,10 +114,10 @@ def server(input, output, session):
     @reactive.Calc
     def filtered_df():
         d = df.copy()
-        if input.countries():
+        if input.countries():  # Call the method with parentheses
             d = d[d["country_of_origin"].isin(input.countries())]
-        if input.processing():
-             d = d[d["processing"].fillna("Unknown").isin(input.processing())]
+        if input.processing():  # Call the method with parentheses
+            d = d[d["processing"].fillna("Unknown").isin(input.processing())]
         
         # Apply numeric range filters
         d = d[(d["number_of_bags"] >= input.bags_range()[0]) & (d["number_of_bags"] <= input.bags_range()[1])]
@@ -139,7 +143,7 @@ def server(input, output, session):
         ).reset_index()
         agg["pct_washed"] = agg["washed_count"] / agg["entry_count"]
 
-        top3 = get_top_countries(d)
+        top3 = new_get_top3(d)
         agg_rest = agg[~agg["country_of_origin"].isin(top3)]
         agg_top3 = agg[agg["country_of_origin"].isin(top3)]
 
@@ -169,7 +173,7 @@ def server(input, output, session):
     @render_widget
     def chart_bar():
         d = filtered_df()
-        top3 = get_top_countries(d)
+        top3 = new_get_top3(d)
         if not top3: return go.Figure()
         
         d_top3 = d[d["country_of_origin"].isin(top3)].copy()
@@ -192,7 +196,7 @@ def server(input, output, session):
     @render_widget
     def chart_radar():
         d = filtered_df()
-        country_names = get_top_countries(d)
+        country_names = new_get_top3(d)
         if not country_names: return go.Figure()
 
         fig = go.Figure()
@@ -205,7 +209,7 @@ def server(input, output, session):
                 "country": country,
                 "Quality": sub["cupper_points"].mean() / 10,  # Norm 0-1
                 "Yum": sub["yum_score"].mean(),
-                "Washed": (sub["processing"].str.lower() == "washed").mean(),
+                "Washed": (sub["processing"].astype(str).str.lower() == "washed").mean(),
                 "Volume": len(sub)
             })
         
