@@ -30,6 +30,10 @@ world.plot(
     missing_kwds={'color': 'lightgrey'}
 )
 
-ax.set_title('Frequency of Coffee Ratings by Country of Origin')
+ax.set_title('Coffee suppliers around the World')
 ax.set_axis_off() # Optional: Turns off the lat/long axis box for a cleaner look
-plt.show()
+#plt.show()
+
+# save the map to a file, in /results/figures
+fig.savefig('results/figures/coffee_ratings_world_map.png', dpi=300, bbox_inches='tight')
+
