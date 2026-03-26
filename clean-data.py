@@ -89,13 +89,42 @@ def main(
         print("Normalising bag_weight units to kilograms...")
         coffee_ratings_cleaned_df["bag_weight"] = coffee_ratings_cleaned_df["bag_weight"].apply(normalise_bag_weights)
 
+    # Add bag weight column in kilograms if it doesn't exist
+    if "bag_weight" in coffee_ratings_cleaned_df.columns and "number_of_bags" in coffee_ratings_cleaned_df.columns:
+        print("Calculating total weight in kilograms...")
+        total_weights: pd.Series = coffee_ratings_cleaned_df["number_of_bags"] * coffee_ratings_cleaned_df["bag_weight"]
+
+        # insert total_weight column after bag_weight column
+        print("Inserting total_weight column...")
+        bag_weight_index: int = coffee_ratings_cleaned_df.columns.get_loc("bag_weight")
+        coffee_ratings_cleaned_df.insert(bag_weight_index + 1, "total_weight", total_weights)
+        print("Added total_weight column.")
+
+
+    if "country_of_origin" in coffee_ratings_cleaned_df.columns:
+        print("Normalising country_of_origin values...")
+        coffee_ratings_cleaned_df["country_of_origin"] = coffee_ratings_cleaned_df["country_of_origin"].apply(normalise_country_of_origin)
+        print("Normalised country_of_origin values.")
+
     # Export cleaned DataFrame to a new CSV file
     print("Exporting cleaned data to CSV...")
     coffee_ratings_cleaned_df.to_csv(export_csv_filename, index=False)
 
 
 def pounds_to_kilograms(pounds: float) -> float:
-    """Convert pounds to kilograms."""
+    """
+    Convert pounds to kilograms.
+
+    Parameters
+    ----------
+    pounds : float
+        The weight in pounds.
+
+    Returns
+    -------
+    float
+        The weight in kilograms.
+    """
     return pounds * 0.453592
 
 
@@ -151,6 +180,27 @@ def normalise_processing_methods(processing_method: str) -> str:
     }
     
     return processing_methods_mapping.get(processing_method, processing_method)
+
+
+def normalise_country_of_origin(country: str) -> str:
+    """
+    Normalise country of origin values to a standard set of country names.
+
+    Parameters
+    ----------
+    country : str
+        The original country of origin value.
+
+    Returns
+    -------
+    str
+        The normalised country of origin value.
+    """
+    country_mapping: dict[str, str] = {
+        "Cote d?Ivoire": "Cote d'Ivoire",
+    }
+    
+    return country_mapping.get(country, country)
 
 if __name__ == "__main__":
     main()
