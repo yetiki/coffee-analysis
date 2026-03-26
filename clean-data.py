@@ -89,7 +89,11 @@ def main(
         print("Normalising bag_weight units to kilograms...")
         coffee_ratings_cleaned_df["bag_weight"] = coffee_ratings_cleaned_df["bag_weight"].apply(normalise_bag_weights)
 
-    # Add bag weight column in kilograms if it doesn't exist
+    # remove unrealistically high bag weights (greater than 200 kg) to remove outliers
+    if "bag_weight" in coffee_ratings_cleaned_df.columns:
+        coffee_ratings_cleaned_df = remove_unreasonably_high_bag_weights(coffee_ratings_cleaned_df)
+
+    # Add total weight column in kilograms if it doesn't exist
     if "bag_weight" in coffee_ratings_cleaned_df.columns and "number_of_bags" in coffee_ratings_cleaned_df.columns:
         print("Calculating total weight in kilograms...")
         total_weights: pd.Series = coffee_ratings_cleaned_df["number_of_bags"] * coffee_ratings_cleaned_df["bag_weight"]
@@ -100,6 +104,7 @@ def main(
         coffee_ratings_cleaned_df.insert(bag_weight_index + 1, "total_weight", total_weights)
         print("Added total_weight column.")
 
+    
 
     if "country_of_origin" in coffee_ratings_cleaned_df.columns:
         print("Normalising country_of_origin values...")
@@ -201,6 +206,31 @@ def normalise_country_of_origin(country: str) -> str:
     }
     
     return country_mapping.get(country, country)
+
+
+def remove_unreasonably_high_bag_weights(coffee_ratings_df: pd.DataFrame, max_weight: float = 200.0) -> pd.DataFrame:
+    """
+    Remove rows with unrealistically high bag weights.
+
+    Parameters
+    ----------
+    coffee_ratings_df : pd.DataFrame
+        The input DataFrame.
+    max_weight : float, optional
+        The maximum allowed bag weight in kilograms. Default is 200.0.
+
+    Returns
+    -------
+    pd.DataFrame
+        The DataFrame with unreasonably high bag weights removed.
+    """
+    print("Removing unrealistically high bag weights...")
+    n_rows_before: int = len(coffee_ratings_df)
+    coffee_ratings_df = coffee_ratings_df[coffee_ratings_df["bag_weight"] <= max_weight]
+    n_rows_after: int = len(coffee_ratings_df)
+    print(f"Removed {n_rows_before - n_rows_after} rows with unrealistically high bag weights.")
+    return coffee_ratings_df
+
 
 if __name__ == "__main__":
     main()

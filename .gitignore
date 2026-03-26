@@ -4,3 +4,6 @@ venv
 
 # Ignore Python cache files
 __pycache__/
+
+# ignore scratch.py which is used for testing and debugging
+scratch.py

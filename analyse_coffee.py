@@ -1,23 +1,28 @@
 import csv
 import pandas as pd
 from pathlib import Path
+from yum_score_funcs import normalise_points, yum_score
 
 
-### normalise_points() returns a score from 0-1
-def normalise_points(min, max, score):
-    normal_points = (score - min) / (max - min)
-    return normal_points
-
-
-### yum_score() returns a score from 0-1
-def yum_score(a_points, f_points, b_points, u_points):
-    total_points = (a_points + f_points + b_points + u_points) / 4  # FIX 1: brackets around all 4
-    return total_points
-
-
-### get_top3() returns the top 3 country names as a list of strings
-### This is imported by visualise_coffee.py
 def get_top3(csv_file: str = "data/results/coffee_ratings_yscore.csv"):
+    """
+    Return the top three countries based on a composite coffee quality score.
+
+    The function loads a CSV of coffee ratings, aggregates metrics by
+    `country_of_origin`, normalises several criteria to a 0–1 scale, computes
+    a composite score, and returns the three highest‑scoring countries.
+
+    Parameters
+    ----------
+    csv_file : str, optional
+        Path to the CSV file containing processed coffee ratings with
+        `cupper_points` and `yum_score` columns.
+
+    Returns
+    -------
+    list of str
+        A list containing the names of the top three countries.
+    """
     df = pd.read_csv(csv_file)
 
     agg = df.groupby("country_of_origin").agg(
@@ -48,6 +53,30 @@ def main(
     input_csv_file:  str = "data/clean/coffee_ratings.csv",
     output_csv_file: str = "data/results/coffee_ratings_yscore.csv"
 ):
+    """
+    Process raw coffee ratings and compute cupper points and yum scores.
+
+    This function reads a raw coffee ratings CSV, calculates:
+    - `cupper_points`: the average of aroma, flavour, body, and uniformity
+    - `yum_score`: a 0–1 score based on normalised versions of those metrics
+
+    It writes a new CSV containing all original columns plus the two new
+    computed metrics. It also ensures output directories exist and performs
+    minor header corrections (e.g., renaming `processing_method`).
+
+    Parameters
+    ----------
+    input_csv_file : str, optional
+        Path to the raw input CSV file.
+    output_csv_file : str, optional
+        Path where the processed CSV with yum scores will be written.
+
+    Returns
+    -------
+    None
+        The function writes a CSV file and prints a status message.
+    """
+    
     input_csv_file:  Path = Path(input_csv_file)
     output_csv_file: Path = Path(output_csv_file)
 
@@ -85,10 +114,10 @@ def main(
 
         for row in reader:
             # Extract raw floats first so we can use them for both calculations
-            aroma_raw      = float(row[5])
-            flavour_raw    = float(row[6])
-            body_raw       = float(row[7])
-            uniformity_raw = float(row[8])
+            aroma_raw      = float(row[6])
+            flavour_raw    = float(row[7])
+            body_raw       = float(row[8])
+            uniformity_raw = float(row[9])
             
             # --- FIX 3: Calculate cupper_points (average of 4 raw metrics) ---
             c_points = (aroma_raw + flavour_raw + body_raw + uniformity_raw) / 4
