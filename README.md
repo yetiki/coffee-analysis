@@ -1,5 +1,4 @@
 
-````md
 # Coffee Supplier Analysis Dashboard
 **Internal Decision Support Tool for Dr. Cappuccino**
 
