@@ -3,7 +3,6 @@ import plotly.graph_objects as go
 from shiny import module, ui, render, reactive
 from shinywidgets import output_widget, render_widget
 
-
 # ── Constants ─────────────────────────────────────────────────────────────────
 AXES        = ["Aroma", "Flavor", "Body", "Uniformity"]
 COLS        = ["aroma", "flavor", "body", "uniformity"]
@@ -52,8 +51,6 @@ def get_top3_suppliers(data: pd.DataFrame, country: str) -> pd.DataFrame:
 
 def make_radar(supplier_row: pd.Series, country: str, colour: str) -> go.Figure:
     """Build a single radar chart for one supplier."""
-    # Normalise each axis against the full 0–10 scale cupper uses,
-    # but aroma/flavor/body/uniformity are also 0–10 in the CQI dataset.
     values = [float(supplier_row[col]) / 10 for col in COLS]
     values_closed = values + [values[0]]
     axes_closed   = AXES  + [AXES[0]]
@@ -74,7 +71,6 @@ def make_radar(supplier_row: pd.Series, country: str, colour: str) -> go.Figure:
         customdata=raw_closed,
     ))
 
-    # Supplier label: use yum_score as a compact identifier since there's no name col
     supplier_label = f"Yum: {supplier_row['yum_score']:.2f}  ·  Cupper: {supplier_row['cupper_points']:.1f}"
 
     fig.update_layout(
@@ -110,13 +106,13 @@ def make_radar(supplier_row: pd.Series, country: str, colour: str) -> go.Figure:
 @module.ui
 def spider_ui():
     """
-    3 rows × 3 columns of radar charts.
+    3 rows x 3 columns of radar charts.
     Each row = one country, each column = one of its top 3 suppliers.
     """
     rows = []
-    for row_idx in range(3):          # 3 countries
+    for row_idx in range(3):
         cols = []
-        for col_idx in range(3):      # 3 suppliers per country
+        for col_idx in range(3):
             chart_id = f"radar_{row_idx}_{col_idx}"
             cols.append(ui.card(output_widget(chart_id)))
 
@@ -138,43 +134,35 @@ def spider_ui():
 def spider_server(input, output, session, filtered_df):
     """
     filtered_df: a reactive expression passed in from app.py
-                 (the same filtered_df used by all other charts)
     """
 
     @reactive.Calc
     def spider_data():
-        """Compute top 3 countries and their top 3 suppliers from filtered data."""
         d = filtered_df()
         countries = get_top3_countries(d)
-
         result = {}
         for country in countries:
             result[country] = get_top3_suppliers(d, country)
-        return result   # dict: { "Ethiopia": df(3 rows), "Colombia": df(3 rows), ... }
+        return result
 
-    # ── Dynamically register outputs for all 9 chart slots ───────────────────
-    # We define a factory function to avoid closure issues in the loop
+    # Factory functions — @output(id=...) must sit directly above @render.xx
     def make_chart_renderer(row_idx, col_idx):
+        @output(id=f"radar_{row_idx}_{col_idx}")
         @render_widget
         def _render():
             data = spider_data()
             countries = list(data.keys())
-
             if row_idx >= len(countries):
                 return EMPTY_FIG
-
             country   = countries[row_idx]
             suppliers = data[country]
             colour    = COLOURS[row_idx]
-
             if col_idx >= len(suppliers):
                 return EMPTY_FIG
-
             return make_radar(suppliers.iloc[col_idx], country, colour)
 
-        return _render
-
     def make_label_renderer(row_idx):
+        @output(id=f"country_label_{row_idx}")
         @render.text
         def _render():
             data = spider_data()
@@ -183,20 +171,15 @@ def spider_server(input, output, session, filtered_df):
                 return ""
             return f"#{row_idx + 1}  {countries[row_idx]}"
 
-        return _render
-
-    # Register all 9 chart outputs and 3 country label outputs
+    # Call factories to register all 9 charts and 3 labels
     for r in range(3):
-        output(f"country_label_{r}")(make_label_renderer(r))
+        make_label_renderer(r)
         for c in range(3):
-            output(f"radar_{r}_{c}")(make_chart_renderer(r, c))
-
-
+            make_chart_renderer(r, c)
 
 
 if __name__ == "__main__":
-    import pandas as pd
-    from shiny import App, reactive
+    from shiny import App
 
     test_df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
 
