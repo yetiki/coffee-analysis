@@ -105,27 +105,50 @@ def make_radar(supplier_row: pd.Series, country: str, colour: str) -> go.Figure:
 # ── Module UI ─────────────────────────────────────────────────────────────────
 @module.ui
 def spider_ui():
-    """
-    3 rows x 3 columns of radar charts.
-    Each row = one country, each column = one of its top 3 suppliers.
-    """
-    rows = []
-    for row_idx in range(3):
-        cols = []
-        for col_idx in range(3):
-            chart_id = f"radar_{row_idx}_{col_idx}"
-            cols.append(ui.card(output_widget(chart_id)))
-
-        rows.append(
-            ui.card(
-                ui.card_header(ui.output_text(f"country_label_{row_idx}")),
-                ui.layout_column_wrap(*cols, width="1/3"),
-            )
-        )
-
     return ui.div(
-        ui.h4("Top 3 Suppliers — by Country"),
-        *rows
+
+        # Column headers (country names)
+        ui.div(
+            ui.output_text("country_label_0"),
+            ui.output_text("country_label_1"),
+            ui.output_text("country_label_2"),
+            class_="spider-grid spider-header"
+        ),
+
+        # 3×3 radar chart grid
+        ui.div(
+            # Row 1 (supplier rank #1)
+            output_widget("radar_0_0"),
+            output_widget("radar_1_0"),
+            output_widget("radar_2_0"),
+
+            # Row 2 (supplier rank #2)
+            output_widget("radar_0_1"),
+            output_widget("radar_1_1"),
+            output_widget("radar_2_1"),
+
+            # Row 3 (supplier rank #3)
+            output_widget("radar_0_2"),
+            output_widget("radar_1_2"),
+            output_widget("radar_2_2"),
+
+            class_="spider-grid"
+        ),
+
+        # CSS injected directly
+        ui.tags.style("""
+            .spider-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 16px;
+                margin-bottom: 20px;
+            }
+            .spider-header {
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        """)
     )
 
 
@@ -176,4 +199,3 @@ def spider_server(input, output, session, filtered_df):
         make_label_renderer(r)
         for c in range(3):
             make_chart_renderer(r, c)
-
