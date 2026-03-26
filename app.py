@@ -136,8 +136,12 @@ app_ui = ui.page_fluid(
             height="300px"
         ),
         
-        # Add scatter plot (bubble chart)
-        ui.card(output_widget("chart_scatter")),
+        # Add bubble bar chart
+        ui.card(
+            ui.card_header("Yum Score by Country (Processing Methods)"),
+            output_widget("bubble_bar_chart"),
+            height="500px"
+        ),
 
         # Add top 3 suppliers by country (Spider module)
         ui.card(  #Dunja added, connects to Spider module
@@ -232,47 +236,6 @@ def server(input, output, session):
         
         return render.DataGrid(average_coffee_scores_df, selection_mode="rows")
 
-    # --- Chart 1: Scatter (Bubble) ---
-    @render_widget
-    def chart_scatter():
-        filtered_coffee_df: pd.DataFrame = get_filtered_coffee_df()
-        if filtered_coffee_df.empty: return go.Figure()
-
-        # Aggregation logic adapted from visualise-coffee.py
-        agg = filtered_coffee_df.groupby("country_of_origin").agg(
-            avg_cupper   = ("cupper_points", "mean"),
-            avg_yum      = ("yum_score",     "mean"),
-            entry_count  = ("cupper_points", "count"),
-            washed_count = ("processing",    lambda x: (x.str.lower() == "washed").sum())
-        ).reset_index()
-        agg["pct_washed"] = agg["washed_count"] / agg["entry_count"]
-
-        top3 = get_top_three_coffee_countries(filtered_coffee_df)
-        agg_rest = agg[~agg["country_of_origin"].isin(top3)]
-        agg_top3 = agg[agg["country_of_origin"].isin(top3)]
-
-        fig = go.Figure()
-        
-        # Layer 1: Rest
-        fig.add_trace(go.Scatter(
-            x=agg_rest["avg_cupper"], y=agg_rest["avg_yum"], mode="markers",
-            name="Other",
-            marker=dict(size=agg_rest["entry_count"], sizemode="area", sizeref=2.*agg["entry_count"].max()/(40**2), sizemin=4,
-                        color=agg_rest["pct_washed"], colorscale="Teal", opacity=0.45),
-            text=agg_rest["country_of_origin"]
-        ))
-        
-        # Layer 2: Top 3
-        fig.add_trace(go.Scatter(
-            x=agg_top3["avg_cupper"], y=agg_top3["avg_yum"], mode="markers+text",
-            name="Top Recommended", text=agg_top3["country_of_origin"], textposition="top center",
-            marker=dict(size=agg_top3["entry_count"], sizemode="area", sizeref=2.*agg["entry_count"].max()/(40**2), sizemin=4,
-                        color=agg_top3["pct_washed"], colorscale="Teal", line=dict(width=2, color="#ff6b35"))
-        ))
-        
-        fig.update_layout(title="Performance vs Flavour", margin=dict(l=20, r=20, t=40, b=20), height=400)
-        return fig
-
     # --- Chart 2: Stacked Bar ---
     @render_widget
     def chart_bar():
@@ -296,7 +259,71 @@ def server(input, output, session):
         fig.update_layout(barmode="stack", title="Processing Methods (Top 3)", margin=dict(l=20, r=20, t=40, b=20), height=300)
         return fig
 
-    # --- Chart 3: Radar ---
+    # --- Chart 3: Bubble Bar Chart ---
+    @render_widget
+    def bubble_bar_chart():
+        df = get_filtered_coffee_df()
+        if df.empty:
+            return go.Figure()
+
+        n_countries = 6
+        
+        # order by yum score
+        df = df.sort_values(by="yum_score", ascending=False) 
+
+        # compute average flavor score by country and keep top n_countries
+        avg_yum_by_country = df.groupby('country_of_origin')['yum_score'].mean()
+        top_countries = avg_yum_by_country.nlargest(n_countries).index
+
+        # filter original data to only include rows for those top countries
+        filtered_suppliers = df[df['country_of_origin'].isin(top_countries)]
+
+        # Determine weight column (handling different naming conventions)
+        weight_col = 'bag_weight' if 'bag_weight' in filtered_suppliers.columns else 'total_weight'
+        
+        # safely handle empty max val
+        max_wt = filtered_suppliers[weight_col].max()
+        sizeref_val = 2. * max_wt / (40.**2) if max_wt and max_wt > 0 else 1
+
+        # build a plot 
+        color_map = {
+            'Washed': 'blue',
+            'Natural': 'green',
+            'Semi-Washed': 'yellow',
+            'Pulped-Natural': 'purple',
+            'Other': 'gray'
+        }
+
+        fig = go.Figure()
+        for method, color in color_map.items():
+            method_rows = filtered_suppliers[filtered_suppliers['processing'] == method]
+            if method_rows.empty:
+                continue
+            fig.add_trace(go.Scatter(
+                x=method_rows['country_of_origin'],
+                y=method_rows['yum_score'],
+                mode='markers',
+                name=method,
+                marker=dict(
+                    size=method_rows[weight_col].astype(float),
+                    color=color,
+                    opacity=0.7,
+                    sizemode='area',
+                    sizeref=sizeref_val
+                )
+            ))
+
+        # legend automatically shows which color corresponds to which processing method
+        fig.update_layout(
+            title=f"Yum score by Country (Top {n_countries} countries by avg yum score)",
+            xaxis_title="Country of Origin",
+            yaxis_title="Yum Score",
+            template="plotly_white"
+        )
+
+        return fig
+
+    # --- Chart 4: Radar ---
     @render_widget
     def chart_radar():
         filtered_coffee_df: pd.DataFrame = get_filtered_coffee_df()
