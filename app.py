@@ -20,6 +20,8 @@ df.columns.tolist()
 # print("Countries of Origin:", df["country_of_origin"].unique())
 # print("Processing Methods:", df["processing"].unique())
 
+# this should be using the get_top3 function from visualise-coffee.py
+# but that first needs to be refactored to work dymanically with filtered data.
 def new_get_top3(data: pd.DataFrame):
     """Determine the top 3 countries based on a composite score."""
     if data.empty:
@@ -50,44 +52,44 @@ def new_get_top3(data: pd.DataFrame):
     return top3
 
 # Load map data globally to avoid re-fetching
-WORLD_URL = "https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip"
-world = gpd.read_file(WORLD_URL)
+world = gpd.read_file("https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip")
 
 # ── UI Definition ─────────────────────────────────────────────────────────────
+# The UI is structured with a sidebar for filters and a main area for visualizations.
 app_ui = ui.page_fluid(
     ui.h2("Coffee Analysis Dashboard"),
     
     ui.layout_sidebar(
         ui.sidebar(
             ui.h4("Filters"),
-            ui.input_selectize(
+            ui.input_selectize( # add a box to select multiple countries of origin, from a drop down list of the unique values in the country_of_origin column
                 "countries", "Country of Origin",
                 choices=sorted(df["country_of_origin"].unique().tolist()),
                 multiple=True
-            ),
-            ui.input_selectize(
+            ), 
+            ui.input_selectize( # add a box to select species
                 "species", "Species",
                 choices=sorted(df["species"].unique().tolist()),
                 multiple=True
             ),
-            ui.input_selectize(
+            ui.input_selectize( # add a box to select processing method, but first fill any missing values with "Unknown" and strip whitespace and title case the options
                 "processing", "Processing Method",
                 choices=sorted(df["processing"].fillna("Unknown").astype(str).unique().tolist()),
                 multiple=True
             ),
-            ui.input_slider(
+            ui.input_slider( # add a slider to filter by cupper points, use the min and max values from the dataset
                 "cupper_points_range", "Cupper Points",
                 min=float(df["cupper_points"].min()),
                 max=float(df["cupper_points"].max()),
                 value=[float(df["cupper_points"].min()), float(df["cupper_points"].max())]
             ),
-            ui.input_slider(
+            ui.input_slider( # add a slider to filter by yum score
                 "yum_score_range", "Yum Score",
                 min=float(df["yum_score"].min()),
                 max=float(df["yum_score"].max()),
                 value=[float(df["yum_score"].min()), float(df["yum_score"].max())]
             ),
-            ui.input_slider(
+            ui.input_slider( # add a slider to filter by bag weight
                 "weight_range", "Bag Weight (kg)",
                 min=float(df["bag_weight"].min()),
                 max=float(df["bag_weight"].max()),
@@ -96,21 +98,27 @@ app_ui = ui.page_fluid(
             bg="#f8f9fa"
         ),
         
-        # 1. Data Table
+        # Data Table - at the top of the main area
+        # This will show the filtered dataset
+        # it should by default be sorted by yum score in descending order, I think....
+        # the user should also che able to sort by any column by clicking on the column header
         ui.card(
             ui.card_header("Dataset Explorer"),
             ui.output_data_frame("table"),
             height="300px"
         ),
         
-        # 2. Key Plots Row
+        # scatter plot
+        ui.card(output_widget("chart_scatter")),
+
+        # bar chart and radar chart should be side by side below the scatter plot
         ui.layout_column_wrap(
-            ui.card(output_widget("chart_scatter")),
             ui.card(output_widget("chart_bar")),
             ui.card(output_widget("chart_radar")),
-            width=1/3
+            width="1/2"
         ),
-        
+
+
         # 3. Map
         ui.card(
             ui.card_header("Global Supplier Distribution"),
@@ -181,7 +189,7 @@ def server(input, output, session):
                         color=agg_top3["pct_washed"], colorscale="Teal", line=dict(width=2, color="#ff6b35"))
         ))
         
-        fig.update_layout(title="Performance vs Flavour", margin=dict(l=20, r=20, t=40, b=20), height=300)
+        fig.update_layout(title="Performance vs Flavour", margin=dict(l=20, r=20, t=40, b=20), height=400)
         return fig
 
     # --- Chart 2: Stacked Bar ---
