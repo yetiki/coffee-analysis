@@ -106,7 +106,6 @@ def make_radar(supplier_row: pd.Series, country: str, colour: str) -> go.Figure:
 @module.ui
 def spider_ui():
     return ui.div(
-        ui.h4("Top 3 Suppliers — by Country"),
 
         # Column headers (country names)
         ui.div(
