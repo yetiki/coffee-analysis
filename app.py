@@ -66,15 +66,26 @@ app_ui = ui.page_fluid(
                 multiple=True
             ),
             ui.input_selectize(
+                "species", "Species",
+                choices=sorted(df["species"].unique().tolist()),
+                multiple=True
+            ),
+            ui.input_selectize(
                 "processing", "Processing Method",
                 choices=sorted(df["processing"].fillna("Unknown").astype(str).unique().tolist()),
                 multiple=True
             ),
             ui.input_slider(
-                "bags_range", "Number of Bags",
-                min=int(df["number_of_bags"].min()),
-                max=int(df["number_of_bags"].max()),
-                value=[int(df["number_of_bags"].min()), int(df["number_of_bags"].max())]
+                "cupper_points_range", "Cupper Points",
+                min=float(df["cupper_points"].min()),
+                max=float(df["cupper_points"].max()),
+                value=[float(df["cupper_points"].min()), float(df["cupper_points"].max())]
+            ),
+            ui.input_slider(
+                "yum_score_range", "Yum Score",
+                min=float(df["yum_score"].min()),
+                max=float(df["yum_score"].max()),
+                value=[float(df["yum_score"].min()), float(df["yum_score"].max())]
             ),
             ui.input_slider(
                 "weight_range", "Bag Weight (kg)",
@@ -117,11 +128,14 @@ def server(input, output, session):
         d = df.copy()
         if input.countries():  # Call the method with parentheses
             d = d[d["country_of_origin"].isin(input.countries())]
+        if input.species():
+            d = d[d["species"].isin(input.species())]
         if input.processing():  # Call the method with parentheses
             d = d[d["processing"].fillna("Unknown").isin(input.processing())]
         
         # Apply numeric range filters
-        d = d[(d["number_of_bags"] >= input.bags_range()[0]) & (d["number_of_bags"] <= input.bags_range()[1])]
+        d = d[(d["cupper_points"] >= input.cupper_points_range()[0]) & (d["cupper_points"] <= input.cupper_points_range()[1])]
+        d = d[(d["yum_score"] >= input.yum_score_range()[0]) & (d["yum_score"] <= input.yum_score_range()[1])]
         d = d[(d["bag_weight"] >= input.weight_range()[0]) & (d["bag_weight"] <= input.weight_range()[1])]
         return d
 
@@ -263,5 +277,7 @@ def server(input, output, session):
 
 app = App(app_ui, server)
 
+# This conditional block checks if the script is executed directly.
+# If it is, it runs the Shiny app, launching it in a browser.
 if __name__ == "__main__":
     run_app(app, launch_browser=True)
