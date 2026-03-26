@@ -139,13 +139,6 @@ app_ui = ui.page_fluid(
         # Add scatter plot (bubble chart)
         ui.card(output_widget("chart_scatter")),
 
-        # Add stacked bar chart and radar chart side by side
-        ui.layout_column_wrap(
-            ui.card(output_widget("chart_bar")),
-            ui.card(output_widget("chart_radar")),
-            width="1/2"
-        ),
-
         # Add top 3 suppliers by country (Spider module)
         ui.card(  #Dunja added, connects to Spider module
             ui.card_header("Top 3 Suppliers by Country"),
