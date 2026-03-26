@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 from shiny import module, ui, render, reactive
 from shinywidgets import output_widget, render_widget
 
+
 # ── Constants ─────────────────────────────────────────────────────────────────
 AXES        = ["Aroma", "Flavor", "Body", "Uniformity"]
 COLS        = ["aroma", "flavor", "body", "uniformity"]
@@ -193,14 +194,15 @@ def spider_server(input, output, session, filtered_df):
 
 
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
+    import pandas as pd
+    from shiny import App, reactive
 
-        import pandas as pd
-        from shiny import App, reactive
-        test_df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
+    test_df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
 
-        app_ui = spider_ui("spiders")
-        def server(input, output, session):
-            spider_server("spiders", filtered_df=reactive.Value(test_df))
+    app_ui = spider_ui("spiders")
 
-        App(app_ui, server).run()
+    def server(input, output, session):
+        spider_server("spiders", filtered_df=reactive.Value(test_df))
+
+    App(app_ui, server).run()
