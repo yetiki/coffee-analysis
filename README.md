@@ -55,7 +55,7 @@ A good output will look like:
 This project has no LICENCE! :o
 
 ## Authors
-- NoDoYeMo
+- NeDoYeMo
 
 ## Acknowledgements
 - James LeDoux for the Coffee Quality Database.
