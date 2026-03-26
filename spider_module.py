@@ -189,3 +189,18 @@ def spider_server(input, output, session, filtered_df):
         output(f"country_label_{r}")(make_label_renderer(r))
         for c in range(3):
             output(f"radar_{r}_{c}")(make_chart_renderer(r, c))
+
+
+
+
+    if __name__ == "__main__":
+
+        import pandas as pd
+        from shiny import App, reactive
+        test_df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
+
+        app_ui = spider_ui("spiders")
+        def server(input, output, session):
+            spider_server("spiders", filtered_df=reactive.Value(test_df))
+
+        App(app_ui, server).run()
