@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 
-def new_get_top3(coffee_df: pd.DataFrame) -> list[str]:
+def get_top_three_coffee_countries(coffee_df: pd.DataFrame) -> list[str]:
     """
     Determine the top 3 countries based on a composite score.
     The composite score is calculated by normalizing and averaging the following criteria:
@@ -131,7 +131,7 @@ app_ui = ui.page_fluid(
         
         # Add data table
         ui.card(
-            ui.card_header("Dataset Explorer"),
+            ui.card_header("Coffee Ratings | Averaged by Country | Sorted by Yum Score"),
             ui.output_data_frame("table"),
             height="300px"
         ),
@@ -167,6 +167,16 @@ def server(input, output, session):
     
     @reactive.Calc
     def get_filtered_coffee_df():
+        """
+        Applys all filters to the coffee_df and returns the filtered DataFrame.
+        This function is reactive and will automatically re-run whenever any of the input filters change.
+
+        Returns:
+        --------
+        pd.DataFrame
+            The filtered DataFrame based on the current input filter values.
+        """
+
         filtered_coffee_df: pd.DataFrame = coffee_df.copy()
 
         # Apply categorical filters
@@ -208,7 +218,26 @@ def server(input, output, session):
 
     @render.data_frame
     def table():
-        return render.DataGrid(get_filtered_coffee_df(), selection_mode="rows")
+        filtered_coffee_data: pd.DataFrame = get_filtered_coffee_df()
+
+        if filtered_coffee_data.empty:
+            return render.DataGrid(filtered_coffee_data, selection_mode="rows")
+        
+        # Group by country and calculate averages (and sum for bag_weight)
+        average_coffee_scores_df: pd.DataFrame = filtered_coffee_data.groupby("country_of_origin").agg({
+            "cupper_points": "mean",
+            "yum_score": "mean",
+            "aroma": "mean",
+            "flavor": "mean",
+            "body": "mean",
+            "uniformity": "mean",
+            "bag_weight": "sum"
+        }).round(2).reset_index()
+        
+        # Sort by yum_score descending
+        average_coffee_scores_df = average_coffee_scores_df.sort_values("yum_score", ascending=False)
+        
+        return render.DataGrid(average_coffee_scores_df, selection_mode="rows")
 
     # --- Chart 1: Scatter (Bubble) ---
     @render_widget
@@ -225,7 +254,7 @@ def server(input, output, session):
         ).reset_index()
         agg["pct_washed"] = agg["washed_count"] / agg["entry_count"]
 
-        top3 = new_get_top3(filtered_coffee_df)
+        top3 = get_top_three_coffee_countries(filtered_coffee_df)
         agg_rest = agg[~agg["country_of_origin"].isin(top3)]
         agg_top3 = agg[agg["country_of_origin"].isin(top3)]
 
@@ -255,7 +284,7 @@ def server(input, output, session):
     @render_widget
     def chart_bar():
         filtered_coffee_df: pd.DataFrame = get_filtered_coffee_df()
-        top3 = new_get_top3(filtered_coffee_df)
+        top3 = get_top_three_coffee_countries(filtered_coffee_df)
         if not top3: return go.Figure()
         
         d_top3 = filtered_coffee_df[filtered_coffee_df["country_of_origin"].isin(top3)].copy()
@@ -278,7 +307,7 @@ def server(input, output, session):
     @render_widget
     def chart_radar():
         filtered_coffee_df: pd.DataFrame = get_filtered_coffee_df()
-        country_names = new_get_top3(filtered_coffee_df)
+        country_names = get_top_three_coffee_countries(filtered_coffee_df)
         if not country_names: return go.Figure()
 
         fig = go.Figure()
