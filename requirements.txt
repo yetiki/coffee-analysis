@@ -102,3 +102,4 @@ websockets==16.0
 widgetsnbextension==4.0.15
 xyzservices==2025.11.0
 zipp==3.23.0
+shinywidgets

@@ -1,5 +1,6 @@
 from shiny import App, ui, render, reactive, run_app
 from shinywidgets import output_widget, render_widget
+from spider_module import spider_ui, spider_server
 import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
@@ -116,6 +117,11 @@ app_ui = ui.page_fluid(
             ui.card(output_widget("chart_bar")),
             ui.card(output_widget("chart_radar")),
             width="1/2"
+        ),
+
+        ui.card(  #Dunja added, connects to Spider module
+            ui.card_header("Top 3 Suppliers by Country"),
+            spider_ui("spiders"),
         ),
 
 
@@ -251,7 +257,10 @@ def server(input, output, session):
         fig.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 1])), 
                           title="Profile Comparison", margin=dict(l=40, r=40, t=40, b=20), height=300)
         return fig
+    
+    spider_server("spiders", filtered_df=filtered_df)
 
+    
     # --- Map Plot ---
     @render_widget
     def map_plot():
