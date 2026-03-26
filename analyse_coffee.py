@@ -114,10 +114,10 @@ def main(
 
         for row in reader:
             # Extract raw floats first so we can use them for both calculations
-            aroma_raw      = float(row[5])
-            flavour_raw    = float(row[6])
-            body_raw       = float(row[7])
-            uniformity_raw = float(row[8])
+            aroma_raw      = float(row[6])
+            flavour_raw    = float(row[7])
+            body_raw       = float(row[8])
+            uniformity_raw = float(row[9])
             
             # --- FIX 3: Calculate cupper_points (average of 4 raw metrics) ---
             c_points = (aroma_raw + flavour_raw + body_raw + uniformity_raw) / 4
