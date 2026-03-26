@@ -143,13 +143,61 @@
 <p>The function loads a CSV of coffee ratings, aggregates metrics by
 <code>country_of_origin</code>, normalises several criteria to a 0–1 scale, computes
 a composite score, and returns the three highest‑scoring countries.</p>
-<h4 id="analyse_coffee.get_top3--parameters">Parameters</h4>
-<p>csv_file : str, optional
-    Path to the CSV file containing processed coffee ratings with
-    <code>cupper_points</code> and <code>yum_score</code> columns.</p>
-<h4 id="analyse_coffee.get_top3--returns">Returns</h4>
-<p>list of str
-    A list containing the names of the top three countries.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>csv_file</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Path to the CSV file containing processed coffee ratings with
+<code>cupper_points</code> and <code>yum_score</code> columns.</p>
+              </div>
+            </td>
+            <td>
+                  <code>&#39;data/results/coffee_ratings_yscore.csv&#39;</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                  <code>list of str</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>A list containing the names of the top three countries.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
 
             <details class="mkdocstrings-source">
@@ -221,14 +269,76 @@ a composite score, and returns the three highest‑scoring countries.</p>
 <p>It writes a new CSV containing all original columns plus the two new
 computed metrics. It also ensures output directories exist and performs
 minor header corrections (e.g., renaming <code>processing_method</code>).</p>
-<h4 id="analyse_coffee.main--parameters">Parameters</h4>
-<p>input_csv_file : str, optional
-    Path to the raw input CSV file.
-output_csv_file : str, optional
-    Path where the processed CSV with yum scores will be written.</p>
-<h4 id="analyse_coffee.main--returns">Returns</h4>
-<p>None
-    The function writes a CSV file and prints a status message.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>input_csv_file</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Path to the raw input CSV file.</p>
+              </div>
+            </td>
+            <td>
+                  <code>&#39;data/clean/coffee_ratings.csv&#39;</code>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>output_csv_file</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Path where the processed CSV with yum scores will be written.</p>
+              </div>
+            </td>
+            <td>
+                  <code>&#39;data/results/coffee_ratings_yscore.csv&#39;</code>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                  <code>None</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The function writes a CSV file and prints a status message.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
 
             <details class="mkdocstrings-source">
