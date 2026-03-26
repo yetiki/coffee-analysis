@@ -1,0 +1,13 @@
+site_name: NeDuYoMo Coffee Analysis
+
+nav:
+  - Overview: index.md
+  - API Reference: api.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
