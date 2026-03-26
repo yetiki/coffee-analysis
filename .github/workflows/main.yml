@@ -1,0 +1,30 @@
+name: run-unit-tests # action name
+
+on: push # when to run action
+
+jobs: 
+
+  build-and-test:
+
+    runs-on: ubuntu-latest # operator systems to run on
+
+    steps: # steps to install and run code
+
+      - name: Checkout repository # step name
+        uses: actions/checkout@v4 # run version 4 of inbuilt github action `checkout` 
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r requirements.txt
+
+      - name: Test with pytest
+        run: |
+          python3 -m pytest -v tests/test_yum_score_funcs.py
+          python3 -m pytest -v tests/test_clean_data.py
+      
