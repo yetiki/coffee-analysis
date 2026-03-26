@@ -1,6 +1,6 @@
 def normalise_points(min, max, score):
     """
-    Normalize a score to a 0–1 range.
+    Normalize a score to a 0-1 range.
 
     Parameters:
         min (float): The minimum possible value.
