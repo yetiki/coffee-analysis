@@ -1,18 +1,7 @@
 import csv
 import pandas as pd
 from pathlib import Path
-
-
-### normalise_points() returns a score from 0-1
-def normalise_points(min, max, score):
-    normal_points = (score - min) / (max - min)
-    return normal_points
-
-
-### yum_score() returns a score from 0-1
-def yum_score(a_points, f_points, b_points, u_points):
-    total_points = (a_points + f_points + b_points + u_points) / 4  # FIX 1: brackets around all 4
-    return total_points
+from yum_score_funcs import normalise_points, yum_score
 
 
 ### get_top3() returns the top 3 country names as a list of strings
