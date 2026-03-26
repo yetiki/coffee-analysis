@@ -177,15 +177,3 @@ def spider_server(input, output, session, filtered_df):
         for c in range(3):
             make_chart_renderer(r, c)
 
-
-if __name__ == "__main__":
-    from shiny import App
-
-    test_df = pd.read_csv("data/results/coffee_ratings_yscore.csv")
-
-    app_ui = spider_ui("spiders")
-
-    def server(input, output, session):
-        spider_server("spiders", filtered_df=reactive.Value(test_df))
-
-    App(app_ui, server).run()
