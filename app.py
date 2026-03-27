@@ -2,7 +2,6 @@ from shiny import App, ui, render, reactive, run_app
 from shinywidgets import output_widget, render_widget
 from spider_module import spider_ui, spider_server
 import pandas as pd
-import geopandas as gpd
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import numpy as np
@@ -34,7 +33,7 @@ def get_top_three_coffee_countries(coffee_df: pd.DataFrame) -> list[str]:
         avg_cupper   = ("cupper_points", "mean"),
         avg_yum      = ("yum_score",     "mean"),
         entry_count  = ("cupper_points", "count"),
-        washed_count = ("processing",    lambda x: (x.str.lower() == "washed").sum())
+        washed_count = ("is_washed",     "sum")
     ).reset_index()
 
     aggregated_scores["pct_washed"] = aggregated_scores["washed_count"] / aggregated_scores["entry_count"]
@@ -57,8 +56,17 @@ def get_top_three_coffee_countries(coffee_df: pd.DataFrame) -> list[str]:
 # Import the coffee ratings dataset
 coffee_df: pd.DataFrame = pd.read_csv("data/results/coffee_ratings_yscore.csv")
 
-# Import world map data
-world_map: gpd.GeoDataFrame = gpd.read_file("https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip")
+# Downsample logic: Sort by yum score (descending), then keep top 20%
+coffee_df = coffee_df.sort_values("yum_score", ascending=False)
+# coffee_df = coffee_df.iloc[:len(coffee_df) // 5]  # Keep first fifth
+
+# compute is_washed after downsampling
+coffee_df["is_washed"] = coffee_df["processing"].astype(str).str.lower() == "washed"
+
+# Ensure total_weight exists or default to bag_weight to avoid errors
+if "total_weight" not in coffee_df.columns and "bag_weight" in coffee_df.columns:
+    print("total_weight column missing, using bag_weight as total_weight for filtering.")
+    coffee_df["total_weight"] = coffee_df["bag_weight"]
 
 # Define the UI for the Shiny app
 app_ui = ui.page_fluid(
@@ -125,6 +133,17 @@ app_ui = ui.page_fluid(
                 value=[float(coffee_df["bag_weight"].min()), float(coffee_df["bag_weight"].max())]
             ),
 
+            # Add total weight slider
+            ui.input_slider(
+                "total_weight_range", "Total Weight (kg)",
+                min=float(coffee_df["total_weight"].min()),
+                max=float(coffee_df["total_weight"].max()),
+                value=[float(coffee_df["total_weight"].min()), float(coffee_df["total_weight"].max())]
+            ),
+
+            # Add apply button
+            ui.input_action_button("apply", "Apply Filters", class_="btn-primary"),
+
             # Set sidebar background color
             bg="#f8f9fa"
         ),
@@ -163,6 +182,7 @@ app_ui = ui.page_fluid(
 def server(input, output, session):
     
     @reactive.Calc
+    @reactive.event(input.apply, ignore_none=False)
     def get_filtered_coffee_df():
         """
         Applys all filters to the coffee_df and returns the filtered DataFrame.
@@ -211,7 +231,16 @@ def server(input, output, session):
             (filtered_coffee_df["bag_weight"] <= input.weight_range()[1])
         ]
 
+        filtered_coffee_df = filtered_coffee_df[
+            (filtered_coffee_df["total_weight"] >= input.total_weight_range()[0]) &
+            (filtered_coffee_df["total_weight"] <= input.total_weight_range()[1])
+        ]
+
         return filtered_coffee_df
+
+    @reactive.Calc
+    def top_three_countries():
+        return get_top_three_coffee_countries(get_filtered_coffee_df())
 
     @render.data_frame
     def table():
@@ -220,7 +249,7 @@ def server(input, output, session):
         if filtered_coffee_data.empty:
             return render.DataGrid(filtered_coffee_data, selection_mode="rows")
         
-        # Group by country and calculate averages (and sum for bag_weight)
+        # Group by country and calculate averages/sums
         average_coffee_scores_df: pd.DataFrame = filtered_coffee_data.groupby("country_of_origin").agg({
             "cupper_points": "mean",
             "yum_score": "mean",
@@ -228,8 +257,9 @@ def server(input, output, session):
             "flavor": "mean",
             "body": "mean",
             "uniformity": "mean",
-            "bag_weight": "sum"
-        }).round(2).reset_index()
+            "bag_weight": "mean",
+            "total_weight": "sum"
+        }).rename(columns={"bag_weight": "avg_bag_weight"}).round(2).reset_index()
         
         # Sort by yum_score descending
         average_coffee_scores_df = average_coffee_scores_df.sort_values("yum_score", ascending=False)
@@ -240,7 +270,7 @@ def server(input, output, session):
     @render_widget
     def chart_bar():
         filtered_coffee_df: pd.DataFrame = get_filtered_coffee_df()
-        top3 = get_top_three_coffee_countries(filtered_coffee_df)
+        top3 = top_three_countries()
         if not top3: return go.Figure()
         
         d_top3 = filtered_coffee_df[filtered_coffee_df["country_of_origin"].isin(top3)].copy()
@@ -327,7 +357,7 @@ def server(input, output, session):
     @render_widget
     def chart_radar():
         filtered_coffee_df: pd.DataFrame = get_filtered_coffee_df()
-        country_names = get_top_three_coffee_countries(filtered_coffee_df)
+        country_names = top_three_countries()
         if not country_names: return go.Figure()
 
         fig = go.Figure()
